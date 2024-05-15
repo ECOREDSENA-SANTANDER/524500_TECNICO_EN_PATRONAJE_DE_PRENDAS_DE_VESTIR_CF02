@@ -525,18 +525,656 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
 
+    Separador
+    #t_1_3.titulo-segundo.color-primario(data-aos="fade-right")
+      h2 1.3 Análisis de cuadros de tallas
+    
+    p.mb-4 Este proceso está definido por los siguientes conceptos:
+
+    //SLIDER TARJETAS CONECTADAS
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-6
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/t1/icono.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small.text-center Recurso. Análisis de tallas y medidas 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+    
+    h3(data-aos="fade-right") 1.3.1 Fórmulas
+
+    p.mb-4 Expresión breve y precisa del modo de hacer, resolver o conseguir algo. Calculo estandarizado para obtener un resultado.
+
+    .tabla-a.color-acento-botones.mb-5 
+      table
+        thead
+          tr
+            th Tórax máximo
+            th Talla
+        tbody
+          tr
+            td Pecho
+            td Tórax máximo - 2 cm
+          tr
+            td Cadera
+            td Tórax máximo + 4 cm
+        
+          tr
+            td Cintura
+            td Cadera - 14 cm
+          tr
+            td Estatura 7a
+            td Estatura total - 20 cm
+          tr
+            td Talle
+            td 3/10 de la estatura 7aC
+          tr
+            td Cintura/Suelo
+            td 7/10 de la estatura 7aC
+          tr
+            td Largo de brazo
+            td 4/10 de la estatura 7aC
+          tr
+            td Estatura total
+            td Estatura 7aC + 20 cm
+          tr
+            td Base
+            td Pecho + desahogo (4 cm)  + costura (2 cm)
+
+    .row.mb-4
+      .col-lg-12
+        .cajon.color-primario.bg1.p-4
+          p #[b Ejemplo:] Para deducir la medida de 7a cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20cms?.  En la estandarización de medidas, se establece que 20cms corresponde a la medida aprox. de la cabeza.
+          p #[b Fórmula:] 7a cervical o largo útil = largo total - 20 cm   
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        img(src="@/assets/curso/temas/t1/formulas.svg")
+    
+    .row.mb-4.bg6
+      .col-lg-5
+        h5 ¿Cómo obtener medidas deducidas?
+        p Desarrollando fórmulas.
+      .col-lg-7
+        .tabla-a.color-acento-botones.mb-5 
+          table
+            thead
+              tr
+                th Medida
+                th Fórmula
+                th Resultado
+            tbody
+              tr
+                td Estatura total
+                td N/A
+                td 1.70 cm
+            tbody
+              tr
+                td Tórax máximo
+                td N/A
+                td 90 cm
+            tbody
+              tr
+                td Cadera
+                td Tórax máximo +8 cm
+                td 98 cm
+            tbody
+              tr
+                td Pecho
+                td Tórax máximo -4 cm
+                td 86 cm
+            tbody
+              tr
+                td Cintura
+                td Cadera -28 cm
+                td 70 cm
+            tbody
+              tr
+                td Estatura 7a cervical útil
+                td Altura total -20 cm
+                td 1.50 cm
+            tbody
+              tr
+                td Largo de brazo
+                td 4/10 de estatura 7aC
+                td 60 cm
+      
+    h5(data-aos="fade-right") Construyendo tallas y cuadros
+    p.mb-4 Grupo de magnitudes estandarizadas qué definen las medidas de una prenda de vestir. Los cuadros contienen grupos de tallas.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        img(src="@/assets/curso/temas/t1/tallas.svg")
+
+    .row.mb-4
+      .col-lg-12
+        .cajon.color-primario.bg1.p-4
+          h5 Errores más comunes
+          p Combinación de medidas: cuando se trabaja con medidas deducidas, se debe ir trabajando con las medidas obtenidas de cada formula de manera progresiva; usted debe tener en cuenta que el resultado cambia si en vez de aplicar únicamente las medidas obtenidas por deducción, adicionamos una medida anatómica.
+
+    h5(data-aos="fade-right") 1.3.2 Cuadros de tallas
+    p.mb-4 Expresión breve y precisa del modo de hacer, resolver o conseguir algo. Calculo estandarizado para obtener un resultado.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.bg6
+        ul.lista-ul--color
+          li 
+            i.lista-ul__vineta
+            | Anatómicos y deducidos: de acuerdo con la obtención de medidas.
+          li 
+            i.lista-ul__vineta
+            | Proporcionales: existe una secuencia numérica en el crecimiento de la talla.
+          li 
+            i.lista-ul__vineta
+            | No proporcionales: no existe una secuencia numérica en el crecimiento de la talla.
+          li 
+            i.lista-ul__vineta
+            | Completos: incluyen todas las medidas requeridas para la construcción de patrones de prendas.
+          li 
+            i.lista-ul__vineta
+            | Según prenda: que incluyen en algunos casos desahogos y costuras.
+          li 
+            i.lista-ul__vineta
+            | Normatividad: que incluyen en algunos casos desahogos y costuras.
+        
+        h5 Ejemplos:
+        ul.lista-ul--color
+          li 
+            i.lista-ul__vineta
+            | ANTC-ISO 8559. Fabricación de Vestuario y Estudios Antropométricos. Dimensiones Corporales - Icontec.
+          li 
+            i.lista-ul__vineta
+            | Norma UNE-EN 13402-3 Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
+        
+        h5 Para el análisis de cuadros de tallas se determinan: 
+        p.mb-0 #[b Límites:] la más pequeña y la más grande.  
+        p.mb-0 #[b Frecuencia:] aumento de medida Talla a talla (secuencial y no secuencial -constantes y variables).  
+        p.mb-4 #[b Incremento:] magnitud de crecimiento de la medida talla por talla
+        p El análisis de los anteriores dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base), valores: imágenes de referencia.
+    
+    .row.mb-4 
+      .col-lg-12
+        h4 Proporciones
+        p.mb-4 Aumento secuencial estandarizado para el crecimiento o disminución de tallas, se encuentra identificando la diferencia en unidades de medida de talla a talla en cada línea de medida del cuerpo.
+        p.mb-0 La fórmula estandarizada para hallar la proporción es: diferencia del Contorno mayor dividido en 4, de allí se encuentran las fracciones de la proporción. Ejemplo:
+          ul.lista-ul--color
+            li 
+              i.lista-ul__vineta
+              | 1 proporción será 1 cm.
+            li 
+              i.lista-ul__vineta
+              | ½ proporción será 0,5 cm. 
+            li 
+              i.lista-ul__vineta
+              | ¼ proporción será 0,25 cm 1.5 proporción será 1,5 cm.
+        p.mb-4 Permitiendo analizar el crecimiento vertical de las medidas de una talla.
+        p.mb-0 Esta información es fundamental para el escalado de tallas y ajuste de los mismos sobre medidas:
+          ul.lista-ul--color
+            li 
+              i.lista-ul__vineta
+              | Cuadros de tallas
+            li 
+              i.lista-ul__vineta
+              | Comparación de medidas
+            li 
+              i.lista-ul__vineta
+              | Incremento entre talla y talla - tomar medida por medida y revisar el incremento que hay entre talla y talla.
+            li 
+              i.lista-ul__vineta
+              | Ruptura de talla - Identificar ruptura del cuadro de tallas, por medida y talla.
+        p En el ejemplo, la ruptura esta entre la talla 14 y 16, porque se incrementa 6cms, rompiendo con los 4cms de las demás medidas.
+
+    h5(data-aos="fade-right") 1.3.3 Drop
+    p.mb-4 Palabra técnica que indica la diferencia en centímetros entre dos medidas del cuerpo que nos permiten determinar la morfología de este: 
+
+    .tarjeta--container.row.mb-4
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            img(src='@/assets/curso/temas/t1/imag25.svg', alt='')   
+        h5.text-white Drop femenino
+        p.text-white.mp-0 Diferencia entre cadera y contorno de Busto para la mujer.
+        p.text-white.mp-4 Contorno de cadera - Contorno de busto = DROP
+        p.text-white.mp-4 Con el Drop se establecen las diferentes contexturas de una misma talla. En las mujeres, el Drop es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto. En las tallas femeninas predomina un Drop Positivo Generalmente una talla se considera normal cuando el Drop es positivo entre +2 cms y + 4cm. El Drop estándar Usado en Colombia es + 4cm. En las tallas extremas y altas el Drop se vuelve negativo. 
+        h5.text-white Ejemplos:
+        p.text-white.mp-0 Drop + 2 indica la medida de Cadera 2cms mayor que el Contorno de Busto.
+        p.text-white.mp-0 El Drop 0 indica que la medida de Cadera es igual a la medida de Contorno de Busto.
+        p.text-white El Drop - 4 indica que la medida de Cadera tiene 4 cms menos que el Contorno de Busto.
+         
+
+      .col-md.tarjeta.color-acento-botones.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            img(src='@/assets/curso/temas/t1/imag26.svg', alt='')   
+        h5 Drop masculino
+        p.mb-0 Diferencia entre la cintura y el pecho, para el hombre.
+        p.mb-4 Contorno de cintura - Contorno de pecho = DROP
+        p.mb-4 Diferencia entre la cintura y el pecho, para el hombre. Generalmente en tallas Masculinas predomina el Drop negativo, (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talle menos Drop) llegando en tallas extremas a ser positivo o sea un cuerpo con más cintura que pecho. 
+        h5 Ejemplos:
+        p.mp-0 Un Drop -4 indica, una cintura con 4 pulgadas menos que la medida de pecho.
+        p.mp-0 Un Drop O indica una cintura igual al pecho.
+        p El Drop + 2 indica una cintura con 2 pulgadas que el pecho.
+
+    p.mb-4 Acorde a cada tipo de silueta hay un Drop característico. 
+
+    Separador
+    #t_1_4.titulo-segundo.color-primario(data-aos="fade-right")
+      h2 1.4 Patronaje
+    
+    p.mb-5 El patronaje es la representación en 2D (bidimensional) de un volumen en 3D (tridimensional) a través de la elaboración de planos, moldes o patrones de prendas de vestir para el cuerpo.
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        img(src='@/assets/curso/temas/t1/caja.svg', alt='') 
+    
+    p.mb-5 El patronaje sirve para transferir la información de la estructura corporal en planos que luego se convierten en moldes
+
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        img(src='@/assets/curso/temas/t1/estructura.svg', alt='') 
+
+    h5(data-aos="fade-right") 1.4.1 Procedimientos del patronaje
+    p.mb-4 Este proceso está compuesto por los siguientes pasos:
+    
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Paso 1: construcción de básicos")
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion.svg', alt='')
+        
+        .col-md-8.mb-4.mb-md-0
+          p Los básicos se dividen en dos grupos: superior (básico superior + Manga) e inferior (básico de falda (alrededor de cadera desde cintura hasta rodilla), básico de pantalón (alrededor de cadera, y la base genital, desde cintura hasta el tobillo).
+          p Los básicos son moldes anatómicos del cuerpo, es decir no son una prenda, son el punto de partida para hacerla. El básico superior en metodología SENA es un solo básico superior es decir cualquier tipo de prenda superior. En otras metodologías hay varios básicos: un solo tipo de prenda, básico de blusa/camisa, básico de chaleco, básico de chaqueta, básico de abrigo, básico de vestido, entre otros. 
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-6
+              .tarjeta.color-primario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-6.col-sm-2.col-lg-2
+                    img(src="@/assets/curso/temas/t1/icono.svg")
+                  .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Recurso. Básicos  
+                  .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
+      
+      .row(titulo="Paso 2: definición del diseño")
+        .col-md-8.mb-4.mb-md-0
+          p Por lo general la definición del diseño no está a cargo del patronista, sin embargo, es la base para definir que se va a desarrollar, es decir, poder hacer el análisis del tipo de prenda a patronar.
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion2.png', alt='')
+      
+      .row(titulo="Paso 3: análisis de la prenda (talla, básico, horma, material e insumos)")
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion3.png', alt='')
+        
+        .col-md-8.mb-4.mb-md-0
+          p Se analizan los factores necesarios para el desarrollo de la prenda, después de los básicos son el punto de partida para dar inicio al trazo del plano.
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-6
+              .tarjeta.color-primario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-6.col-sm-2.col-lg-2
+                    img(src="@/assets/curso/temas/t1/icono.svg")
+                  .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Recurso. Talla - Básico - Horma - Material.  
+                  .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
+      
+      .row(titulo="Paso 4: construcción de planos")
+        .row
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/acordion4.svg', alt='')
+        
+          .col-md-8.mb-4.mb-md-0
+            p Según las características de la prenda y sus componentes los básicos deben organizarse para facilitar la comprensión de la prenda y simplificar su construcción. La recomendación de la metodología SENA es trabajar planos unidos. Estos se clasifican en:
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                | Plano separado.
+              li 
+                i.lista-ul__vineta
+                | Plano sencillo
+              li 
+                i.lista-ul__vineta
+                | Plano abierto completo.
+              li 
+                i.lista-ul__vineta
+                | Plano abierto delantero o posterior.
+              li 
+                i.lista-ul__vineta
+                | Plano montado (centro frente, sobre centro atrás).
+              li 
+                i.lista-ul__vineta
+                | Plano con unión de hombros.
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-6
+            .tarjeta.color-primario.p-3.mb-5
+              .row.justify-content-around.align-items-center
+                .col-6.col-sm-2.col-lg-2
+                  img(src="@/assets/curso/temas/t1/icono.svg")
+                .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small Recurso. Talla - Básico - Horma - Material.  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download          
+        .row.bg11
+          .col-md-8.mb-4.mb-md-0
+            p.mb-4 Desahogos: son aumentos que se dan en algunas medidas de construcción para cumplir con los requerimientos de biomecánica del cuerpo de acuerdo con el tipo y uso de la prenda.
+            p.mb-4 También conocidos como holgura, amplitud, flojo. Son medidas que se adicionan al básico para la construcción del plano, interpretación o desarrollo de la prenda. Los desahogos permiten la funcionalidad de las prendas sobre prendas.
+            img(src='@/assets/curso/temas/t1/texto.svg', alt='') 
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/acordion5.svg', alt='') 
+        .row
+          h5 Ejemplo de desahogos:
+          ul.lista-ul--color
+            li 
+              i.lista-ul__vineta
+              | Sistema de ajuste: permiten la horma final de la prenda sobre el cuerpo con pinzas y cortes. Son procedimientos de patronaje o complementos en la prenda, que permiten junto al material elegido, la horma final de la prenda sobre el cuerpo.
+            li 
+              i.lista-ul__vineta
+              | Sistema de cierre: mecanismos utilizados para facilitar el uso de la prenda, también llamados sistemas de acceso a la prenda permiten vestir y desvestir el cuerpo. Compuesto por: cremalleras, botones, broches y gafetes, cauchos, cintas y cordones, pasamanería, galones flecos y borlas, herrajes.
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-6
+              .tarjeta.color-primario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-6.col-sm-2.col-lg-2
+                    img(src="@/assets/curso/temas/t1/icono.svg")
+                  .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Recurso. Desahogos  
+                  .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
+
+      .row(titulo="Paso 5: transformación de la base o interpretación del diseño")
+        .row
+          img(src='@/assets/curso/temas/t1/niveles.svg', alt='')
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-6
+            .tarjeta.color-primario.p-3.mb-5
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1
+                  img(src="@/assets/curso/temas/t1/icono.svg")
+                .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small.text-center Recurso. Diferencias Básicos
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+        .row.bg11.justify-content-center.align-items-center
+          .col-md-8.mb-4.mb-md-0
+            h4 Tipos de modificaciones y trazos
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                | Sencillo: Se traza en el patrón, los cortes, pinzas y complementos que hacen parte del diseño.
+              li 
+                i.lista-ul__vineta
+                | Cruzado: Las líneas de las amplitudes y cortes se cruzan dentro del patrón y se separan en el momento del despiece.
+              li 
+                i.lista-ul__vineta
+                | Cortando y ampliando: Se trazan los cortes y se da amplitud en el momento del despiece. La pieza se abre y se vuelve a trazar para un nuevo despiece. Trazo de planos (ejemplos visuales).
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-6
+            .tarjeta.color-primario.p-3.mb-5
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1
+                  img(src="@/assets/curso/temas/t1/icono.svg")
+                .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small.text-center Recurso. Trazo de planos
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      
+      .row(titulo="Paso 6: despieces")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                | El plano nunca se corta: este debe quedar archivado para hacer sobre las correcciones y ajustes cada pieza es 
+              li 
+                i.lista-ul__vineta
+                | calcada y recortada separadamente.
+            p.mb-4 En cada pieza se marcan: Señalización + Costuras + Complementos.
+            h5 Despiece del plano
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                | #[b Señalización:] información de corte y producción, que debe marcarse en cada patrón 
+              li 
+                i.lista-ul__vineta
+                | #[b Costuras:] medida que se adiciona al borde de las piezas que se ensamblan; varía de acuerdo con la maquinaria o acabado
+              li 
+                i.lista-ul__vineta
+                | #[b Complementos:] plantillas, información y/o medidas que se adiciona para sistemas de ajuste, cierre o acabados.
+
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/acordion6.png', alt='')
+        p #[b Señalización:]   Hilo de tela
+        p.mb-0 Hilo de la tela" o "sentido del hilo" corresponde a la dirección que siguen los moldes sobre el material textil.
+        p.mb-4 Los tejidos planos se forman por hilos longitudinales (urdimbre) que se cruzan con hilos transversales (trama) formando un perfecto ángulo de 90°.
+        ul.lista-ul--color
+          li 
+            i.lista-ul__vineta
+            | Tipos de hilos: De acuerdo con las cualidades del textil y necesidades de aprovechamiento se elige el hilo a trabajar.
+          li 
+            i.lista-ul__vineta
+            | Márgenes de costura: De acuerdo con las cualidades del textil y necesidades de aprovechamiento se elige el hilo a trabajar.
+        
+        .row
+          .col-lg-6.bg12
+            .row
+              .col-lg-6
+                img(src='@/assets/curso/temas/t1/hilos.png', alt='')
+              .col-lg-6 
+                h5 Hilos de tela:
+                ul.lista-ul--color
+                  li 
+                    i.lista-ul__vineta
+                    | Hilo de tela al hilo.
+                  li 
+                    i.lista-ul__vineta
+                    | Hilo de tela por trama.
+                  li 
+                    i.lista-ul__vineta
+                    | Hilo de tela al bies.
+                  li 
+                    i.lista-ul__vineta
+                    | Hilo de tela una cabeza hacia arriba.
+                  li 
+                    i.lista-ul__vineta
+                    | Hilo de tela una cabeza hacia abajo.
+                  li 
+                    i.lista-ul__vineta
+                    | Hilo de tela cabeza doble.
+          .col-lg-6.bg8
+            .row
+              .col-lg-6
+                img(src='@/assets/curso/temas/t1/parche.svg', alt='')
+              .col-lg-6 
+                h5 Ubicación de hilos de tela:
+                ul.lista-ul--color
+                  li 
+                    i.lista-ul__vineta
+                    | Hilos de urdimbre - Hilos de trama.   
+                  li 
+                    i.lista-ul__vineta
+                    | Una cabeza hacia arriba 
+                  li 
+                    i.lista-ul__vineta
+                    | Una cabeza hacia abajo.  
+                  li 
+                    i.lista-ul__vineta
+                    | Una cabeza doble.  
+                  li 
+                    i.lista-ul__vineta
+                    | Doblez de tela.  
+        .row
+          .col-lg-5
+            .row.justify-content-center.align-items-center.mb-4
+              .col-lg-6
+                .tarjeta.color-primario.p-3.mb-5
+                  .row.justify-content-around.align-items-center
+                    .col-3.col-sm-2.col-lg-1
+                      img(src="@/assets/curso/temas/t1/icono.svg")
+                    .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p.text-small.text-center Recurso. Hilos de tela
+                    .col-sm-auto
+                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download        
+          .col-lg-7
+            .row.justify-content-center.align-items-center.mb-4
+              .col-lg-6
+                .tarjeta.color-primario.p-3.mb-5
+                  .row.justify-content-around.align-items-center
+                    .col-3.col-sm-2.col-lg-1
+                      img(src="@/assets/curso/temas/t1/icono.svg")
+                    .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p.text-small.text-center Recurso. Almohada de corazón. Ref: Código 001. Diseño de corazón. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download 
+
+      .row(titulo="Paso 7: trazo y corte")
+        .col-md-8.mb-4.mb-md-0
+          p Se marcan las piezas sobre el material teniendo en cuenta las indicaciones y se procede a cortar las piezas teniendo en cuenta los márgenes de costura. De acuerdo con el tipo de material, se marca el textil o se sujetan con alfileres los patrones o transfiere la marca con la rodaja. Se corta la muestra en el textil elegido.
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion7.svg', alt='')  
+      
+      .row(titulo="Paso 8: confección de muestra física")
+        .col-md-8.mb-4.mb-md-0
+          p Se ensambla la muestra física o primer prototipo del diseño.
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion8.png', alt='')  
+      
+      .row(titulo="Paso 9: verificación de muestra física")
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion9.svg', alt='')
+        .col-md-8.mb-4.mb-md-0
+          p Se verifica que la muestra coincida con lo proyectado en el diseño inicial.
+      
+      .row(titulo="Paso 10: corrección y/o ajustes de la muestra física sobre el plano")
+        .col-md-8.mb-4.mb-md-0
+          p Se realizan los ajustes al patrón, de acuerdo con lo verificado en la muestra física. Es posible que se requieran ajustes complejos que incluyan de pinzas, desahogos, cortes, reubicación de líneas, etc. O en otros casos pequeños ajustes para lograr el fit ideal proyectado en el diseño inicial.
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion10.png', alt='')
+      
+      .row(titulo="Paso 11: verificación del nuevo despiece")
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion11.png', alt='')
+        .col-md-8.mb-4.mb-md-0
+          p Se realiza el nuevo despiece del diseño de acuerdo con los ajustes y correcciones.
+      
+      .row(titulo="Paso 12 y 13: contramuestra o prototipo final - Validación de la prenda")
+        .col-md-8.mb-4.mb-md-0
+          p Se realiza este paso y los anteriores todas las veces necesarias hasta obtener el producto exacto que fue proyectado.
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion12.png', alt='')
+      
+      .row(titulo="Paso 14: industrialización del patrón")
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/acordion14.png', alt='')
+        .col-md-8.mb-4.mb-md-0
+          p En los procesos industrializados, es en este paso donde se proyectan las escalas de tallas y se digitalizan los patrones ya probados para su reproducción en serie.
+
+      .row(titulo="Paso 15: documentación técnica")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-8  
+            p Información de desarrollo del producto para ficha técnicas materiales, medidas, tallas, acabados, etc.
+        .col
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-6
+              .tarjeta.color-primario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-3.col-sm-2.col-lg-1
+                    img(src="@/assets/curso/temas/t1/icono.svg")
+                  .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small.text-center Recurso. Documentación Técnica
+                  .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download 
+          
+    .row.mb-4 
+      .col-lg-12
+        h4 1.4.2 Metodología - Presentación del manual de patronaje SENA
+        p.mb-4 Es necesario conocer y manejar las diferentes simbologías, que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender fácilmente las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas. Otros indican de qué manera están aplomados los patrones despiezados para su corte. Es importante anotar que, en el momento de despiezar el patrón, para su identificación, cada pieza debe estar marcada así:
+          ul.lista-ul--color
+            li 
+              i.lista-ul__vineta
+              | Nombre de la pieza
+            li 
+              i.lista-ul__vineta
+              | Referencia
+            li 
+              i.lista-ul__vineta
+              | Talla
+            li 
+              i.lista-ul__vineta
+              | Nombre del patronista
+            li 
+              i.lista-ul__vineta
+              | Simbología para corte
+            li 
+              i.lista-ul__vineta
+              | Número de veces a cortar
+            li 
+              i.lista-ul__vineta
+              | Piquetes de confección
+            li 
+              i.lista-ul__vineta
+              | Líneas de aplome
 
 
-
-
-
-
-
-
-
-
-
-
+        p.mb-4 Otras especificaciones: se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. en la siguiente página, encontrara claves geométricas de indispensable compresión en el trazo de patrones.
+        p.mb-5 Para profundizar en esta temática realice la lectura del Manual de patronaje SENA.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-6
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/t1/icono.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small Anexo. Manual de Patronaje SENA  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
     Separador
     #t_1_5.titulo-segundo.color-primario(data-aos="fade-right")
