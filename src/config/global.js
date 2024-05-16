@@ -3,9 +3,9 @@ export default {
     componenteFormativo: 'Reconocimiento de la estructura corporal',
     descripcionCurso:
       'El programa Técnico en Patronaje Industrial de Prendas de Vestir, a través de diferentes componentes como “Reconocimiento de la estructura corporal”, da respuesta a necesidades de la región, del sector empresarial y sus trabajadores, frente a la capacitación de mano de obra calificada en el desarrollo y escalado de patrones de prendas de vestir de manera manual y sistematizada.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principaal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principaal.png'),
+    /*imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
@@ -14,7 +14,7 @@ export default {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
-    ],
+    ],*/
   },
   menuPrincipal: {
     menu: [
