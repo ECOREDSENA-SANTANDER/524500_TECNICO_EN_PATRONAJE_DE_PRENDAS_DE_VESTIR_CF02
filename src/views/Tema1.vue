@@ -9,7 +9,7 @@
     
     p.mb-4 El cuerpo humano es una estructura base que se debe entender para poder interpretar su comportamiento y sus necesidades vestimentales. Para lo cual es fundamental tener en cuenta los siguientes conceptos:
 
-    figure
+    figure.mb-5
       img(src="@/assets/curso/temas/t1/imag01.svg", alt="alt")
     
     h4 Anatomía
@@ -17,54 +17,58 @@
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.bg2.p-4
+        h4.text-center.mb-4 Cabeza
         .row.justify-content-center.mb-3
-        h2.text-center Cabeza
-          .col-8
-            img(src='@/assets/curso/temas/t1/slyder01.svg' alt='AvatarTop')
-        p.text-center Cara - cráneo. Cuello: esternocleidomastoideo - anterior, lateral, posterior.
+          .col-11
+            img(src='@/assets/curso/temas/t1/slyder01.svg' alt='')
+        p.text-center.mb-0 Cara - cráneo. 
+        p.text-center Cuello: esternocleidomastoideo - anterior, lateral, posterior.
       .tarjeta.bg2.p-4
+        h4.text-center.mb-4 Tronco 
         .row.justify-content-center.mb-3
-        h2.text-center Tronco 
-          .col-8
-            img(src='@/assets/curso/temas/t1/slyder02.svg' alt='AvatarTop')
+          .col-9
+            img(src='@/assets/curso/temas/t1/slyder02.svg' alt='')
         p.text-center Dorsal - pectoral -abdominal - perineal.
       .tarjeta.bg2.p-4
-        .row.justify-content-center.mb-3
-        h2.text-center Extremidades superiores
-          .col-8
-            img(src='@/assets/curso/temas/t1/slyder03.svg' alt='AvatarTop')
-        p.text-center Hombro, brazo, codo, antebrazo y mano. Mano: dorso y palma. Carpo, metacarpo y dedos.
+        h4.text-center.mb-4 Extremidades superiores
+        .row.justify-content-center.mb-3        
+          .col-9
+            img(src='@/assets/curso/temas/t1/slyder03.svg' alt='')
+        p.text-center.mb-0 Hombro, brazo, codo, antebrazo y mano. 
+        p.text-center Mano: dorso y palma. Carpo, metacarpo y dedos.
       .tarjeta.bg2.p-4
-        .row.justify-content-center.mb-3
-        h2.text-center Extremidades inferiores
-          .col-8
-            img(src='@/assets/curso/temas/t1/slyder04.svg' alt='AvatarTop')
-        p.text-center Cadera, muslo, rodilla, pierna y pie. Pie: dorso y palma, Tarso, metatarso y dedos.
+        h4.text-center.mb-4 Extremidades inferiores
+        .row.justify-content-center.mb-3        
+          .col-9
+            img(src='@/assets/curso/temas/t1/slyder04.svg' alt='')
+        p.text-center.mb-0 Cadera, muslo, rodilla, pierna y pie. 
+        p.text-center Pie: dorso y palma, Tarso, metatarso y dedos.
       .tarjeta.bg2.p-4
-        .row.justify-content-center.mb-3
-        h2.text-center Sistema óseo
+        h4.text-center.mb-4 Sistema óseo
+        .row.justify-content-center.mb-3        
           .col-8
-            img(src='@/assets/curso/temas/t1/slyder05.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/t1/slyder05.svg' alt='')
         p.text-center Es la estructura viva de huesos duros cuya función principal es la protección y apoyo a los órganos vitales y la generación de movimiento.
       .tarjeta.bg2.p-4
-        .row.justify-content-center.mb-3
-        h2.text-center Articulaciones
-          .col-8
-            img(src='@/assets/curso/temas/t1/slyder06.svg' alt='AvatarTop')
+        h4.text-center.mb-4 Articulaciones
+        .row.justify-content-center.mb-3        
+          .col-9
+            img(src='@/assets/curso/temas/t1/slyder06.svg' alt='')
         p.text-center Son puntos de unión entre los componentes del sistema óseo (hueso, cartílagos), y facilitar movimientos mecánicos, proporcionándole elasticidad y plasticidad al cuerpo.
       .tarjeta.bg2.p-4
-        .row.justify-content-center.mb-3
-        h2.text-center Sistema muscular
-          .col-8
-            img(src='@/assets/curso/temas/t1/slyder07.svg' alt='AvatarTop')
+        h4.text-center.mb-4 Sistema muscular
+        .row.justify-content-center.mb-3        
+          .col-10
+            img(src='@/assets/curso/temas/t1/slyder07.svg' alt='')
         p.text-center Es el conjunto de los más de 650 músculos del cuerpo, cuya función principal es generar movimiento, ya sea voluntario o involuntario.
       .tarjeta.bg2.p-4
-        .row.justify-content-center.mb-3
-        h2.text-center Tejido conectivo
-          .col-8
-            img(src='@/assets/curso/temas/t1/slyder08.svg' alt='AvatarTop')
+        h4.text-center.mb-4 Tejido conectivo        
+        .row.justify-content-center.mb-3        
+          .col-10
+            img(src='@/assets/curso/temas/t1/slyder08.svg' alt='')
         p.text-center Es el conjuntivo, adiposo, cartilaginoso, óseo, linfoide, la sangre.
     
+
     Separador
     #t_1_1.titulo-segundo.color-primario(data-aos="fade-right")
       h2 1.1 Análisis e identificación de la estructura
@@ -72,46 +76,50 @@
     p.mb-4 Es importante precisar las características de la estructura humana a través de los siguientes aspectos:
     
     .row.mb-4
-      .col-lg-6.bg3
-        .row
-          .col-lg-6
-            img(src='@/assets/curso/temas/t1/imag06.svg' alt='')
-          .col-lg-6
-            h4.text-white Posición anatómica
-            p.text-white Es aquella que se considera adecuada para el estudio anatómico del cuerpo humano. consiste en:
-            ul.lista-ul--color.text-white
-              li 
-                i.lista-ul__vineta
-                | Cuerpo de pie. 
-              li 
-                i.lista-ul__vineta
-                | Cabeza y cuello rectos.
-              li 
-                i.lista-ul__vineta
-                | Brazos extendidos hacia abajo.
-              li 
-                i.lista-ul__vineta
-                | Palma de las manos vueltas hacia adelante.
-              li 
-                i.lista-ul__vineta
-                | Punta de los dedos mirando la frente.
-              li 
-                i.lista-ul__vineta
-                | Piernas extendidas, levemente separadas.
-              li 
-                i.lista-ul__vineta
-                | Tobillos y pies extendidos señalando hacia el frente con la punta de los dedos.
-      .col-lg-6.bg4
-        .row
-          .col-lg-6
-            img(src='@/assets/curso/temas/t1/imag07.svg' alt='')
-          .col-lg-6
-            h4 Posición neutra
-            p Es la posición natural de la columna cuando se mantienen sus 3 curvas fisiológicas. A diferencia de la anatómica las palmas de las manos descansan sobre el cuerpo en los laterales del muslo.
+      .col-lg-6.pe-lg-0
+        .tarjeta.bg3.h-100.p-4
+          .row.align-items-center
+            .col-lg-6
+              img(src='@/assets/curso/temas/t1/imag06.svg' alt='')
+            .col-lg-6
+              h4.text-white Posición anatómica
+              p.text-white Es aquella que se considera adecuada para el estudio anatómico del cuerpo humano. consiste en:
+              ul.lista-ul.fa-ul.text-white.mb-0.ps-3
+                li.mb-0 
+                  i.fas.fa-plus
+                  | Cuerpo de pie. 
+                li.mb-0 
+                  i.fas.fa-plus
+                  | Cabeza y cuello rectos.
+                li.mb-0 
+                  i.fas.fa-plus
+                  | Brazos extendidos hacia abajo.
+                li.mb-0 
+                  i.fas.fa-plus
+                  | Palma de las manos vueltas hacia adelante.
+                li.mb-0 
+                  i.fas.fa-plus
+                  | Punta de los dedos mirando la frente.
+                li.mb-0 
+                  i.fas.fa-plus
+                  | Piernas extendidas, levemente separadas.
+                li.mb-0 
+                  i.fas.fa-plus
+                  | Tobillos y pies extendidos señalando hacia el frente con la punta de los dedos.
+      .col-lg-6.ps-lg-0
+        .tarjeta.bg4.h-100.p-4
+          .row.align-items-center
+            .col-lg-6
+              img(src='@/assets/curso/temas/t1/imag07.svg' alt='')
+            .col-lg-6
+              h4 Posición neutra
+              p Es la posición natural de la columna cuando se mantienen sus 3 curvas fisiológicas. A diferencia de la anatómica las palmas de las manos descansan sobre el cuerpo en los laterales del muslo.
             
-    .row
+    .division
+
+    .row.mb-5
       .col-lg-9
-        .cajon.color-primario.bg1.p-4
+        .cajon.color-primario.bg1.p-4.p-lg-5.h-100
           h4 Planos y ejes anatómicos
           p.mb-0 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
       .col-lg-3(data-aos="fade-left")
@@ -120,7 +128,7 @@
     h4 Planos del cuerpo humano
     p.mb-4 Son las formas de división del cuerpo humano, los cuales se describen a continuación:
 
-    .row.mb-4
+    .row.align-items-end.mb-4
       .col-lg-4
         img.mb-4(src='@/assets/curso/temas/t1/imag03.svg' alt='')
         h5 Plano frontal (coronal)
@@ -134,6 +142,9 @@
         h5 Plano frontal (coronal)
         p Divide a nuestro cuerpo en la parte de mitad delantero posterior.
     
+    .division
+
+
     PasosA.color-primario.mb-5(tipo="n")
       .row
         .col-md-6.mb-4.mb-md-0
@@ -207,16 +218,16 @@
       .col-lg-5
         ul.lista-ul--color
           li.bg6
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Equilibrio postural: muscular esquelético 
           li.bg6
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Apoyo bipedestal
           li.bg6
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Distribución de pesos
           li.bg6
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Centros de gravedad
     
     .row.bg6.mb-4
@@ -331,13 +342,13 @@
     p.mb-4 En confección: Se utiliza la pulgada para como medida de estandarización que mide el número de puntadas por pulgada PPP:
     ul.lista-ul--color
       li
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | Ancho de la puntada (se utiliza un calibrador para facilitar el proceso).
       li
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | La planchuela de la maquina puede tener las medidas para guiarse.
       li
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | Pies de las maquinas (se miden por pulgadas y de acuerdo con el ancho de las costuras).
     
     .row.justify-content-center.align-items-center.mb-5
@@ -351,10 +362,10 @@
     
     ul.lista-ul--color(data-aos="fade-right")
       li
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | Algunos Insumos de confección, se caracterizan por centímetros.
       li
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | El ancho de los materiales textiles se mide en centímetros. Los textiles al detal se venden por metros.
     
     p.mb-4 En patronaje: la mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
@@ -398,31 +409,31 @@
         p Se toman alrededor de la parte a medir, cerrando el metro.
         ul.lista-ul--color(data-aos="fade-right")
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de cuello
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de pecho/busto
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de cintura
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de codo
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de puño  
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de brazo
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de cadera
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de rodilla
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Contorno de bota
 
       .col-md.tarjeta.color-secundario.p-5
@@ -433,13 +444,13 @@
         p.text-white Se toman horizontalmente y corresponden a los anchos.
         ul.lista-ul--color.text-white(data-aos="fade-right")
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Ancho de pecho.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Ancho de espalda.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Separación de busto.
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
@@ -449,40 +460,40 @@
         p.text-white Se toman verticalmente y corresponden a largos y talles.
         ul.lista-ul--color.text-white(data-aos="fade-right")
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Talle frente.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Talle atrás.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Centro frente.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Centro atrás.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Costado.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Hombro.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Altura de busto.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Altura de cadera.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             |  Altura de tiro.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Largo de falda.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Largo de pantalón.
           li
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Largo de manga.
     
     p.mb-4 Información de desarrollo del producto para ficha técnicas materiales, medidas, tallas, acabados, etc.
@@ -666,31 +677,31 @@
       .col-lg-10.bg6
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Anatómicos y deducidos: de acuerdo con la obtención de medidas.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Proporcionales: existe una secuencia numérica en el crecimiento de la talla.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | No proporcionales: no existe una secuencia numérica en el crecimiento de la talla.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Completos: incluyen todas las medidas requeridas para la construcción de patrones de prendas.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Según prenda: que incluyen en algunos casos desahogos y costuras.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Normatividad: que incluyen en algunos casos desahogos y costuras.
         
         h5 Ejemplos:
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | ANTC-ISO 8559. Fabricación de Vestuario y Estudios Antropométricos. Dimensiones Corporales - Icontec.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Norma UNE-EN 13402-3 Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
         
         h5 Para el análisis de cuadros de tallas se determinan: 
@@ -706,28 +717,28 @@
         p.mb-0 La fórmula estandarizada para hallar la proporción es: diferencia del Contorno mayor dividido en 4, de allí se encuentran las fracciones de la proporción. Ejemplo:
           ul.lista-ul--color
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | 1 proporción será 1 cm.
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | ½ proporción será 0,5 cm. 
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | ¼ proporción será 0,25 cm 1.5 proporción será 1,5 cm.
         p.mb-4 Permitiendo analizar el crecimiento vertical de las medidas de una talla.
         p.mb-0 Esta información es fundamental para el escalado de tallas y ajuste de los mismos sobre medidas:
           ul.lista-ul--color
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Cuadros de tallas
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Comparación de medidas
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Incremento entre talla y talla - tomar medida por medida y revisar el incremento que hay entre talla y talla.
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Ruptura de talla - Identificar ruptura del cuadro de tallas, por medida y talla.
         p En el ejemplo, la ruptura esta entre la talla 14 y 16, porque se incrementa 6cms, rompiendo con los 4cms de las demás medidas.
 
@@ -842,22 +853,22 @@
             p Según las características de la prenda y sus componentes los básicos deben organizarse para facilitar la comprensión de la prenda y simplificar su construcción. La recomendación de la metodología SENA es trabajar planos unidos. Estos se clasifican en:
             ul.lista-ul--color
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Plano separado.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Plano sencillo
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Plano abierto completo.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Plano abierto delantero o posterior.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Plano montado (centro frente, sobre centro atrás).
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Plano con unión de hombros.
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-6
@@ -884,10 +895,10 @@
           h5 Ejemplo de desahogos:
           ul.lista-ul--color
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Sistema de ajuste: permiten la horma final de la prenda sobre el cuerpo con pinzas y cortes. Son procedimientos de patronaje o complementos en la prenda, que permiten junto al material elegido, la horma final de la prenda sobre el cuerpo.
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Sistema de cierre: mecanismos utilizados para facilitar el uso de la prenda, también llamados sistemas de acceso a la prenda permiten vestir y desvestir el cuerpo. Compuesto por: cremalleras, botones, broches y gafetes, cauchos, cintas y cordones, pasamanería, galones flecos y borlas, herrajes.
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-6
@@ -926,13 +937,13 @@
             h4 Tipos de modificaciones y trazos
             ul.lista-ul--color
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Sencillo: Se traza en el patrón, los cortes, pinzas y complementos que hacen parte del diseño.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Cruzado: Las líneas de las amplitudes y cortes se cruzan dentro del patrón y se separan en el momento del despiece.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | Cortando y ampliando: Se trazan los cortes y se da amplitud en el momento del despiece. La pieza se abre y se vuelve a trazar para un nuevo despiece. Trazo de planos (ejemplos visuales).
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-6
@@ -954,22 +965,22 @@
           .col-md-8.mb-4.mb-md-0
             ul.lista-ul--color
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | El plano nunca se corta: este debe quedar archivado para hacer sobre las correcciones y ajustes cada pieza es 
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | calcada y recortada separadamente.
             p.mb-4 En cada pieza se marcan: Señalización + Costuras + Complementos.
             h5 Despiece del plano
             ul.lista-ul--color
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | #[b Señalización:] información de corte y producción, que debe marcarse en cada patrón 
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | #[b Costuras:] medida que se adiciona al borde de las piezas que se ensamblan; varía de acuerdo con la maquinaria o acabado
               li 
-                i.lista-ul__vineta
+                i.fas.fa-plus
                 | #[b Complementos:] plantillas, información y/o medidas que se adiciona para sistemas de ajuste, cierre o acabados.
 
           .col-md-4
@@ -979,10 +990,10 @@
         p.mb-4 Los tejidos planos se forman por hilos longitudinales (urdimbre) que se cruzan con hilos transversales (trama) formando un perfecto ángulo de 90°.
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Tipos de hilos: De acuerdo con las cualidades del textil y necesidades de aprovechamiento se elige el hilo a trabajar.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-plus
             | Márgenes de costura: De acuerdo con las cualidades del textil y necesidades de aprovechamiento se elige el hilo a trabajar.
         
         .row
@@ -994,22 +1005,22 @@
                 h5 Hilos de tela:
                 ul.lista-ul--color
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Hilo de tela al hilo.
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Hilo de tela por trama.
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Hilo de tela al bies.
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Hilo de tela una cabeza hacia arriba.
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Hilo de tela una cabeza hacia abajo.
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Hilo de tela cabeza doble.
           .col-lg-6.bg8
             .row
@@ -1019,19 +1030,19 @@
                 h5 Ubicación de hilos de tela:
                 ul.lista-ul--color
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Hilos de urdimbre - Hilos de trama.   
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Una cabeza hacia arriba 
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Una cabeza hacia abajo.  
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Una cabeza doble.  
                   li 
-                    i.lista-ul__vineta
+                    i.fas.fa-plus
                     | Doblez de tela.  
         .row
           .col-lg-5
@@ -1133,28 +1144,28 @@
         p.mb-4 Es necesario conocer y manejar las diferentes simbologías, que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender fácilmente las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas. Otros indican de qué manera están aplomados los patrones despiezados para su corte. Es importante anotar que, en el momento de despiezar el patrón, para su identificación, cada pieza debe estar marcada así:
           ul.lista-ul--color
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Nombre de la pieza
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Referencia
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Talla
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Nombre del patronista
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Simbología para corte
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Número de veces a cortar
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Piquetes de confección
             li 
-              i.lista-ul__vineta
+              i.fas.fa-plus
               | Líneas de aplome
 
 
@@ -1384,16 +1395,16 @@
     
     ul.lista-ul--color
       li 
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | #[b Tipo de plano:] identificar qué tipo de plano se va a trabajar, si es un plano unido, separado o montado.
       li 
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | #[b Rectángulo:] todo básico inicia siempre desde un rectángulo, el cual se traza con la medida de contorno más protuberante y el largo más largo de la parte del cuerpo a trabajar.
       li 
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | #[b Cuadro de tallas:] en el caso de femenino, para la elaboración de los básicos se trabaja con las medidas del cuadro de tallas, es decir cada punto de referencia sobre el cuerpo es trabajado del cuadro de tallas, a diferencia de lo anterior, este desarrollo hace necesario identificar todo el listado de las medidas que se van a implementar para hacer el desarrollo.
       li 
-        i.lista-ul__vineta
+        i.fas.fa-plus
         | #[b Manejo del papel:] por lo general el trazo de moldes se suele hacer con papel trazo o manifold, dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante y otra que al tacto es corrugada y visualmente opaca, por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la mente.
     
     h3(data-aos="fade-right") 1.7.1 Base superior femenina

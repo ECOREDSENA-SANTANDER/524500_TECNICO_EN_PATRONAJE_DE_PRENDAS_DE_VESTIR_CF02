@@ -4,19 +4,23 @@
     position: absolute
     top: 40%
     right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/temas/mini-portada.png") !important
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
 
 .bg1
   background-color: #D1BCFF !important
@@ -63,3 +67,13 @@
   background-color: #F3F9FF 
 .tarjeta--blanca
   background-color: #FFFFFF 
+
+
+.mnl-1
+  margin-left: -8.5% 
+  z-index: 9999
+  @media (max-width: 576px)
+    margin-left: 0px
+.division
+  border-top: 1px solid #D2D2D2    
+  margin: 40px 0px
