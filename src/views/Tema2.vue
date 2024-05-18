@@ -816,6 +816,248 @@
               h5.text-center 504 puntada sobre hilado
               p.text-center Se puede usar un hilo un 40% más débil en el looper porque el hilo del looper no penetra el material y está doble en la formación de la cadena.
     p La relación hilo-tejido permite que se produzcan las costuras con sus tipos, características y usos respectivos, de acuerdo con criterios de calidad del proceso.
+    
+    Separador
+    #t_2_7.titulo-segundo.color-primario(data-aos="fade-right")
+      h2 2.7 Calibrar
+    
+    .row.mb-4
+      .col-lg-12
+        .cajon.color-primario.bg1.p-4
+          p Ahora se presentarán aspectos fundamentales para la puesta a punto de las máquinas y en lo primero que se debe centrar la atención es en los enhebrados y sus repercusiones. A continuación, se expone mapas de enhebrado de cada tipo de máquina y calibración de la puntada.
+    
+    h4 Enhebrados de máquina plana, enhebrado caja bobina y ajuste de tensión de puntada.
+
+    .row.mb-5
+      .col-lg-9
+        h5 Máquina plana
+        p Enhebrado de máquina:
+        ul.lista-ul--color
+          li
+            i.fas.fa-plus
+            | Girar el volante para que la barra de la aguja quede en su punto más alto
+          li
+            i.fas.fa-plus
+            | Pasar el hilo por los puntos 1, 2, 3.
+          li
+            i.fas.fa-plus
+            | Pasar el hilo por el disco de tensión por los puntos 4, 5, 6, 7
+          li
+            i.fas.fa-plus
+            | Pasar el hilo por el estirador del hilo 8
+          li
+            i.fas.fa-plus
+            | Pasar el hilo por las guías 9, 10 y 11
+          li
+            i.fas.fa-plus
+            | Finalmente pase el hilo por el orificio de la aguja 12 de izquierda a derecha, dejando el hilo por debajo y atrás del pie prénsatela.
+      .col-lg-3
+        img(src='@/assets/curso/temas/t2/imag11.svg' alt='')
+    
+    .row.bg18.mb-4 
+      h4 Enhebrado caja bobina
+        .row.bg16
+          img(src='@/assets/curso/temas/t2/imag12.svg' alt='')
+      ul.lista-ul--color
+        li
+          i.fas.fa-plus
+          | Coloque la bobina llena en la caja de bobina, dejando el hilo con un sobrante de 10 cm aproximadamente.
+        li
+          i.fas.fa-plus
+          | Pase el hilo por la ranura de la caja de la bobina.
+        li
+          i.fas.fa-plus
+          | Hale el hilo por debajo del muelle de tensión. La alimentación debe ser en sentido contrario a las manecillas del reloj. 
+    
+    .row.mb-5 
+      img(src='@/assets/curso/temas/t2/ajuste.svg' alt='')
+    
+    .row.bg17.mb-4
+      .row.bg16
+        .col-lg-6
+          h4 Verificación de tensión de la caja bobina
+          img(src='@/assets/curso/temas/t2/imag13.svg' alt='')
+        .col-lg-6
+    .row.mb-4
+      .col-lg-8
+        h4 Máquina fileteadora
+        p Enhebrado máquina fileteadora
+        ul.lista-ul--color
+          li
+            i.fas.fa-plus
+            | Girar el volante para que la barra de la aguja quede en su punto más alto
+          li
+            i.fas.fa-plus
+            | Pasar el hilo por los puntos 1, 2, 3.
+          li
+            i.fas.fa-plus
+            | Pasar el hilo por el disco de tensión por los puntos 4, 5, 6, 7
+          li  
+            i.fas.fa-plus
+            | Pasar el hilo por el estirador del hilo 8
+          li
+            i.fas.fa-plus
+            | Pasar el hilo por las guías 9, 10 y 11.
+          li
+            i.fas.fa-plus
+            | Finalmente pase el hilo por el orificio de la aguja 12 de izquierda a derecha, dejando el hilo por debajo y atrás del pie prénsatela.
+      .col-lg-4
+        img(src='@/assets/curso/temas/t2/imag14.svg' alt='')
+    
+    h4 Ajuste de tensión máquina fileteadora - Enhebrado de máquina
+
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado porta-conos
+        img(src='@/assets/curso/temas/t2/slyder1.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado tensores
+        img(src='@/assets/curso/temas/t2/slyder2.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado guía hilos
+        img(src='@/assets/curso/temas/t2/slyder3.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado looper superior e inferior
+        img(src='@/assets/curso/temas/t2/slyder4.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado guía hilos - aguja
+        img(src='@/assets/curso/temas/t2/slyder5.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado guía hilo trasero puntada de seguridad
+        img(src='@/assets/curso/temas/t2/slyder6.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado tensor aux. leva tira hilo - puntada de seg. 
+        img(src='@/assets/curso/temas/t2/slyder7.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrada leva tira hilo puntada de seguridad 
+        img(src='@/assets/curso/temas/t2/slyder8.png' alt='')
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+        h4.text-center Enhebrado looper
+        img(src='@/assets/curso/temas/t2/slyder9.png' alt='')
+
+    h4 Validación de tensores - Puntada e hilo
+
+    .row
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/t2/tarjeta9.svg' alt='')
+          .tarjeta.color-primario
+            .p-4
+              h4 Tensión correcta de puntada  en máquina fileteadora 
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/t2/tarjeta10.svg' alt='')
+          .tarjeta.color-primario
+            .p-4
+              h4 Tensión incorrecta del hilo de la aguja
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/t2/tarjeta11.svg' alt='')
+          .tarjeta.color-primario
+            .p-4
+              h4 Tensión incorrecta del looper superior
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/t2/tarjeta12.svg' alt='')
+          .tarjeta.color-primario
+            .p-4
+              h4 Tensión incorrecta del looper inferior
+
+    h4 Enhebrado de máquina recubridora - Ajuste de tensión
+
+    .row.mb-4
+      .col-lg-7
+        img(src='@/assets/curso/temas/t2/imag15.svg' alt='')
+      .col-lg-5
+        h4 Máquina recubridora (collarín) - Enhebrado de máquina  
+    
+    h4 Validación de tensores - Puntada e hilo
+    .row.mb-4
+      .col-lg-12
+        .cajon.color-primario.bg1.p-4
+          .row
+            .col-lg-6
+              h5.text-center Puntada tensionada
+              img(src='@/assets/curso/temas/t2/imag16.svg' alt='')
+            .col-lg-6
+              h5.text-center Puntada floja
+              img(src='@/assets/curso/temas/t2/imag17.svg' alt='')
+    
+    h4 Puntadas por pulgada PPP
+    p.mb-4 Cuando se están escribiendo las especificaciones de una prenda, se debe especificar la cantidad apropiada de puntadas por pulgada (PPP) que deben ser usadas en su producto de costura, porque la cantidad de puntadas por pulgada puede tener influencia en:
+    
+    .row.bg18.mb-4 
+      .col-lg-6
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | La resistencia de la costura
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | La apariencia de la puntada
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | La elasticidad de la costura en telas elásticas.
+      .col-lg-6
+        .row.bg4
+          p La resistencia de la costura depende de un número de factores que incluyen:
+          ul.lista-ul--color
+            li
+              i.fas.fa-plus
+              | Tipo y peso de la tela
+            li
+              i.fas.fa-plus
+              | Construcción de la puntada y la costura
+            li
+              i.fas.fa-plus
+              | Puntadas por pulgada
+            li  
+              i.fas.fa-plus
+              | Tipo y dimensión del hilo
+            li  
+              i.fas.fa-plus
+              | Balance de la puntada (Tensión del hilo)
+
+    p.mb-4 Generalmente, entre más puntadas por pulgada, mayor es la resistencia de la costura. Existen algunos casos donde agregar puntadas por pulgada puede causar daño a la tela de forma que la costura es debilitada, esto solamente pasa en textiles específicos que pueden ser fácilmente dañados por excesivas penetraciones de la aguja.
+    p El tamaño de la puntada es medida contando la cantidad de entradas de la aguja en la tela dentro de una pulgada. Existen diferentes contadores de puntadas que hacen esta medida fácil. De igual manera, usted puede colocar una cinta métrica enseguida del pespunte y hacer la misma función en 2.54 cm que es el equivalente a una pulgada.       
+      
+    Separador
+    #t_2_8.titulo-segundo.color-primario(data-aos="fade-right")
+      h2 2.8 Desarrollo de operaciones básico para ensamble de piezas
+    
+    p.mb-4 Para realizar los ejercicios en máquina de coser familiar o industrial, se requieren 4 bandas de tela con las siguientes características; 1mt de largo por 10 cms de ancho; preferiblemente una de las bandas de tela que tenga líneas con las características que se describen más adelante.
+    p.mb-4 En la primera banda de tela, se trabaja sin aguja, en este ejercicio se hará pasar la tela por el pie prénsatelas a lo largo de toda la banda de tela, presionando el pedal suavemente para iniciar el ejercicio, la presión del pie sobre el pedal irá aumentando la velocidad en la máquina haciendo avanzar la tela, y debe procurar que la tela se conserve una línea recta, y que no se salga del control del prénsatelas. Realizar el ejercicio sin aguja e hilo, practicar hasta lograr una velocidad controlada e inicia el recorrido ajustando la perilla del largo de la puntada en el número 2 y luego a 3 y así sucesivamente hasta lograr tener un control dirigido de la tela en su máximo largo de puntada.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        img(src='@/assets/curso/temas/t2/imag18.svg' alt='')
+    
+    .row.bg1.mb-4
+      h4 Ejercicio de control de pedal, arranque y parada
+      p Se trabaja con aguja, ya dominando la velocidad y la rectitud del pespunte, se procederá a dominar la parada en el sitio exacto, en este caso la banda se divide en 5 rectángulos de 20 cm de largo por 10 cm de ancho. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se muestra en la imagen de referencia. La idea del ejercicio se centra en parar en cada vértice del ángulo, clavar la aguja, girar la banda y continuar el recorrido hasta terminar el ejercicio y los 5 rectángulos; en este ejercicio obtendremos dominio de pedal, control de freno y arranque en puntos exactos.
+      img.mb-5(src='@/assets/curso/temas/t2/imag19.svg' alt='')
+      h4 Ejercicio de control de pedal, arranque y parada, calidad de la costura y remate o presilla
+      p Para este ejercicio, trabaja con aguja e hilo. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se muestra en la imagen de referencia. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo.
+      img.mb-5(src='@/assets/curso/temas/t2/imag20.svg' alt='')
+      p Luego, debe realizarlo usando las bandas con las marcas o rayas que se muestra a continuación. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo; después se inicia el pespunte y antes y después de cada vértice del ángulo se hace el remate de nuevo, clava la aguja en todo el vértice del ángulo, gira la banda para darle calidad de puntadas en los ángulos y continuar el recorrido hasta terminar el ejercicio y los 5 rectángulos.
+      img(src='@/assets/curso/temas/t2/imag21.svg' alt='')
+
+
 
 </template>
 
