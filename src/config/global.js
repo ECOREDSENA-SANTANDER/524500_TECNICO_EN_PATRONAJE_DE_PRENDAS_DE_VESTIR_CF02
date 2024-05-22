@@ -60,13 +60,23 @@ export default {
             titulo: 'Elaboración de básicos Infantil',
             hash: 't_1_5',
           },
+          {
+            numero: '1.6',
+            titulo: 'Elaboración de básicos Masculinos',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Elaboración de básicos femeninos',
+            hash: 't_1_7',
+          },
         ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Alistamiento para elaboración de muestra física 1.',
+        titulo: 'Alistamiento para elaboración de muestra física 1',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -87,27 +97,27 @@ export default {
           {
             numero: '2.4',
             titulo: 'Generaciones de máquinas',
-            hash: 't_1_4',
+            hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo: 'Clasificación, nomenclatura, Puntas, Calibres y usos.',
-            hash: 't_1_5',
+            titulo: 'Clasificación, nomenclatura, Puntas, Calibres y usos',
+            hash: 't_2_5',
           },
           {
             numero: '2.6',
             titulo:
-              'Relación de elementos de costura: Tela, Aguja, puntada, hilo, ajuste.',
+              'Relación de elementos de costura: Tela, Aguja, puntada, hilo, ajuste',
             hash: 't_2_6',
           },
           {
             numero: '2.7',
-            titulo: 'Calibrar.',
+            titulo: 'Calibrar',
             hash: 't_2_7',
           },
           {
             numero: '2.8',
-            titulo: 'Desarrollo de operaciones básico para ensamble de piezas.',
+            titulo: 'Desarrollo de operaciones básico para ensamble de piezas',
             hash: 't_2_8',
           },
         ],
@@ -120,22 +130,22 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
+      /*{
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -219,7 +229,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -227,9 +237,21 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lizeth Maritza Rodríguez Beltrán',
+          cargo: 'Instructora Técnica ',
+          centro:
+            'Regional Distrito Capital - Centro de Manufactura en Textil y Cuero',
+        },
+        {
+          nombre: 'Natalia Andrea Bueno Pizarro',
+          cargo: 'Diseñadora y evaluadora Instruccional',
+          centro:
+            'Regional Distrito Capital - Centro para La Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Sandra Paola Morales Paez ',
+          cargo: 'Evaluador Instruccional ',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -237,24 +259,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carla Liliana Sequera Vargas',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animador y Productor Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -262,24 +279,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },

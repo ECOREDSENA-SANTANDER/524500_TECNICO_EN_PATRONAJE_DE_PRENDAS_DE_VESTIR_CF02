@@ -21,6 +21,20 @@
       position: relative
       margin-right: 7px
       font-size: 1.4rem
+.lista-ul--color.color-primario i 
+  color: $color-primario !important
+.lista-ul--color.color-secundario i 
+  color: $color-secundario !important
+.lista-ul--color.color-acento-botones i 
+  color: $color-acento-botones !important
+.lista-ul--color.color-acento-contenido i 
+  color: $color-acento-contenido !important
+
+.fondo-t1
+  background: #FFFBEE
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem  
 
 .bg1
   background-color: #D1BCFF !important
@@ -58,10 +72,14 @@
   background-color: #F2F2F2 
 .bg18
   background-color: #F3F9FF  
-
-.texto1
-  color: #FFD54F !important
-
+.bg19
+  background-color:#12263F !important
+.bg20
+  background-color:#F8F5FF
+.bg21
+  background-color:#F2EDFF
+.bg22
+  background-color:#D2E1F1
 
 .tarjeta--morado
   background-color: #D1BCFF 
@@ -71,12 +89,129 @@
   background-color: #FFFFFF 
 
 
+.texto1
+  color: #FFD54F !important
+.texto2
+  color: #673AB7 !important
+.text-left
+  text-align: left !important
 
+.mrn-3
+  margin-right: -3%
+  @media (max-width: 769px)
+    margin-left: 0px
+.mtn-7
+  margin-top: -7%
+.mh-290
+  max-height: 290px  
+.mh-375
+  min-height: 375px 
 .mnl-1
   margin-left: -8.5% 
   z-index: 9999
   @media (max-width: 576px)
     margin-left: 0px
+.mnr-1
+  margin-right: -8.5% 
+  @media (max-width: 576px)
+    margin-right: 0px
 .division
   border-top: 1px solid #D2D2D2    
   margin: 40px 0px
+.br-7
+  border-radius: 7px
+
+.acordion.t2-2 .tarjeta--blanca
+  border-top: 1px solid #707070
+.acordion.t2-2  .acordion__accion__btn--b  
+  background-color: #FFD54F
+  border-color: #FFD54F
+.acordion.t2-2 .acordion__activo .acordion__accion__btn--b 
+  background-color: #673AB7
+  border-color: #673AB7
+  i
+    color: #FFF
+.acordion.t2-1 .acordion__activo .acordion__accion__btn--a
+  background-color: #FFD54F
+  i
+    color: #FFF
+.bloque-texto-b i.color-primario    
+  color: $color-primario
+.lineas  
+  position: relative  
+  &::before    
+    content: ""
+    display: block
+    position: absolute
+    top: 0px
+    right: 0px
+    width: 5px
+    height: 100%
+    border-right: 2px dashed #FFD54F
+    @media (max-width: 769px)
+      border-right: 0px  
+
+.tarjeta-avatar-b .tarjeta.alreves    
+  margin-right: -7.5%
+  padding-right: 7.5%
+  margin-left: 0
+  padding-left: 0
+.tarjeta-avatar-b.top 
+  .tarjeta.alreves
+    margin-right: -10.5%
+    padding-right: 10.5%
+  .tarjeta-avatar-b__img
+    align-items: flex-start !important
+
+.tabla-a.tabla-peque table
+  min-width: 470px !important
+.tabla-a.sin-borde thead
+  border-top: 0px !important
+.tabla-a.color-1 thead
+  border-color: #B0C0D2 !important
+.tabla-a.color-1 td, .tabla-a.color-1 th
+  border-color: #FFF
+
+.width-25 .tarjeta-avatar-b__img 
+  min-width: 25%
+  max-width: 25%
+
+.color-primario .lista-ol--cuadro__vineta  
+  background-color: #673AB7
+  border-radius: 200px
+  
+h4.linea:after  
+  content: ""
+  display: block
+  height: 1px
+  width: 90px
+  background-color: #12263F
+  margin-top: 5px
+.subt
+  img
+    width: 23px
+  h3
+    color: #673AB7
+  &::after   
+    content: ""
+    display: block
+    height: 3px
+    width: 110px
+    background-color: #673AB7
+
+.tabs-c__header 
+  margin-bottom: 0px
+  .tabs-c__tab--active span
+    font-weight: bold
+  .tabs-c__tab  
+    border-bottom-color: #FFD54F
+
+.t1-3.slyder-a
+  .slyder-a__btn--atrs
+    background-color: #FFD54F
+    border-color: #FFD54F
+    opacity: 1
+  .slyder-a__btn--sigt    
+    background-color: #8463BF
+    border-color: #8463BF
+    opacity: 1

@@ -7,9 +7,9 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         .row.justify-content-center
-          .col-lg-7
+          .col-lg-6
             figure
-              img(src="@/assets/curso/temas/sintesis.svg", alt="")
+              img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis presenta los conocimientos y habilidades necesarios para realizar la actividad de trazó y corte, optimizando el proceso.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
