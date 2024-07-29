@@ -7,7 +7,7 @@
         span 1
       h1 Conceptos de pre-patronaje
     
-    p.mb-4(data-aos="fade") El cuerpo humano es una estructura base que se debe entender para poder interpretar su comportamiento y sus necesidades vestimentales. Para lo cual es fundamental tener en cuenta los siguientes conceptos:
+    p.mb-4(data-aos="fade") El cuerpo humano es una estructura base que se debe entender para poder interpretar su comportamiento y necesidades de vestuario. Para lo cual es fundamental tener en cuenta los siguientes conceptos:
     
     .bg20.p-4.mb-5
       .row.justify-content-center
@@ -15,14 +15,12 @@
           ImagenInfografica.color-primario.mb-5(data-aos="fade-down")
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/t1/imag01.svg', alt='')
+                img(src='@/assets/curso/temas/t1/imag01.svg', alt='La imagen muestra la división del cuerpo humano en dos regiones principales utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
 
             .tarjeta.bg13.p-3(x="5.5%" y="9%" numero="+")
-              p Prendas #[b superiores - TOP].
-              p.mb-0 Cabeza – Tronco - Miembros superiores.
+              p.mb-0 Las prendas superiores incluyen una variedad de artículos esenciales en el vestuario diario, como camisetas, blusas, chaquetas, sudaderas, tops, chalecos, etc. Estas prendas varían en estilo, material y diseño, adaptándose a diversas ocasiones y preferencias personales.
             .tarjeta.bg13.p-3(x="71%" y="64%" numero="+")
-              p Prendas #[b inferiores - BOTTOM].
-              p.mb-0 Extremidades - Miembros inferiores.
+              p.mb-0 Las prendas inferiores abarcan una variedad de artículos, entre los más comunes se encuentran los pantalones, jeans, faldas, shorts, sudaderas, bermudas, etc. Cada una de estas prendas puede variar en estilo, material y diseño, permitiendo opciones tanto para ocasiones formales como casuales.
         .col-lg-7
           .bg21.p-4   
             .row.justify-content-center.align-items-center
@@ -31,14 +29,31 @@
                 h5 Arquitectura del cuerpo
                 p Conocimiento e interpretación corporal.
               .col-md-5 
-                p.mb-0 Anatomía #[span.texto2 =] Estructura
-                p.mb-0 Biomecánica #[span.texto2 =] Movimiento
-                p.mb-0 Morfología #[span.texto2 =] Geometría
-                p.mb-0 Ergonomía #[span.texto2 =] Postura
-                p.mb-0 Antropometría #[span.texto2 =] Medidas
+                .row 
+                  .col-lg-5
+                    p.mb-0.der Anatomía
+                    p.mb-0.der Biomecánica
+                    p.mb-0.der Morfología
+                    p.mb-0.der Ergonomía
+                    p.mb-0.der Antropometría
+                  .col-lg-1
+                    p.mb-0 #[span.texto2 =]
+                    p.mb-0 #[span.texto2 =]
+                    p.mb-0 #[span.texto2 =]
+                    p.mb-0 #[span.texto2 =]
+                    p.mb-0 #[span.texto2 =]
+                  .col-lg-5
+                    p.mb-0 Estructura
+                    p.mb-0 Movimiento
+                    p.mb-0 Geometría
+                    p.mb-0 Postura
+                    p.mb-0 Medidas
 
-    
-    h4(data-aos="fade") Anatomía
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+        h3.mb-0.ms-2 Anatomía
+
     p.mb-4(data-aos="fade") Es la estructura o disposición de los órganos y las partes del cuerpo. Es entonces que la anatomía descriptiva considera el cuerpo humano dividido en:
 
     SlyderF(columnas="col-lg-3 col-md-6" data-aos="fade-down")
@@ -48,7 +63,7 @@
           .col-11
             img(src='@/assets/curso/temas/t1/slyder01.svg' alt='')
         p.text-center.mb-0 Cara - cráneo. 
-        p.text-center Cuello: esternocleidomastoideo - anterior, lateral, posterior.
+        p.text-center #[b Cuello:] esternocleidomastoideo - anterior, lateral, posterior.
       .tarjeta.bg2.p-4
         h4.text-center.mb-4 Tronco 
         .row.justify-content-center.mb-3
@@ -61,14 +76,14 @@
           .col-9
             img(src='@/assets/curso/temas/t1/slyder03.svg' alt='')
         p.text-center.mb-0 Hombro, brazo, codo, antebrazo y mano. 
-        p.text-center Mano: dorso y palma. Carpo, metacarpo y dedos.
+        p.text-center #[b Mano:] dorso y palma. Carpo, metacarpo y dedos.
       .tarjeta.bg2.p-4
         h4.text-center.mb-4 Extremidades inferiores
         .row.justify-content-center.mb-3        
           .col-9
             img(src='@/assets/curso/temas/t1/slyder04.svg' alt='')
         p.text-center.mb-0 Cadera, muslo, rodilla, pierna y pie. 
-        p.text-center Pie: dorso y palma, Tarso, metatarso y dedos.
+        p.text-center #[b Pie:] dorso y palma, Tarso, metatarso y dedos.
       .tarjeta.bg2.p-4
         h4.text-center.mb-4 Sistema óseo
         .row.justify-content-center.mb-3        
@@ -110,7 +125,7 @@
             .col-lg-7
               h4.text-white Posición anatómica
               p.text-white Es aquella que se considera adecuada para el estudio anatómico del cuerpo humano. consiste en:
-              ul.lista-ul.fa-ul.text-white.mb-0.ps-3
+              ul.lista-ul.fa-ul.text-white.mb-0
                 li.mb-0 
                   i.fas.fa-plus
                   | Cuerpo de pie. 
@@ -143,28 +158,32 @@
             
     .division
 
-    .row.mb-5(data-aos="fade-down")
-      .col-lg-9
-        .cajon.color-primario.bg1.p-4.p-lg-5.h-100
-          h4 Planos y ejes anatómicos
-          p.mb-0 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
-      .col-lg-3.col-md-7
-        img(src='@/assets/curso/temas/t1/imag02.svg', alt='')
+    .row.mb-4(data-aos="fade-down")
+      .col-lg-10
+        .cajon.color-primario.bgg.p-5.p-lg-5.mb-3
+          h4.mb-4.mt-4 Planos y ejes anatómicos
+          p.mb-4 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
+      .col-lg-2.col-md-12
+        img(src='@/assets/curso/temas/t1/imag02.svg', alt='La imagen muestra un esquema anatómico del cuerpo humano con las direcciones y planos anatómicos principales. Se señalan tres planos: el plano sagital (que divide el cuerpo en izquierda y derecha), el plano frontal (que divide el cuerpo en anterior y posterior), y el plano transversal (que divide el cuerpo en superior e inferior). Además, se indican varias direcciones anatómicas, como craneal (hacia la cabeza), caudal (hacia los pies), dorsal (hacia la espalda), ventral (hacia el frente), proximal (cercano al punto de origen), distal (lejano al punto de origen), medial (hacia el centro del cuerpo), lateral (alejado del centro del cuerpo), entre otras. Estas referencias son fundamentales para describir la ubicación de estructuras y movimientos del cuerpo humano en medicina y anatomía.')
     
-    h4(data-aos="fade") Planos del cuerpo humano
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+        h3.mb-0.ms-2 Planos del cuerpo humano
+        
     p.mb-4(data-aos="fade") Son las formas de división del cuerpo humano, los cuales se describen a continuación:
 
     .row.align-items-end.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-4.col-md-6
-        img.mb-4(src='@/assets/curso/temas/t1/imag03.svg' alt='')
+        img.mb-4(src='@/assets/curso/temas/t1/imag03.svg' alt='La imagen muestra tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana.')
         h5 Plano frontal (coronal)
         p Divide a nuestro cuerpo en la parte de mitad delantero posterior.
       .col-lg-4.col-md-6
-        img.mb-4(src='@/assets/curso/temas/t1/imag04.svg' alt='')
+        img.mb-4(src='@/assets/curso/temas/t1/imag04.svg' alt='La imagen muestra tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana.')
         h5 Plano frontal (coronal)
         p Divide a nuestro cuerpo en la parte de mitad delantero posterior.
       .col-lg-4.col-md-6
-        img.mb-4(src='@/assets/curso/temas/t1/imag05.svg' alt='')
+        img.mb-4(src='@/assets/curso/temas/t1/imag05.svg' alt='La imagen muestra tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana.')
         h5 Plano frontal (coronal)
         p Divide a nuestro cuerpo en la parte de mitad delantero posterior.
     
@@ -177,10 +196,10 @@
           h4 Antropometría
           p Estudio de las proporciones y las medidas del cuerpo humano.
         .col-md-5.mb-4.mb-md-0
-          img(src='@/assets/curso/temas/t1/imag08.svg', alt='')
+          img(src='@/assets/curso/temas/t1/imag08.svg', alt='La imagen muestra diagramas anatómicos de las proporciones corporales de una mujer, un hombre y un niño, cada uno con medidas específicas. Los diagramas incluyen dimensiones como la altura total, el largo de los brazos, el ancho de los hombros, la longitud de las piernas y otras medidas clave del cuerpo. Estos diagramas son utilizados para entender y comparar las proporciones anatómicas entre diferentes edades y géneros, lo cual es útil en campos como la ergonomía, la medicina y el diseño de ropa.')
       .row.align-items-center.justify-content-around 
         .col-md-5.mb-4.mb-md-0
-          img(src='@/assets/curso/temas/t1/imag09.svg', alt='')
+          img(src='@/assets/curso/temas/t1/imag09.svg', alt='La imagen muestra cuatro tipos de movimientos del cuerpo humano, cada uno con su ángulo específico: inclinación lateral (25°), rotación (35°), flexión (75°) e hiperextensión (30°). Estos diagramas ilustran los rangos de movimiento y la flexibilidad del cuerpo, siendo útiles para estudios en anatomía y ergonomía.')
         .col-md-6
           h4.text-left Ergonomía
           p.text-left Es el estudio de las condiciones de adaptación de un lugar de trabajo, una máquina, un vehículo, una prenda y cualquier otro producto de uso humano, a las características físicas del trabajador o el usuario.
@@ -189,10 +208,14 @@
           h4 Biomecánica
           p Es un área de conocimiento que estudia la actividad física de nuestro cuerpo en circunstancias y condiciones diferentes; analiza las consecuencias mecánicas que se derivan de esas actividades en nuestra vida cotidiana, en el trabajo, haciendo deporte, etc.
         .col-md-7
-          img(src='@/assets/curso/temas/t1/imag10.png', alt='')
+          img(src='@/assets/curso/temas/t1/imag10.png', alt='La imagen muestra una serie de diagramas que ilustran diversos movimientos y posiciones articulares del cuerpo humano. Incluye movimientos como flexión, extensión, abducción, aducción, rotación interna y externa, y movimientos específicos de la cabeza, tronco y extremidades. Cada diagrama destaca las articulaciones involucradas con líneas y puntos rojos para facilitar la visualización de los rangos de movimiento. Esta representación es útil para entender la movilidad y funcionalidad de las diferentes partes del cuerpo en el ámbito de la anatomía, fisioterapia y medicina deportiva.')
         
 
-    h4(data-aos="fade") Somatotipos
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+        h3.mb-0.ms-2 Somatotipos
+
     p.mb-4(data-aos="fade") Es un sistema diseñado para clasificar el tipo corporal ó físico; es utilizado para estimar la forma corporal y su composición. Se clasifican en:
     
     .row.justify-content-center.mb-5(data-aos="fade-down") 
@@ -201,7 +224,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h2.text-center Ectomorfo - estructura ligera
-              p se caracteriza por tener estructura delgada y huesos largo, poca grasa y poco músculo. 
+              p Se caracteriza por tener estructura delgada y huesos largo, poca grasa y poco músculo. 
               p Complexión delgada, estructura fina, fibroso, no gana peso con facilidad, metabolismo rápido, pecho plano, hombros pequeños.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/tarj-slide1.svg')})`}")
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -210,7 +233,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h2.text-center Mesomorfo - estructura mediana
-              p se distingue por tener una musculatura natural y poca grasa. Los huesos son largos y semi-gruesos. Se dice que es el ideal para el físico constructivo. 
+              p Se distingue por tener una musculatura natural y poca grasa. Los huesos son largos y semi-gruesos. Se dice que es el ideal para el físico constructivo. 
               p Complexión atlética, cuerpo duro con músculos definidos,  es fuerte de forma natura, gana músculo fácilmente, engorda con más facilidad que los ectomorfos, hombros anchos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/tarj-slide2.svg')})`}")
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -218,220 +241,290 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h2.text-center Endomorfo - estructura pesada
-              p se distingue por tener un cuerpo grande de huesos gruesos, con mucha grasa y con gran facilidad para obtener más de ésta. 
+              p Se distingue por tener un cuerpo grande de huesos gruesos, con mucha grasa y con gran facilidad para obtener más de ésta. 
               p Complexión blanda y redonda, suele ser bajo y fornido, gana músculo fácilmente,  engorda fácilmente, le cuesta perder grasa, metabolismo lento, hombros anchos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/tarj-slide3.svg')})`}")
     
-    .bg5.mb-5(data-aos="fade-down") 
-      .row.align-items-center
-        .col-lg-8.pe-lg-0
-          .cajon.color-primario.bg1.p-4.mrn-3
-            p.mb-0 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: mesoectomorfo y mesoendomorfo.
-        .col-lg-4.col-md-7.ps-lg-0
-          .bg3.p-4
-            img(src='@/assets/curso/temas/t1/imag15.svg', alt='')
+
+    .row.justify-content-center 
+      .col-lg-10.col-md-12.col-12
+        .bg5.mb-5.p-5(data-aos="fade-down") 
+          .row.align-items-center
+            .col-lg-6.pe-lg-0
+              .bg1.p-4.mrn-3.ml-3
+                p.mb-0 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: mesoectomorfo y mesoendomorfo.
+            .col-lg-6.col-md-7.ps-lg-0
+              .bgw
+                .row.justify-content-end
+                  .col-lg-2
+                    p.mb-0
+                  .col-lg-7
+                    img(src='@/assets/curso/temas/t1/imag15.svg', alt='La imagen muestra un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo.')
+                  .col-lg-1
+                    p.mb-0
     
-    h4(data-aos="fade") Tipologías corporales - siluetas.
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+        h3.mb-0.ms-2(data-aos="fade") Tipologías corporales - siluetas.
+
     p(data-aos="fade") Son las características físicas generales de contorno y forma corporal – morfología de superficie.
+    
     .row.fondo-t1.align-items-center.py-4.mb-5(data-aos="fade")
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center
           .col-lg-7
-            img(src='@/assets/curso/temas/t1/imag16.svg', alt='')
+            img(src='@/assets/curso/temas/t1/imag16.svg', alt='La imagen muestra diferentes tipologías corporales en forma de siluetas, clasificadas según sus características físicas generales de contorno y forma corporal. Las tipologías incluyen: reloj de arena/trapecio, triángulo, triángulo invertido, rectángulo y óvalo. Cada figura humana ilustra una de estas formas corporales, destacando las variaciones en proporciones y distribución de volumen. Esta clasificación es útil para entender la morfología de superficie y puede ser aplicada en áreas como la moda, el diseño de ropa y la ergonomía.')
 
-    h4(data-aos="fade") ¿Cuál es mi tipo de cuerpo?
+    .d-flex.justify-content-center
+      .d-flex.flex-wrap.align-items-center.bg-img-bluess
+        h4.col.px-4.mb-0.text-white(data-aos="fade-right") ¿Cuál es mi tipo de cuerpo?
+    
     .row.fondo-t1.align-items-center.py-4.mb-5(data-aos="fade")
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center
           .col-lg-10
-            img(src='@/assets/curso/temas/t1/imag17.svg', alt='')
-    
-    .row.mb-5.justify-content-center(data-aos="fade-down")
-      .col-lg-8
-        .bloque-texto-b
-          .bloque-texto-b__texto.text-center
-            i.fas.fa-quote-left.color-primario
-            h4.mb-0 Las formas del cuerpo no se pueden clasificar en buena o mala, ni bella, ni fea, simplemente presenta diferentes características y particularidades.
-            i.fas.fa-quote-right.color-primario
+            img(src='@/assets/curso/temas/t1/imag17.svg', alt='La imagen muestra un diagrama de flujo para determinar el tipo de cuerpo femenino. Comienza con la pregunta "¿Tus hombros y cadera tienen medida similar?" Si la respuesta es sí, se pregunta "¿Tu cintura es más pequeña que tu cadera?", lo que identifica la forma de reloj de arena. Si la respuesta es no, se pregunta "¿Tus hombros miden más que tu cadera o abdomen?", identificando la forma de triángulo invertido. Si la respuesta inicial es no, se pregunta "¿Tu blusa tiene una talla más que tu pantalón?", determinando la forma ovalada si la respuesta es sí, o la forma de triángulo si la respuesta es no. Cada tipo de cuerpo se ilustra con una figura femenina correspondiente.')
     
     
-    h4.linea(data-aos="fade") Evaluación de aplomos - postura
+    
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+        h3.mb-0.ms-2(data-aos="fade") Evaluación de aplomos - postura
+    
 
+    p.mb-4 Asociado a la correlación entre las extremidades y el tronco y a las posiciones de las articulaciones.
+        
     .row.mb-5
-      .col-lg-7(data-aos="fade-right")
-        p Asociado a la correlación entre las extremidades y el tronco y a las posiciones de las articulaciones.
-      .col-lg-5(data-aos="fade-left")
-        ul.lista-ul--color.fa-ul.color-acento-botones
-          li.bg6.br-7.p-1.ps-2
-            i.fas.fa-plus
-            | Equilibrio postural: muscular esquelético 
-          li.bg6.br-7.p-1.ps-2
-            i.fas.fa-plus
-            | Apoyo bipedestal
-          li.bg6.br-7.p-1.ps-2
-            i.fas.fa-plus
-            | Distribución de pesos
-          li.bg6.br-7.p-1.ps-2
-            i.fas.fa-plus
-            | Centros de gravedad
-    
-    .bg6.mb-5.p-4(data-aos="fade-down")
-      .row.align-items-center
-        .col-lg-6
+      .col-lg-6(data-aos="fade-right")
+        .row 
+          .col-lg-7
+            ul.lista-ul--color.fa-ul.color-acento-botones
+              li.bg6.br-7.p-1.ps-2
+                i.fas.fa-plus
+                p.mb-0 #[b Equilibrio postural:] muscular esquelético 
+              li.bg6.br-7.p-1.ps-2
+                i.fas.fa-plus
+                p.mb-0 Apoyo bipedestal
+          .col-lg-5
+            ul.lista-ul--color.fa-ul.color-acento-botones
+              li.bg6.br-7.p-1.ps-2
+                i.fas.fa-plus
+                p.mb-0 Distribución de pesos
+              li.bg6.br-7.p-1.ps-2
+                i.fas.fa-plus
+                p.mb-0 Centros de gravedad
+        .bg6.p-4(data-aos="fade-down")
           p El análisis de las extremidades anteriores y frontales, es lo que permite determinar si el caballo tiene buena postura o si por el contrario es defectuosa. Este análisis se hace bajo especificaciones ya estipuladas las cuales permite revisar la composición de todos los términos anteriormente mencionados con el fin de identificar la postura.
-          p La postura es un punto clave en el análisis de la estructura corporal; es lo que corresponde a la distribución de pesos frente a la gravedad. En la imagen se identifica lo que esta categorizado como postura correcta o incorrecta.
-        .col-lg-6
-          img(src='@/assets/curso/temas/t1/imag18.svg', alt='')
+          p.mb-2 La postura es un punto clave en el análisis de la estructura corporal; es lo que corresponde a la distribución de pesos frente a la gravedad. En la imagen se identifica lo que esta categorizado como postura correcta o incorrecta.
+
+      .col-lg-6(data-aos="fade-left")
+        .bg144.p-4  
+          img.my-4.mb-4(src='@/assets/curso/temas/t1/imag18.svg', alt='La imagen compara dos posturas al caminar: una postura correcta y una postura incorrecta. En la postura correcta, la persona mantiene una alineación recta de la columna vertebral con los hombros hacia atrás y la cabeza erguida. En la postura incorrecta, la persona tiene los hombros encorvados hacia adelante, la espalda curvada y la cabeza inclinada hacia abajo. Esta comparación ilustra la importancia de una buena postura para prevenir problemas musculares y articulares.')
     
     .row.mb-5
-      .col-md-6.pe-md-0(data-aos="fade-right")
+      .col-md-6.pe-md-0.mb-3(data-aos="fade-right")
         .tarjeta.bg4.p-4.h-100
           h4 Análisis de diferentes posturas sobre un mismo cuerpo
           p Cada postura da una medida diferente, siendo el mismo cuerpo o la misma persona, eso depende de las hiperextensiones o flexiones que toma el cuerpo en cada una de sus divisiones.
-          img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag19.svg' alt='')  
-      .col-md-6.ps-md-0(data-aos="fade-left")
+          img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag19.svg' alt='La imagen ilustra dos conceptos relacionados con la postura y el equilibrio corporal. En la sección de la izquierda, titulada "Análisis de diferentes posturas sobre un mismo cuerpo", se muestra cómo distintas posturas pueden alterar las medidas del cuerpo debido a hiperextensiones o flexiones. La serie de figuras muestra un mismo cuerpo en diferentes posiciones que afectan su alineación. En la sección de la derecha, titulada "Análisis de punto de equilibrio", se explica que cada cuerpo tiene un tipo de equilibrio particular. Dependiendo del género, se identifican variaciones en el sistema óseo y muscular que influyen en el punto de equilibrio. Las figuras muestran una línea de equilibrio ideal comparada con una postura desalineada.')  
+      .col-md-6.ps-md-0.mb-3(data-aos="fade-left")
         .tarjeta.bg7.p-4.h-100
           h4.text-white Análisis de punto de equilibrio
           p.text-white Cada cuerpo tiene un tipo de equilibrio. Dependiendo del género se identifican pequeñas variaciones tanto en el sistema óseo, como muscular los cuales varían o afectan el punto de equilibrio.
-          img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag20.svg' alt='')  
+          img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag20.svg' alt='La imagen ilustra dos conceptos relacionados con la postura y el equilibrio corporal. En la sección de la izquierda, titulada "Análisis de diferentes posturas sobre un mismo cuerpo", se muestra cómo distintas posturas pueden alterar las medidas del cuerpo debido a hiperextensiones o flexiones. La serie de figuras muestra un mismo cuerpo en diferentes posiciones que afectan su alineación. En la sección de la derecha, titulada "Análisis de punto de equilibrio", se explica que cada cuerpo tiene un tipo de equilibrio particular. Dependiendo del género, se identifican variaciones en el sistema óseo y muscular que influyen en el punto de equilibrio. Las figuras muestran una línea de equilibrio ideal comparada con una postura desalineada.')  
         
-    h4.linea(data-aos="fade") Diferentes tipos de posturas
+    
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+        h3.mb-0.ms-2(data-aos="fade") Diferentes tipos de posturas
+
     p.mb-4(data-aos="fade") Buena postura - postura defectuosa relajada - alineamiento de cifosis y lordosis - espalda inclinada - espalda plana - espalda redonda.
     
     .tarjeta.tarjeta--morado.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-around
           .col-md-6.col-lg-5.mb-4.mb-md-0
-            img.mb-4(src='@/assets/curso/temas/t1/slyder09.svg', alt='')
-            ol.lista-ol.fa-ul
-              li.mb-0
-                span a. 
-                | Normal. 
-              li.mb-0
-                span b. 
-                | Largas. 
-              li.mb-0
-                span c. 
-                | Moderadas. 
-              li.mb-0
-                span d. 
-                | Cortas. 
-              li.mb-0
-                span e. 
+            p.mb-3 #[b Proporciones de longitud de piernas en relación con el torso.]
+            img.mb-4(src='@/assets/curso/temas/t1/slyder09.svg', alt='La imagen muestra una serie de figuras femeninas que ilustran diferentes proporciones de longitud de piernas en relación con el torso, desde "normal" hasta "muy cortas". Las categorías son: a. Normal, b. Largas, c. Moderadas, d. Cortas, y e. Muy cortas. Cada figura está etiquetada con letras que corresponden a las descripciones enumeradas debajo de la imagen. Esta ilustración es útil para entender y comparar las variaciones en las proporciones corporales femeninas.')
+            ol.lista-ol--cuadro
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span a
+                | Normal.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span b
+                | Largas.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span c
+                | Moderadas.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span d
+                | Cortas.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span e
                 | Muy cortas.
+
           .col-md-6.col-lg-5
-            img.mb-4(src='@/assets/curso/temas/t1/slyder10.svg', alt='')
-            ol.lista-ol.fa-ul
-              li.mb-0
-                span a. 
-                | Normal. 
-              li.mb-0
-                span b. 
-                | Cuadrada. 
-              li.mb-0
-                span c. 
-                | Alta. 
-              li.mb-0
-                span d. 
-                | Baja. 
-              li.mb-0
-                span e. 
+            p.mb-3 #[b Tipos de estructura corporal.]
+            img.mb-4(src='@/assets/curso/temas/t1/slyder10.svg', alt='La imagen expone cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes tipos de estructura corporal. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Cuadrada", "Alta", "Baja" y "Muy Ancha". Cada figura tiene líneas horizontales numeradas del 1 al 7 a lo largo del cuerpo, posiblemente para medir proporciones y diferencias en la forma corporal. La figura "Normal" muestra una forma corporal equilibrada, la "Cuadrada" tiene hombros y caderas más anchos, la "Alta" tiene una estatura mayor, la "Baja" es de menor estatura, y la "Muy Ancha" muestra una figura con caderas significativamente más anchas. ')
+            ol.lista-ol--cuadro
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span a
+                | Normal.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span b
+                | Cuadrada.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span c
+                | Alta.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span d
+                | Baja.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span e
                 | Muy ancha.
+
         .row.justify-content-around
           .col-md-6.col-lg-5.mb-4.mb-md-0
-            img.mb-4(src='@/assets/curso/temas/t1/slyder11.svg', alt='')
-            ol.lista-ol.fa-ul
-              li.mb-0
-                span a. 
-                | Normal.  
-              li.mb-0
-                span b. 
+            p.mb-3 #[b Alineación de piernas.]
+            img.mb-4(src='@/assets/curso/temas/t1/slyder11.svg', alt='Imagen  con cinco figuras femeninas estilizadas en vista frontal, cada una con diferentes alineaciones de piernas y articulaciones. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con rodillas separadas", "Quebrado con rodillas y tobillos separados", "Quebrado con tobillos separados" y "Muy quebrado - cadera, rodillas y tobillos separados". Las descripciones indican variaciones en la alineación de las caderas, rodillas y tobillos, desde una alineación normal hasta una alineación muy separada en múltiples puntos.')
+            ol.lista-ol--cuadro
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span a
+                | Normal.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span b
                 | Quebrado con rodillas separadas. 
-              li.mb-0
-                span c. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span c
                 | Quebrado con rodillas y tobillos separados.  
-              li.mb-0
-                span d. 
-                |  Quebrado con tobillos separados.
-              li.mb-0
-                span e. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span d
+                | Quebrado con tobillos separados.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span e
                 | Muy quebrado - cadera, rodillas y tobillos separados.
+
           .col-md-6.col-lg-5
-            img.mb-4(src='@/assets/curso/temas/t1/slyder12.svg', alt='')
-            ol.lista-ol.fa-ul
-              li.mb-0
-                span a. 
-                | Normal. 
-              li.mb-0
-                span b. 
+            p.mb-3 #[b Diferentes posturas y alineaciones de la columna y las caderas.]
+            img.mb-4(src='@/assets/curso/temas/t1/slyder12.svg', alt='Imagen expone cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes posturas y alineaciones de la columna y las caderas. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con la cadera hacia atrás", "Quebrado con la cadera hacia adelante", "Doblemente quebrado" y "Completamente quebrado". Estas descripciones indican variaciones en la postura, desde una alineación normal hasta diversas formas de desviaciones en la columna y la cadera, evidenciando diferentes grados de curvatura y desplazamiento.')
+            ol.lista-ol--cuadro
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span a
+                | Normal.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span b
                 | Quebrado con la cadera hacia atrás. 
-              li.mb-0
-                span c. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span c
                 | Quebrado con la cadera hacia adelante.
-              li.mb-0
-                span d. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span d
                 | Doblemente quebrado. 
-              li.mb-0
-                span e. 
-                | Completamente quebrado
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span e
+                | Completamente quebrado.
+
         .row.justify-content-around
           .col-md-6.col-lg-5.mb-4.mb-md-0
-            img.mb-4(src='@/assets/curso/temas/t1/slyder13.svg', alt='')
-            ol.lista-ol.fa-ul
-              li.mb-0
-                span a. 
-                | Normal.  
-              li.mb-0
-                span b. 
-                | Un poco grandes.
-              li.mb-0
-                span c. 
+            p.mb-3 #[b Diferentes formas de caderas y glúteos.]
+            img.mb-4(src='@/assets/curso/temas/t1/slyder13.svg', alt='Describe cinco figuras femeninas estilizadas en vista posterior, cada una representando diferentes formas de caderas y glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Un poco grandes", "Cadera baja amplia y glúteos puntiagudos", "Cadera muy amplia y glúteos redondos" y "Cadera alta amplia y glúteos chatos". Estas descripciones indican variaciones en la forma y tamaño de las caderas y glúteos, desde una forma normal hasta diversas combinaciones de caderas altas o bajas y glúteos de diferentes formas y tamaños.')
+            ol.lista-ol--cuadro
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span a
+                | Normal.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span b
+                | Un poco grandes. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span c
                 | Cadera baja amplia y glúteos puntiagudos.
-              li.mb-0
-                span d. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span d
                 | Cadera muy amplia y glúteos redondos.
-              li.mb-0
-                span e. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span e
                 | Cadera alta amplia y glúteos chatos.
+
           .col-md-6.col-lg-5
-            img.mb-4(src='@/assets/curso/temas/t1/slyder14.svg', alt='')
-            ol.lista-ol.fa-ul
-              li.mb-0
-                span a. 
-                | Normal. 
-              li.mb-0
-                span b. 
+            p.mb-3 #[b Diferentes formas del vientre y los glúteos.]
+            img.mb-4(src='@/assets/curso/temas/t1/slyder14.svg', alt='Describe cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes formas del vientre y los glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Vientre alto abultado, glúteos redondos y grandes", "Vientre y glúteos planos y puntiagudos", "Vientre plano con pubis saliente y glúteos chatos" y "Vientre chato con pubis muy saliente con glúteos planos y entrantes". Estas descripciones indican variaciones en la forma y tamaño del abdomen y glúteos, mostrando desde una forma normal hasta combinaciones de vientres abultados o planos, glúteos redondos, chatos o puntiagudos, y la prominencia del pubis.')
+            ol.lista-ol--cuadro
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span a
+                | Normal.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span b
                 | Vientre alto abultado glúteos redondos y grandes. 
-              li.mb-0
-                span c. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span c
                 | Vientre y glúteos planos y puntiagudos.
-              li.mb-0
-                span d. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span d
                 | Vientre plano con pubis saliente y glúteos chatos. 
-              li.mb-0
-                span e. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span e
                 | Vientre chato con pubis muy saliente con glúteos planos y entrantes.
+
         .row.justify-content-center
           .col-md-6.col-lg-5.mb-4.mb-md-0
-            img.mb-4(src='@/assets/curso/temas/t1/slyder14.svg', alt='')
+            p.mb-3 #[b Diferentes formas del torso y la cadera.]
+            img.mb-4(src='@/assets/curso/temas/t1/slyder14.svg', alt='Se evidencian cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes formas del torso y la cadera. De izquierda a derecha, las figuras están etiquetadas como "Normal (Trapecio regular)", "Paralela de cadera y senos pequeños", "Paralela de cadera cuadrada, torso y cintura ancha, senos amplios", "Trapecio abierto" y "Trapecio invertido". Estas descripciones indican variaciones en la forma del torso y caderas, desde una forma normal hasta combinaciones de torsos y caderas paralelos, anchos, y diferentes tipos de trapecios.')
           .col-md-6
-            ol.lista-ol.fa-ul
-              li.mb-0
-                span a. 
+            ol.lista-ol--cuadro
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span a
                 | Normal (trapecio regular). 
-              li.mb-0
-                span b. 
-                | Paralela de cadera y senos pequeños. 
-              li.mb-0
-                span c. 
-                | Paralela de cadera cuadrada, torso y cintura ancha, senos amplios. 
-              li.mb-0
-                span d. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span b
+                | Paralela de cadera y senos pequeños.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span c
+                | Paralela de cadera cuadrada, torso y cintura ancha, senos amplios.
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span d
                 | Trapecio abierto. 
-              li.mb-0
-                span e. 
+              li.mb-1
+                .lista-ol--cuadro__vineta
+                  span e
                 | Trapecio invertido.
-  
+
     p(data-aos="fade") Otras características y particularidades que generan diferencias corporales son: género, edad, masa corporal, tejido adiposo, lenguaje propioceptivo y patologías.
 
 
@@ -439,7 +532,7 @@
     #t_1_2.titulo-segundo.color-primario(data-aos="fade-right")
       h2 1.2 Clasificación de las medidas
     
-    p.mb-4(data-aos="fade") A continuación se describen los sistemas de medidas, su clasificación, características, usos e implementación.
+    p.mb-4(data-aos="fade") A continuación, se describen los sistemas de medidas, su clasificación, características, usos e implementación.
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -456,30 +549,37 @@
           p Sin embargo, los dos tipos de sistemas son utilizados en diferentes áreas y cadenas productivas teniendo en cuenta que algunos estándares están trabajados en medidas diferentes a las que usa oficialmente el país.
         .col-lg-3.col-md-6.mb-4.mb-md-0
           h5.text-center.text-small Sistema inglés
-          img(src='@/assets/curso/temas/t1/imag21.svg', alt='Sistema inglés')
+          img(src='@/assets/curso/temas/t1/imag21.svg', alt='imagen expone una comparación entre dos sistemas de medición: el sistema inglés y el sistema internacional o métrico decimal. A la izquierda, bajo el título "Sistema inglés", se ve una regla que mide en centímetros (cm) de 1 a 5. A la derecha, bajo el título "Sistema internacional o métrico decimal", se muestra una regla que mide en pulgadas (inches) de 1 a 2. El texto indica que ambos tipos de sistemas se utilizan en diferentes áreas y cadenas productivas, considerando que algunos estándares están trabajados en medidas diferentes a las que usa oficialmente el país.')
         .col-lg-3.col-md-6.mb-4.mb-md-0
           h5.text-center.text-small Sistema internacional o métrico decimal
-          img(src='@/assets/curso/temas/t1/imag22.svg', alt='Sistema internacional o métrico decimal')
+          img(src='@/assets/curso/temas/t1/imag22.svg', alt='imagen expone una comparación entre dos sistemas de medición: el sistema inglés y el sistema internacional o métrico decimal. A la izquierda, bajo el título "Sistema inglés", se ve una regla que mide en centímetros (cm) de 1 a 5. A la derecha, bajo el título "Sistema internacional o métrico decimal", se muestra una regla que mide en pulgadas (inches) de 1 a 2. El texto indica que ambos tipos de sistemas se utilizan en diferentes áreas y cadenas productivas, considerando que algunos estándares están trabajados en medidas diferentes a las que usa oficialmente el país.')
     
-    .row.align-items-center.mb-4
-      .col-lg-9(data-aos="fade-right")
+    
+    .row.justify-content-center 
+      .col-lg-9.col-md-12.col-12(data-aos="fade-right")
         h4 Sistema métrico inglés 
-        p Como todo número fraccionario, se representa A/B. Donde A es el numerador y B el denominador. El numerador indica el número de partes que se toman de la unidad y el denominador en cuántas partes iguales se divide esa unidad.
-      .col-lg-3.col-md-7(data-aos="fade-left")
+        p.mb-4 Como todo número fraccionario, se representa A/B. Donde A es el numerador y B el denominador. El numerador indica el número de partes que se toman de la unidad y el denominador en cuántas partes iguales se divide esa unidad.
+        p.mb-4(data-aos="fade") En confección: Se utiliza la pulgada para como medida de estandarización que mide el número de puntadas por pulgada PPP:
+        .row.bg55.p-4.mb-4
+          .col-lg-12
+            .row.justify-content-center.align-items-center 
+              .col-lg-2
+                img.d-none.d-lg-block(src='@/assets/curso/temas/t1/55.svg', alt='')
+              .col-lg-10
+                ul.lista-ul--color.fa-ul.color-secundario(data-aos="fade")
+                  li.mb-1
+                    i.fas.fa-plus
+                    | Ancho de la puntada (se utiliza un calibrador para facilitar el proceso).
+                  li.mb-1
+                    i.fas.fa-plus
+                    | La planchuela de la maquina puede tener las medidas para guiarse.
+                  li.mb-0
+                    i.fas.fa-plus
+                    | Pies de las maquinas (se miden por pulgadas y de acuerdo con el ancho de las costuras).
+      .col-lg-3.col-md-9.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/imag23.svg', alt='')
     
-    p.mb-4(data-aos="fade") En confección: Se utiliza la pulgada para como medida de estandarización que mide el número de puntadas por pulgada PPP:
-    ul.lista-ul--color.fa-ul.color-secundario.ps-2.ps-md-5.mb-4(data-aos="fade")
-      li.mb-1
-        i.fas.fa-plus
-        | Ancho de la puntada (se utiliza un calibrador para facilitar el proceso).
-      li.mb-1
-        i.fas.fa-plus
-        | La planchuela de la maquina puede tener las medidas para guiarse.
-      li.mb-0
-        i.fas.fa-plus
-        | Pies de las maquinas (se miden por pulgadas y de acuerdo con el ancho de las costuras).
-    
+        
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .cajon.color-primario.bg1.p-4
@@ -519,10 +619,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3 Anexo 1. Tabla de Equivalencias
+                  h3 Anexo 1. Tabla de tallas para confeccionar ropa
                   p.text-small.mb-0 Revisa el documento para aprender más sobre tabla de equivalencias
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://capacitateparaelempleo.org/assets/dj88xla.pdf" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -539,100 +639,101 @@
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Clasificación de las medidas
 
-    .tarjeta--container.row.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg.tarjeta.color-acento-contenido.p-5
-        .row.justify-content-center.mb-4
-          .col-12
-            img(src='@/assets/curso/temas/t1/chica1.svg', alt='')   
-        h5 Contornos:
-        p Se toman alrededor de la parte a medir, cerrando el metro.
-        ul.lista-ul--color.fa-ul.color-primario.ps-2.ps-md-4.mb-0
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de cuello
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de pecho/busto
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de cintura
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de codo
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de puño  
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de brazo
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de cadera
-          li.mb-1
-            i.fas.fa-plus
-            | Contorno de rodilla
-          li.mb-0
-            i.fas.fa-plus
-            | Contorno de bota
-      .col-md-6.col-lg.tarjeta.color-secundario.p-5
-        .row.justify-content-center.mb-4
-          .col-12
-            img(src='@/assets/curso/temas/t1/chica2.svg', alt='')   
-        h5.text-white Anchos:
-        p.text-white Se toman horizontalmente y corresponden a los anchos.
-        ul.lista-ul--color.fa-ul.text-white.ps-2.ps-md-4.mb-0
-          li.mb-1
-            i.fas.fa-plus
-            | Ancho de pecho.
-          li.mb-1
-            i.fas.fa-plus
-            | Ancho de espalda.
-          li.mb-0
-            i.fas.fa-plus
-            | Separación de busto.
-      .col-md-6.col-lg.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-12
-            img(src='@/assets/curso/temas/t1/chica3.svg', alt='')   
-        h5.text-white Largos:
-        p.text-white Se toman verticalmente y corresponden a largos y talles.
-        ul.lista-ul--color.fa-ul.text-white.ps-2.ps-md-4.mb-0
-          li.mb-1
-            i.fas.fa-plus
-            | Talle frente.
-          li.mb-1
-            i.fas.fa-plus
-            | Talle atrás.
-          li.mb-1
-            i.fas.fa-plus
-            | Centro frente.
-          li.mb-1
-            i.fas.fa-plus
-            | Centro atrás.
-          li.mb-1
-            i.fas.fa-plus
-            | Costado.
-          li.mb-1
-            i.fas.fa-plus
-            | Hombro.
-          li.mb-1
-            i.fas.fa-plus
-            | Altura de busto.
-          li.mb-1
-            i.fas.fa-plus
-            | Altura de cadera.
-          li.mb-1
-            i.fas.fa-plus
-            |  Altura de tiro.
-          li.mb-1
-            i.fas.fa-plus
-            | Largo de falda.
-          li.mb-1
-            i.fas.fa-plus
-            | Largo de pantalón.
-          li.mb-0
-            i.fas.fa-plus
-            | Largo de manga.
+    .row.justify-content-center.mb-4
+      .col-lg-4.col-md-6.col-12.mb-3
+        .caj1.p-3(data-aos="fade-down")
+          img(src='@/assets/curso/temas/t1/chica1.svg', alt='')   
+          h5 Contornos:
+          p Se toman alrededor de la parte a medir, cerrando el metro.
+          .bgwh.p-3
+            ul.lista-ul--color.fa-ul
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de cuello
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de pecho/busto
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de cintura
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de codo
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de puño  
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de brazo
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de cadera
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de rodilla
+              li.mb-0
+                i.fas.fa-plus
+                | Contorno de bota
+      .col-lg-4.col-md-6.col-12.mb-3
+        .caj2.p-3(data-aos="fade-down")
+          img(src='@/assets/curso/temas/t1/chica2.svg', alt='')   
+          h5.text-white Anchos:
+          p.text-white Se toman horizontalmente y corresponden a los anchos.
+          .bgwh.p-3
+            ul.lista-ul--color.fa-ul
+              li.mb-0
+                i.fas.fa-plus
+                | Ancho de pecho.
+              li.mb-0
+                i.fas.fa-plus
+                | Ancho de espalda.
+              li.mb-0
+                i.fas.fa-plus
+                | Separación de busto.
+      .col-lg-4.col-md-6.col-12.mb-3
+        .caj3.p-3(data-aos="fade-down")
+          img(src='@/assets/curso/temas/t1/chica3.svg', alt='')   
+          h5.text-white Largos:
+          p.text-white Se toman verticalmente y corresponden a largos y talles.
+          .bgwh.p-3
+            ul.lista-ul--color.fa-ul
+              li.mb-0
+                i.fas.fa-plus
+                | Talle frente.
+              li.mb-0
+                i.fas.fa-plus
+                | Talle atrás.
+              li.mb-0
+                i.fas.fa-plus
+                | Centro frente.
+              li.mb-0
+                i.fas.fa-plus
+                | Centro atrás.
+              li.mb-0
+                i.fas.fa-plus
+                | Costado.
+              li.mb-0
+                i.fas.fa-plus
+                | Hombro.
+              li.mb-0
+                i.fas.fa-plus
+                | Altura de busto.
+              li.mb-0
+                i.fas.fa-plus
+                | Altura de cadera.
+              li.mb-0
+                i.fas.fa-plus
+                |  Altura de tiro.
+              li.mb-0
+                i.fas.fa-plus
+                | Largo de falda.
+              li.mb-0
+                i.fas.fa-plus
+                | Largo de pantalón.
+              li.mb-0
+                i.fas.fa-plus
+                | Largo de manga.
+            
     
     p.mb-5(data-aos="fade") Información de desarrollo del producto para ficha técnicas materiales, medidas, tallas, acabados, etc.
     
@@ -673,10 +774,10 @@
             p Son las medidas tomadas justas sobre el cuerpo teniendo en cuenta los puntos antropométricos y ejes de movimiento. No tienen desahogos ni flojos 
     
     h4(data-aos="fade") Medidas anatómicas estandarizadas o normalizadas
-    p.mb-4(data-aos="fade") Son el resultado de la toma de medidas directas o de estudios antropométricos. Estas medidas se toman exactas sobre la estructura, es decir no tiene aumentos ni ajustes. De la toma correcta de las medidas depende el resultado del patrón. Estas medidas son utilizadas para la construcción y elaboración de los básicos, superiores e inferiores. A continuación ver el video  "clasificación de medidas" 
+    p.mb-4(data-aos="fade") Son el resultado de la toma de medidas directas o de estudios antropométricos. Estas medidas se toman exactas sobre la estructura, es decir no tiene aumentos ni ajustes. De la toma correcta de las medidas depende el resultado del patrón. Estas medidas son utilizadas para la construcción y elaboración de los básicos, superiores e inferiores. A continuación, puede ampliar la información en el siguiente video.
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Wdc-nBbrWG0?si=pExL6WmWg8jlAo_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
 
 
@@ -686,42 +787,40 @@
     
     p.mb-4(data-aos="fade") Este proceso está definido por los siguientes conceptos:
 
-    SlyderA.t1-3.mb-4( data-aos="fade-down")
-      .row.justify-content-center
-        .col-lg-11
-          .tarjeta--container.row    
-            .col-md.tarjeta.color-primario.p-5
-              .row.justify-content-center.mb-4
-                .col-lg-4.col-md-6.col-6
-                  img(src='@/assets/curso/temas/t1/slide1-3-1.png', alt='')              
-              h4.text-center Canon
-              p.text-center Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales
-            .col-md.tarjeta.color-acento-botones.p-5
-              .row.justify-content-center.mb-4
-                .col-lg-4.col-md-6.col-6
-                  img(src='@/assets/curso/temas/t1/slide1-3-2.png', alt='')        
+    .tarjeta.tarjeta--azul.fe.p-4.mb-5
+      SlyderA.t1-3(tipo="b")
+        .row
+
+          .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mb-4
+              .col-lg-4.col-md-6.col-6
+                img.mb-3(src='@/assets/curso/temas/t1/slide1-3-1.png', alt='')              
+              h4.text-center.text-white Canon
+              p.text-center.text-white Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
+          .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mb-4
+              .col-lg-4.col-md-6.col-6
+                img.mb-3(src='@/assets/curso/temas/t1/slide1-3-2.png', alt='')        
               h4.text-center Proporción
               p.text-center Relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo, como la Secuencia Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc; y es  una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número (Tratado de las proporciones D´Vincí o el hombre de Vitrubio).
-      .row.justify-content-center
-        .col-lg-11
-          .tarjeta--container.row    
-            .col-md.tarjeta.color-primario.p-5
-              .row.justify-content-center.mb-4
-                .col-lg-4.col-md-6.col-6
-                  img(src='@/assets/curso/temas/t1/slide1-3-3.png', alt='')              
-              h4.text-center Proporciones corporales
-              p.text-center Modelo o prototipo que reúne las características que se  consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mb-4
+              .col-lg-4.col-md-6.col-6
+                  img.mb-3(src='@/assets/curso/temas/t1/slide1-3-3.png', alt='')              
+              h4.text-center.text-white  Proporciones corporales
+              p.text-center.text-white  Modelo o prototipo que reúne las características que se  consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
               ul.lista-ul--color.color-acento-botones.fa-ul
                 li
-                  i.fas.fa-plus
-                  | Griegos Policleto y Lisipo canon de 7 y 7 ½ cabezas.
+                  i.fas.fa-plus.mo
+                  p.text-white Griegos Policleto y Lisipo canon de 7 y 7 ½ cabezas.
                 li
-                  i.fas.fa-plus
-                  | Leonardo da Vinci nos muestra una proporción de 8 cabezas en su Tratado de proporciones
-            .col-md.tarjeta.color-acento-botones.p-5
-              .row.justify-content-center.mb-4
-                .col-lg-4.col-md-6.col-6
-                  img(src='@/assets/curso/temas/t1/slide1-3-4.png', alt='')        
+                  i.fas.fa-plus.mo
+                  p.text-white Leonardo da Vinci nos muestra una proporción de 8 cabezas en su Tratado de proporciones
+          .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mb-4
+              .col-lg-4.col-md-6.col-6
+                img.mb-3(src='@/assets/curso/temas/t1/slide1-3-4.png', alt='')        
               h4.text-center Medidas deducidas
               p.text-center Para calcular un cuadro de tallas completo se utiliza generalmente dos medidas anatómicas:
               ul.lista-ul--color.color-primario.fa-ul
@@ -731,7 +830,7 @@
                 li
                   i.fas.fa-plus
                   | El contorno superior más prominente.
-
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .tarjeta.color-primario.p-3
@@ -744,7 +843,7 @@
                   h3 Recurso. Análisis de tallas y medidas
                   p.text-small.mb-0 Revisa el documento para aprender más sobre análisis de tallas y medidas
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://drive.google.com/file/d/15M2rdSOnvqpt8LyylD2hWxj-Ban6K3vG/view" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -756,42 +855,48 @@
 
     p.mb-4(data-aos="fade") Expresión breve y precisa del modo de hacer, resolver o conseguir algo. Calculo estandarizado para obtener un resultado.
 
+    .row.justify-content-center  
+      .col-lg-6
+        .titulo-sexto.color-primario
+          h5 Tabla 1.  
+          | Tallas y medidas
+    
     .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-7
-        .tabla-a.sin-borde
+      .col-lg-6
+        .tabla-a.sin-borde(alt='La tabla presenta las equivalencias entre las medidas del tórax máximo y las diferentes tallas de ropa. Para el pecho, la talla se obtiene restando 2 cm al tórax máximo; para la cadera, se suma 4 cm al tórax máximo; para la cintura, se restan 14 cm de la cadera. La estatura 7a se calcula restando 20 cm de la estatura total. La talla se obtiene con 3/10 de la estatura 7aC, la cintura/suelo con 7/10 de la estatura 7aC, y el largo de brazo con 4/10 de la estatura 7aC. La estatura total se define como estatura 7aC más 20 cm. Finalmente, la base es igual al pecho más desahogo (4 cm) más costura (2 cm).')
           table
             thead
               tr
-                th.bg4 Tórax máximo
-                th.bg1 Talla
+                th.b4 Tórax máximo
+                th.b1 Talla
             tbody.text-center
               tr
-                td.bg4 Pecho
-                td.bg1 Tórax máximo - 2 cm
+                td.b4 Pecho
+                td.b1 Tórax máximo - 2 cm
               tr
-                td.bg4 Cadera
-                td.bg1 Tórax máximo + 4 cm            
+                td.b4 Cadera
+                td.b1 Tórax máximo + 4 cm            
               tr
-                td.bg4 Cintura
-                td.bg1 Cadera - 14 cm
+                td.b4 Cintura
+                td.b1 Cadera - 14 cm
               tr
-                td.bg4 Estatura 7a
-                td.bg1 Estatura total - 20 cm
+                td.b4 Estatura 7a
+                td.b1 Estatura total - 20 cm
               tr
-                td.bg4 Talle
-                td.bg1 3/10 de la estatura 7aC
+                td.b4 Talle
+                td.b1 3/10 de la estatura 7aC
               tr
-                td.bg4 Cintura/Suelo
-                td.bg1 7/10 de la estatura 7aC
+                td.b4 Cintura/Suelo
+                td.b1 7/10 de la estatura 7aC
               tr
-                td.bg4 Largo de brazo
-                td.bg1 4/10 de la estatura 7aC
+                td.b4 Largo de brazo
+                td.b1 4/10 de la estatura 7aC
               tr
-                td.bg4 Estatura total
-                td.bg1 Estatura 7aC + 20 cm
+                td.b4 Estatura total
+                td.b1 Estatura 7aC + 20 cm
               tr
-                td.bg4 Base
-                td.bg1 Pecho + desahogo (4 cm)  + costura (2 cm)
+                td.b4 Base
+                td.b1 Pecho + desahogo (4 cm) + costura (2 cm)
 
     .row.mb-4(data-aos="fade-down")
       .col-lg-12
@@ -800,16 +905,154 @@
           p.mb-0 #[b Fórmula:] 7a cervical o largo útil = largo total - 20 cm   
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
-      .col-lg-10
-        img(src="@/assets/curso/temas/t1/formulas.svg")
+      .col-lg-10.col-md-12.col-12.bg67.p-3
+        .row.mb-3
+          .col-lg-5
+            .encab.p-2.mb-3
+              h4.text-center Fórmulas de deducción horizontales
+            .row.mx-1
+              .col-lg-5
+                p.mb-0 Tórax máximo
+                p.mb-0 Tórax máximo
+                p.mb-0 Pecho
+                p.mb-0 Bajo busto
+                p.mb-0 Sep. de busto
+                p.mb-0 Cintura
+                p.mb-0 Cadera
+                p.mb-0 Cuello
+                p.mb-0 Rodilla
+                p.mb-0 Tobillo
+                p.mb-0 Brazo
+                p.mb-0 Muñeca
+                p.mb-0 Ancho Espalda
+              .col-lg-1
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+              .col-lg-6.mx-0
+                p.mb-0 Busto
+                p.mb-0 Talla +36
+                p.mb-0 Tórax máximo -2
+                p.mb-0 Busto -6
+                p.mb-0 2/5 busto
+                p.mb-0 Busto -10
+                p.mb-0 Busto +4
+                p.mb-0 1/2 busto + 12
+                p.mb-0 1/4 busto + 24
+                p.mb-0 1/8 busto + 25.5
+                p.mb-0 Busto -12
+                p.mb-0 1/4 busto + 5
+                p.mb-0 Busto -8
+  
+          .col-lg-7
+            .encab.p-2.mb-3
+              h4.text-center Fórmulas de deducción verticales
+            .row.mx-3
+              .col-lg-5
+                p.mb-0 Estatura 7aC
+                p.mb-0 Estatura total
+                p.mb-0 Altura de busto 
+                p.mb-0 Bajo busto
+                p.mb-0 Largo brazo
+                p.mb-0 Cintura/suelo
+                p.mb-0 Altura  cadera
+              .col-lg-1
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+              .col-lg-5.mx-2
+                p.mb-0 Busto + 96
+                p.mb-0 Estatura 7aC +20
+                p.mb-0 3/8 Estatura 7aC - 27
+                p.mb-0 3/8 Estatura 7aC - 18
+                p.mb-0 4/10 Estatura 7aC
+                p.mb-0 7/10 Estatura 7aC
+                p.mb-0 2/3 de tiro
+
+        .row.mb-3
+          .col-lg-5
+            .encab.p-2.mb-3
+              h4.text-center Otras fórmulas de deducción
+            .row.mx-0
+              .col-lg-5.mb-0
+                p.mb-0 Talla
+                p.mb-0 Pecho
+                p.mb-0 Cintura
+                p.mb-0 Cadera
+                p.mb-0 Cuello
+                p.mb-0 Estatura 7aC
+                p.mb-0 Talle espalda 
+              .col-lg-1
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+              .col-lg-6.mx-0
+                p.mb-0 Años
+                p.mb-0 Años + 24cm
+                p.mb-0 1/2 de años + 26
+                p.mb-0 Años + 28
+                p.mb-0 2/3 de pecho + 4cm
+                p.mb-0 Años x 5 + 65cm
+                p.mb-0 3/10 de estatura 7aC
+  
+          .col-lg-7
+            .encab.p-2.mb-3
+              h4.text-center Otras fórmulas de deducción
+            .row.mx-2
+              .col-lg-5.esa
+                p.mb-0 Estatura total
+                p.mb-0 Largo de brazo
+                p.mb-0 Codo
+                p.mb-0 Cintura al suelo
+                p.mb-0 Largo de falda larga
+                p.mb-0 Largo de falda corta
+              .col-lg-1
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+                p.mb-0 =
+              .col-lg-6.mx-2
+                p.mb-0 Estatura 7aC + 15 - 18 cm
+                p.mb-0 4/10 de estatura 7aC
+                p.mb-0 1/2 de brazo
+                p.mb-0 7/10 de estatura 7aC
+                p.mb-0 2/3 de la medida cintura al suelo -3
+                p.mb-0 1/2 de la medida cintura al suelo -3
     
+
     .bg6.mb-4.p-4.px-lg-5.mb-5(data-aos="fade-down")
       .row
-        .col-lg-5
-          h5 ¿Cómo obtener medidas deducidas?
-          p Desarrollando fórmulas.
+        .col-lg-4
+          .d-flex.justify-content-center.mb-3
+            .d-flex.flex-wrap.align-items-center.bg-img-bluess
+              h4.col.px-2.mb-0.text-white(data-aos="fade-right") ¿Cómo obtener medidas deducidas?
+          p.mb-3.mx-3 Desarrollando fórmulas.
+          img.img-a.img-t(src="@/assets/curso/temas/t1/123.svg")
         .col-lg-7
-          .tabla-a.tabla-peque.color-1
+          .titulo-sexto.color-primario.mb-3
+            h5 Tabla 2.
+            | Desarrollando formulas
+          .tabla-a.tabla-peque.color-1(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
             table.text-center
               thead
                 tr.bg12
@@ -905,39 +1148,52 @@
     
     h4(data-aos="fade") Proporciones
     p(data-aos="fade") Aumento secuencial estandarizado para el crecimiento o disminución de tallas, se encuentra identificando la diferencia en unidades de medida de talla a talla en cada línea de medida del cuerpo.
-    p.mb-0(data-aos="fade") La fórmula estandarizada para hallar la proporción es: diferencia del Contorno mayor dividido en 4, de allí se encuentran las fracciones de la proporción. Ejemplo:
-    ul.lista-ul--color.fa-ul.color-primario.ps-3.ps-md-4(data-aos="fade")
-      li.mb-1 
-        i.fas.fa-plus
-        | 1 proporción será 1 cm.
-      li.mb-1 
-        i.fas.fa-plus
-        | ½ proporción será 0,5 cm. 
-      li 
-        i.fas.fa-plus
-        | ¼ proporción será 0,25 cm 1.5 proporción será 1,5 cm.
-    p.mb-4(data-aos="fade") Permitiendo analizar el crecimiento vertical de las medidas de una talla.
-    p.mb-0(data-aos="fade") Esta información es fundamental para el escalado de tallas y ajuste de los mismos sobre medidas:
-    ul.lista-ul--color.fa-ul.color-primario.ps-3.ps-md-4(data-aos="fade")
-      li.mb-1 
-        i.fas.fa-plus
-        | Cuadros de tallas
-      li.mb-1 
-        i.fas.fa-plus
-        | Comparación de medidas
-      li.mb-1 
-        i.fas.fa-plus
-        | Incremento entre talla y talla - tomar medida por medida y revisar el incremento que hay entre talla y talla.
-      li 
-        i.fas.fa-plus
-        | Ruptura de talla - Identificar ruptura del cuadro de tallas, por medida y talla.
-    p.mb-5 En el ejemplo, la ruptura esta entre la talla 14 y 16, porque se incrementa 6cms, rompiendo con los 4cms de las demás medidas.
+    
+    p.mb-3(data-aos="fade") La fórmula estandarizada para hallar la proporción es: diferencia del Contorno mayor dividido en 4, de allí se encuentran las fracciones de la proporción. Ejemplo:
+    
+    .row.align-items-center 
+      .col-lg-9
+        .row.align-items-right 
+          .col-lg-12
+            .bg22y.p-3.mb-2
+              ul.lista-ul--color.fa-ul.color-primario(data-aos="fade")
+                li.mb-0 
+                  i.fas.fa-plus
+                  p.mb-0 1 proporción será 1 cm.
+                li.mb-0
+                  i.fas.fa-plus
+                  p.mb-0 ½ proporción será 0,5 cm. 
+                li.mb-0 
+                  i.fas.fa-plus
+                  p.mb-0 ¼ proporción será 0,25 cm 1.5 proporción será 1,5 cm.
+        p.mb-2(data-aos="fade") Permitiendo analizar el crecimiento vertical de las medidas de una talla.
+        p.mb-2(data-aos="fade") Esta información es fundamental para el escalado de tallas y ajuste de los mismos sobre medidas:
+        .row.align-items-right 
+          .col-lg-12
+            .bg22y.p-3.mb-3
+              ul.lista-ul--color.fa-ul.color-primario(data-aos="fade")
+                li.mb-0
+                  i.fas.fa-plus
+                  p.mb-0 Cuadros de tallas
+                li.mb-0 
+                  i.fas.fa-plus
+                  p.mb-0 Comparación de medidas
+                li.mb-0 
+                  i.fas.fa-plus
+                  p.mb-0 Incremento entre talla y talla - tomar medida por medida y revisar el incremento que hay entre talla y talla.
+                li.mb-0
+                  i.fas.fa-plus
+                  p.mb-0 Ruptura de talla - Identificar ruptura del cuadro de tallas, por medida y talla.
+        p.mb-4 En el ejemplo, la ruptura esta entre la talla 14 y 16, porque se incrementa 6cms, rompiendo con los 4cms de las demás medidas.
+      .col-lg-3
+        img(src='@/assets/curso/temas/t1/1234.svg', alt='')   
 
+    
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-        h3.mb-0.ms-2 Drop
+        h3.mb-0.ms-2 #[em Drop]
     p.mb-4(data-aos="fade") Palabra técnica que indica la diferencia en centímetros entre dos medidas del cuerpo que nos permiten determinar la morfología de este: 
 
     .tarjeta--container.row.mb-4(data-aos="fade-down")
@@ -945,28 +1201,28 @@
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/t1/imag25.svg', alt='')   
-        h5.text-white Drop femenino
+        h5.text-white #[em Drop] femenino
         p.text-white.mb-0 Diferencia entre cadera y contorno de Busto para la mujer.
-        p.text-whiteContorno de cadera - Contorno de busto = DROP
-        p.text-white Con el Drop se establecen las diferentes contexturas de una misma talla. En las mujeres, el Drop es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto. En las tallas femeninas predomina un Drop Positivo Generalmente una talla se considera normal cuando el Drop es positivo entre +2 cms y + 4cm. El Drop estándar Usado en Colombia es + 4cm. En las tallas extremas y altas el Drop se vuelve negativo. 
+        p.text-whiteContorno de cadera - Contorno de busto = #[em DROP]
+        p.text-white Con el #[em Drop] se establecen las diferentes contexturas de una misma talla. En las mujeres, el #[em Drop] es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto. En las tallas femeninas predomina un #[em Drop] Positivo Generalmente una talla se considera normal cuando el #[em Drop] es positivo entre +2 cms y + 4cm. El #[em Drop] estándar Usado en Colombia es + 4cm. En las tallas extremas y altas el #[em Drop] se vuelve negativo. 
         h5.text-white.mb-0 Ejemplos:
-        p.text-white.mb-0 Drop + 2 indica la medida de Cadera 2cms mayor que el Contorno de Busto.
-        p.text-white.mb-0 El Drop 0 indica que la medida de Cadera es igual a la medida de Contorno de Busto.
-        p.text-white.mb-0 El Drop - 4 indica que la medida de Cadera tiene 4 cms menos que el Contorno de Busto.         
+        p.text-white.mb-0 #[em Drop] + 2 indica la medida de Cadera 2cms mayor que el Contorno de Busto.
+        p.text-white.mb-0 El #[em Drop] 0 indica que la medida de Cadera es igual a la medida de Contorno de Busto.
+        p.text-white.mb-0 El #[em Drop] - 4 indica que la medida de Cadera tiene 4 cms menos que el Contorno de Busto.         
       .col-md.tarjeta.color-acento-botones.p-5
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/t1/imag26.svg', alt='')   
-        h5 Drop masculino
+        h5 #[em Drop] masculino
         p.mb-0 Diferencia entre la cintura y el pecho, para el hombre.
-        p Contorno de cintura - Contorno de pecho = DROP
-        p Diferencia entre la cintura y el pecho, para el hombre. Generalmente en tallas Masculinas predomina el Drop negativo, (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talle menos Drop) llegando en tallas extremas a ser positivo o sea un cuerpo con más cintura que pecho. 
+        p Contorno de cintura - Contorno de pecho = #[em DROP]
+        p Diferencia entre la cintura y el pecho, para el hombre. Generalmente en tallas Masculinas predomina el #[em Drop] negativo, (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talle menos #[em Drop]) llegando en tallas extremas a ser positivo o sea un cuerpo con más cintura que pecho. 
         h5.mb-0 Ejemplos:
-        p.mb-0 Un Drop -4 indica, una cintura con 4 pulgadas menos que la medida de pecho.
-        p.mb-0 Un Drop O indica una cintura igual al pecho.
-        p.mb-0 El Drop + 2 indica una cintura con 2 pulgadas que el pecho.
+        p.mb-0 Un #[em Drop] -4 indica, una cintura con 4 pulgadas menos que la medida de pecho.
+        p.mb-0 Un #[em Drop] O indica una cintura igual al pecho.
+        p.mb-0 El #[em Drop] + 2 indica una cintura con 2 pulgadas que el pecho.
 
-    p.mb-4(data-aos="fade") Acorde a cada tipo de silueta hay un Drop característico. 
+    p.mb-0(data-aos="fade") Acorde a cada tipo de silueta hay un #[em Drop] característico. 
 
 
     Separador
@@ -977,10 +1233,16 @@
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
-        img(src='@/assets/curso/temas/t1/caja.svg', alt='') 
+        img(src='@/assets/curso/temas/t1/caja.svg', alt='imagen expone una explicación visual del concepto de patronaje. A la izquierda, hay una figura 3D que representa un cubo en un sistema de coordenadas tridimensionales (ejes X, Y, Z). En el centro, se muestra el mismo cubo, pero con líneas punteadas para resaltar su forma tridimensional. A la derecha, se presenta el desarrollo plano (2D) del cubo, que consiste en seis cuadrados conectados que, cuando se pliegan, forman el cubo. El texto explica que el patronaje es la representación en 2D (bidimensional) de un volumen en 3D (tridimensional) mediante la elaboración de planos, moldes o patrones de prendas de vestir para el cuerpo.') 
     
     p.mb-4(data-aos="fade") El patronaje sirve para transferir la información de la estructura corporal en planos que luego se convierten en moldes
-    img.mb-5(src='@/assets/curso/temas/t1/estructura.svg', alt='' data-aos="fade-down") 
+    
+    .row.justify-content-center 
+      .col-lg-6
+        img.mb-5(src='@/assets/curso/temas/t1/estructura.svg', alt='imagen describe la relación entre la estructura del cuerpo humano, su representación en planos y los moldes utilizados en la confección de prendas. De izquierda a derecha, se observan figuras estilizadas de un hombre y una mujer etiquetadas como "Estructura". A la derecha de estas figuras, se muestra una representación en "Plano" que descompone las formas tridimensionales en una vista bidimensional. Finalmente, se ven los "Moldes", que son las plantillas específicas para cortar las telas y confeccionar las prendas de vestir, detallando las formas de las piezas necesarias para cubrir la estructura del cuerpo.' data-aos="fade-down") 
+      .col-lg-6
+        img.mb-5(src='@/assets/curso/temas/t1/estructura1.svg', alt='La imagen describe el proceso de creación de prendas de vestir a partir de la estructura del cuerpo humano. De izquierda a derecha, se ven dos figuras humanas estilizadas etiquetadas como "Figura 3D" o "Estructura". Luego, estas figuras se traducen en un "Plano 2D", que descompone la forma tridimensional en una vista bidimensional. A continuación, se muestran los "Moldes", que son las plantillas para cortar las piezas de tela necesarias. Finalmente, el proceso culmina en la "Prenda", que es el producto final confeccionado a partir de los moldes, ejemplificado con un saco. Esto ilustra cómo la representación tridimensional del cuerpo se convierte en una prenda de vestir a través de un proceso de diseño y confección.' data-aos="fade-down") 
+    
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -989,31 +1251,18 @@
     p.mb-4(data-aos="fade") Este proceso está compuesto por los siguientes pasos:
     
     AcordionA.t2-1.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-down")
-      .row.justify-content-center(titulo="Paso 1: construcción de básicos")
+      .row.justify-content-center.align-items-center(titulo="Paso 1: construcción de básicos")
         .col-md-3.col-8.mb-4.mb-md-0
           img(src='@/assets/curso/temas/t1/acordion.svg', alt='')        
         .col-md-8.mb-4.mb-md-0
           p Los básicos se dividen en dos grupos: superior (básico superior + Manga) e inferior (básico de falda (alrededor de cadera desde cintura hasta rodilla), básico de pantalón (alrededor de cadera, y la base genital, desde cintura hasta el tobillo).
           p Los básicos son moldes anatómicos del cuerpo, es decir no son una prenda, son el punto de partida para hacerla. El básico superior en metodología SENA es un solo básico superior es decir cualquier tipo de prenda superior. En otras metodologías hay varios básicos: un solo tipo de prenda, básico de blusa/camisa, básico de chaleco, básico de chaqueta, básico de abrigo, básico de vestido, entre otros. 
-          .row
-            .col-lg-7
-              .tarjeta.color-primario.p-3
-                .row.justify-content-around.align-items-center
-                  .col-3.col-sm-2.col-lg-2
-                    img(src="@/assets/curso/temas/t1/icono.svg")
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        p.mb-0 #[b Recurso.] Básicos
-                      .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                          span Descargar
-                          i.fas.fa-file-download      
+        
       .row.justify-content-center.align-items-center(titulo="Paso 2: definición del diseño")
         .col-md-8.mb-4.mb-md-0
           p Por lo general la definición del diseño no está a cargo del patronista, sin embargo, es la base para definir que se va a desarrollar, es decir, poder hacer el análisis del tipo de prenda a patronar.
         .col-md-3.col-8
-          img(src='@/assets/curso/temas/t1/acordion2.png', alt='')      
+          img(src='@/assets/curso/temas/t1/acordion2.svg', alt='')      
       .row.justify-content-center.align-items-center(titulo="Paso 3: análisis de la prenda (talla, básico, horma, material e insumos)")
         .col-md-3.col-8
           img(src='@/assets/curso/temas/t1/acordion3.png', alt='')        
@@ -1028,9 +1277,9 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        p.mb-0 #[b Recurso.] Talla - Básico - Horma - Material.
+                        p.mb-0 7 Anexo 7 PDF-Pasos Definir Patronaje
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        a.boton.color-acento-botones(href="https://www.studocu.com/co/document/servicio-nacional-de-aprendizaje/patronaje-prendas-basicas/7-anexo-7-pdf-pasos-definir-patronaje/39261850" target="_blank")
                           span Descargar
                           i.fas.fa-file-download           
       .row.justify-content-center.align-items-center(titulo="Paso 4: construcción de planos")
@@ -1038,7 +1287,7 @@
           img(src='@/assets/curso/temas/t1/acordion4.svg', alt='')        
         .col-md-7.mb-4
           p Según las características de la prenda y sus componentes los básicos deben organizarse para facilitar la comprensión de la prenda y simplificar su construcción. La recomendación de la metodología SENA es trabajar planos unidos. Estos se clasifican en:
-          ul.lista-ul--color.fa-ul.color-primario.ps-2.ps-md-4
+          ul.lista-ul--color.fa-ul.color-primario
             li.mb-1 
               i.fas.fa-plus
               | Plano separado.
@@ -1057,20 +1306,7 @@
             li 
               i.fas.fa-plus
               | Plano con unión de hombros.
-        .row.justify-content-center.mb-5
-          .col-lg-5
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-2
-                  img(src="@/assets/curso/temas/t1/icono.svg")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.mb-0 #[b Recurso.] Trazo de planos
-                    .col-sm-auto
-                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download            
+          
         .bg11.p-5.mb-5
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0
@@ -1100,43 +1336,33 @@
                       .col.mb-3.mb-sm-0
                         p.mb-0 #[b Recurso.] Desahogos
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        a.boton.color-acento-botones(href="https://www.studocu.com/co/document/sena-sofiaplus/diseno-de-modas/desahogos-de-prendas/74896400" target="_blank")
                           span Descargar
                           i.fas.fa-file-download     
       .row(titulo="Paso 5: transformación de la base o interpretación del diseño")
         .col-lg-12
-          .bg7
+          .bg7.p-3
             p.text-center.text-white.mb-0 Se desarrolla de acuerdo a los siguientes niveles:
           .tarjeta--container.row.mb-5
             .col-md.tarjeta.bg12.p-4
               .row.justify-content-center.mb-3
                 .col-12
-                  img(src='@/assets/curso/temas/t1/paso5-1.svg', alt='')
+                  h4.mb-4.text-center Básica
+                  img.img-a.img-t(src='@/assets/curso/temas/t1/paso5-1.svg', alt='')
               p.text-center.mb-0 Análisis básico de prendas de vestir, sin ningún tipo de complejidad en el desarrollo.
             .col-md.tarjeta.bg22.p-4
               .row.justify-content-center.mb-3
                 .col-12
-                  img(src='@/assets/curso/temas/t1/paso5-2.svg', alt='')
+                  h4.mb-4.text-center Intermedia
+                  img.img-a.img-t(src='@/assets/curso/temas/t1/paso5-2.svg', alt='')
               p.text-center.mb-0 Análisis intermedio de prendas de vestir, complejidad desde cortes, ajustes, complementos.
             .col-md.tarjeta.bg8.p-4
               .row.justify-content-center.mb-3
                 .col-12
-                  img(src='@/assets/curso/temas/t1/paso5-3.svg', alt='')
+                  h4.mb-4.text-center Avanzada
+                  img.img-a.img-t(src='@/assets/curso/temas/t1/paso5-3.svg', alt='')
               p.text-center.mb-0 Análisis avanzado para la construcción de prendas de vestir, traslados, volúmenes, tridimensiones.             
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-5
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-2
-                  img(src="@/assets/curso/temas/t1/icono.svg")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.mb-0 #[b Recurso.] Diferencias Básicos
-                    .col-sm-auto
-                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download 
+
         .bg11.p-4.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-10.mb-4.mb-md-0
@@ -1151,20 +1377,7 @@
                 li.mb-0
                   i.fas.fa-plus
                   | Cortando y ampliando: Se trazan los cortes y se da amplitud en el momento del despiece. La pieza se abre y se vuelve a trazar para un nuevo despiece. Trazo de planos (ejemplos visuales).
-        .row.justify-content-center.align-items-center
-          .col-lg-5
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-2
-                  img(src="@/assets/curso/temas/t1/icono.svg")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.mb-0 #[b Recurso.] Trazo de planos
-                    .col-sm-auto
-                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download 
+  
       .row(titulo="Paso 6: despieces")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-md-0
@@ -1199,7 +1412,7 @@
                 | Tipos de hilos: De acuerdo con las cualidades del textil y necesidades de aprovechamiento se elige el hilo a trabajar.
               li.mb-0 
                 i.fas.fa-plus
-                | Márgenes de costura: De acuerdo con las cualidades del textil y necesidades de aprovechamiento se elige el hilo a trabajar..bg12        
+                | Márgenes de costura: De acuerdo con las cualidades del textil y necesidades de aprovechamiento se elige el hilo a trabajar.      
         .row.mb-4
           .col-lg-6.pe-md-0
             .bg12.p-4.h-100
@@ -1259,58 +1472,46 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      p.mb-0 #[b Recurso.] Hilos de tela
+                      p.mb-0 #[b Recurso.] Hilos y tela
                     .col-sm-auto
-                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-botones(href="https://repositorio.sena.edu.co/sitios/modisteria_conocimientos_basicos/hilos_maquina/hilosytelas.html#" target="_blank")
                         span Descargar
                         i.fas.fa-file-download 
-          .col-lg-7
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-2
-                  img.px-lg-3(src="@/assets/curso/temas/t1/icono.svg")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.mb-0 #[b Recurso.] Almohada de corazón. Ref: Código 001. Diseño de corazón. 
-                    .col-sm-auto
-                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download 
+        
       .row.justify-content-center.align-items-center(titulo="Paso 7: trazo y corte")
-        .col-md-9
+        .col-md-12.col-lg-8
           p Se marcan las piezas sobre el material teniendo en cuenta las indicaciones y se procede a cortar las piezas teniendo en cuenta los márgenes de costura. De acuerdo con el tipo de material, se marca el textil o se sujetan con alfileres los patrones o transfiere la marca con la rodaja. Se corta la muestra en el textil elegido.
-        .col-md-2.col-8
+        .col-md-8.col-8.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion7.svg', alt='')        
       .row.justify-content-center.align-items-center(titulo="Paso 8: confección de muestra física")
-        .col-md-9
+        .col-md-12.col-lg-8
           p Se ensambla la muestra física o primer prototipo del diseño.
-        .col-md-2.col-8
-          img(src='@/assets/curso/temas/t1/acordion8.png', alt='')        
+        .col-md-8.col-8.col-lg-3
+          img(src='@/assets/curso/temas/t1/acordion8.svg', alt='')        
       .row.justify-content-center.align-items-center(titulo="Paso 9: verificación de muestra física")
-        .col-md-3.col-8.mb-4.mb-md-0
+        .col-md-8.col-8.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion9.svg', alt='')
-        .col-md-8
+        .col-md-12.col-lg-8
           p Se verifica que la muestra coincida con lo proyectado en el diseño inicial.      
       .row.justify-content-center.align-items-center(titulo="Paso 10: corrección y/o ajustes de la muestra física sobre el plano")
-        .col-md-8
+        .col-md-12.col-lg-8
           p Se realizan los ajustes al patrón, de acuerdo con lo verificado en la muestra física. Es posible que se requieran ajustes complejos que incluyan de pinzas, desahogos, cortes, reubicación de líneas, etc. O en otros casos pequeños ajustes para lograr el fit ideal proyectado en el diseño inicial.
-        .col-md-3.col-8
+        .col-md-8.col-8.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion10.png', alt='')      
       .row.justify-content-center.align-items-center(titulo="Paso 11: verificación del nuevo despiece")
-        .col-md-3.col-8.mb-4.mb-md-0
+        .col-md-8.col-8.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion11.png', alt='')
-        .col-md-8
+        .col-md-12.col-lg-8
           p Se realiza el nuevo despiece del diseño de acuerdo con los ajustes y correcciones.      
       .row.justify-content-center.align-items-center(titulo="Paso 12 y 13: contramuestra o prototipo final - Validación de la prenda")
-        .col-md-8
+        .col-md-12.col-lg-8
           p Se realiza este paso y los anteriores todas las veces necesarias hasta obtener el producto exacto que fue proyectado.
-        .col-md-3.col-8
+        .col-md-8.col-8.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion12.png', alt='')      
       .row.justify-content-center.align-items-center(titulo="Paso 14: industrialización del patrón")
-        .col-md-3.col-8.mb-4.mb-md-0
+        .col-md-8.col-8.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion14.png', alt='')
-        .col-md-8
+        .col-md-12.col-lg-8
           p En los procesos industrializados, es en este paso donde se proyectan las escalas de tallas y se digitalizan los patrones ya probados para su reproducción en serie.
       .row.justify-content-center.align-items-center(titulo="Paso 15: documentación técnica")
         p.text-center Información de desarrollo del producto para ficha técnicas materiales, medidas, tallas, acabados, etc.
@@ -1322,9 +1523,9 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.mb-0 #[b Recurso.] Documentación Técnica
+                    p.mb-0 Recurso. Descubre cómo crear una ficha técnica de moda sin errores en AUDACES
                   .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-acento-botones(href="https://audaces.com/es/blog/ficha-tecnica-moda" target="_blank")
                       span Descargar
                       i.fas.fa-file-download 
           
@@ -1335,31 +1536,35 @@
         h3.mb-0.ms-2 Metodología - Presentación del manual de patronaje SENA  
 
     p.mb-4(data-aos="fade") Es necesario conocer y manejar las diferentes simbologías, que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender fácilmente las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas. Otros indican de qué manera están aplomados los patrones despiezados para su corte. Es importante anotar que, en el momento de despiezar el patrón, para su identificación, cada pieza debe estar marcada así:
-    ul.lista-ul--color.fa-ul.color-primario.ps-2.ps-md-4(data-aos="fade")
-      li.mb-1 
-        i.fas.fa-plus
-        | Nombre de la pieza
-      li.mb-1 
-        i.fas.fa-plus
-        | Referencia
-      li.mb-1 
-        i.fas.fa-plus
-        | Talla
-      li.mb-1 
-        i.fas.fa-plus
-        | Nombre del patronista
-      li.mb-1 
-        i.fas.fa-plus
-        | Simbología para corte
-      li.mb-1 
-        i.fas.fa-plus
-        | Número de veces a cortar
-      li.mb-1 
-        i.fas.fa-plus
-        | Piquetes de confección
-      li 
-        i.fas.fa-plus
-        | Líneas de aplome
+    
+    .row.justify-content-center.mb-4 
+      .col-lg-8.col-md-12.col-12
+        .bggg.p-4
+          ul.lista-ul--color.fa-ul.color-primario.ps-2.ps-md-4(data-aos="fade")
+            li.mb-1 
+              i.fas.fa-plus
+              | Nombre de la pieza
+            li.mb-1 
+              i.fas.fa-plus
+              | Referencia
+            li.mb-1 
+              i.fas.fa-plus
+              | Talla
+            li.mb-1 
+              i.fas.fa-plus
+              | Nombre del patronista
+            li.mb-1 
+              i.fas.fa-plus
+              | Simbología para corte
+            li.mb-1 
+              i.fas.fa-plus
+              | Número de veces a cortar
+            li.mb-1 
+              i.fas.fa-plus
+              | Piquetes de confección
+            li 
+              i.fas.fa-plus
+              | Líneas de aplome
 
     p(data-aos="fade") Otras especificaciones: se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. en la siguiente página, encontrara claves geométricas de indispensable compresión en el trazo de patrones.
     p.mb-4(data-aos="fade") Para profundizar en esta temática realice la lectura del Manual de patronaje SENA.
@@ -1368,18 +1573,17 @@
       .col-lg-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
+            .col-3.col-sm-2.col-lg-2
+              img.img-a.img-t(src="@/assets/curso/temas/t1/pdf.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Anexo. Manual de Patronaje SENA
                   p.text-small.mb-0 Revisa el documento para aprender más sobre manual de Patronaje SENA
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.studocu.com/co/document/universidad-sergio-arboleda/confeccion/manual-de-patronaje-basico-sena/87155960" target="_blank")
                     span Descargar
-                    i.fas.fa-file-download
-
+                    i.fas.fa-file-download 
 
     Separador
     #t_1_5.titulo-segundo.color-primario(data-aos="fade-right")
@@ -1405,13 +1609,13 @@
         .tarjeta.bg10.text-white
           .p-4
             h5.text-center Medida más larga a trabajar
-            p El largo inicial del rectángulo se trabaja con la medida más larga de la parte del cuerpo a trabajar, por ejemplo en el pantalón es: largo de pantalón, en la falda: altura de rodilla, en el superior: largo de talle posterior.
+            p El largo inicial del rectángulo se trabaja con la medida más larga de la parte del cuerpo a trabajar, por ejemplo, en el pantalón es: largo de pantalón, en la falda: altura de rodilla, en el superior: largo de talle posterior.
       .tarjeta-avatar
         img(src='@/assets/curso/temas/t1/bombillo.svg' alt='')
         .tarjeta.bg10.text-white
           .p-4
             h5.text-center Medida en el trazo
-            p Las medidas que se trabajan en la metodología en algunos casos únicamente se saca del cuadro de talla, la medida de contorno y largo, no se trabajan medidas como hombro, anchos, cuello y demás. Dichas medidas salen por formula o como se trabaja en temas anteriores por medidas deducidas.
+            p Las medidas que se trabajan en la metodología en algunos casos únicamente se sacan del cuadro de talla, la medida de contorno y largo, no se trabajan medidas como hombro, anchos, cuello y demás. Dichas medidas salen por formula o como se trabaja en temas anteriores por medidas deducidas.
             p.mb-0 En infantil la medida de cuello posterior equivale a:
             p.mb-0 B/20+2.5 = B (Contorno de pecho) / 20 + 2.5
       .tarjeta-avatar
@@ -1419,7 +1623,7 @@
         .tarjeta.bg10.text-white 
           .p-4
             h5.text-center Manejo del papel
-            p Por lo general el trazo de moldes se suele hacer con papel trazo o manifold, dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante; otra que al tacto es corrugada y visualmente opaca. Por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la me
+            p Por lo general el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante; otra que al tacto es corrugada y visualmente opaca. Por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la me
       .tarjeta-avatar
         img(src='@/assets/curso/temas/t1/bombillo.svg' alt='')
         .tarjeta.bg10.text-white
@@ -1433,177 +1637,76 @@
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base superior infantil
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
+    
+    p.mb-4(data-aos="fade") Para obtener más información sobre este proceso, le recomiendo visitar el siguiente enlace de video. En él, se explica detalladamente cada etapa del diseño y confección de prendas, desde la representación tridimensional del cuerpo humano hasta la creación de los moldes y el ensamblaje final de la prenda. Este recurso proporcionará una comprensión más profunda y clara de cómo las figuras tridimensionales se transforman en prendas de vestir mediante técnicas de patronaje y costura.
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/jCQosSNNXz0?si=vtb5b0DowRYKHFEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
     
-    p.mb-4(data-aos="fade") A continuación puede consultar el patrón básico de niño paso a paso.
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Base superior infantil 
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre base superior infantil 
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base inferior falda infantil
+
     p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4CuZvqrSnJA?si=kkCWYsuMFbXC5gnh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
-    
-    p.mb-4(data-aos="fade") A continuación puede consultar el patrón de una falda paso a paso.
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Patrón falda paso a paso
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre patrón falda paso a paso
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+  
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base inferior pantalón infantil
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
-
-    figure.mb-4(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
     
-    p.mb-4(data-aos="fade") A continuación puede consultar el patrón de base de pantalón:
-
-    .row.justify-content-center.align-items-center(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Pantalón infantil
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre pantalón infantil
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+    p.mb-4(data-aos="fade") Para conocer en detalle este proceso, le recomiendo ir al siguiente video. En él, se explican paso a paso todas las fases involucradas en la creación de prendas de vestir, ayudando así a entender cómo se transforma una idea de diseño en una prenda.
+    figure.mb-0(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/LK1Q-kl812Q?si=508O73Lkpb9R5OB9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video: Leyenda del video
 
     
     Separador
     #t_1_6.titulo-segundo.color-primario(data-aos="fade-right")
       h2 1.6 Elaboración de básicos masculinos
 
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
+    p.mb-3(data-aos="fade") Este recurso le guiará a través de los pasos fundamentales del proceso, desde la creación de patrones hasta la confección final de prendas masculinas básicas. Al visitar este video, podrá apreciar las técnicas y metodologías utilizadas para diseñar y producir ropa masculina esencial, proporcionándole un conocimiento práctico y visual de cada etapa involucrada.
+    p.mb-4 Ir al sitio 
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fcUIhGv_koE?si=GsT1Iag4RiiCSC86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
     
-    p.mb-4(data-aos="fade") A continuación puede consultar la elaboración de básicos masculinos.
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Básicos masculinos
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre básicos masculinos
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base superior masculina Slim-fit
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
+
+    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visite el siguiente video:
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/rximz1xBJM8?si=X2PPtKMYtqZhI2aY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
     
-    p.mb-4(data-aos="fade") A continuación puede consultar la elaboración de básicos superiores masculinos Slim-Fit
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Básicos superiores masculinos Slim-fit
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre básicos superiores masculinos Slim-fit
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base inferior pantalón masculino
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
+    p.mb-4(data-aos="fade") Para obtener una comprensión detallada sobre la "Base inferior del pantalón masculino", diríjase al recurso que lo guiará a través de los pasos fundamentales del proceso, desde la creación del patrón base hasta la confección final del pantalón. Allí, podrás conocer las técnicas y metodologías utilizadas para diseñar y producir pantalones masculinos, proporcionándole un conocimiento práctico de cada etapa involucrada.
 
-    figure.mb-4(data-aos="fade-down")
+    figure.mb-0(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Py0Nfzckd-U?si=Vqj-50b4NAzIi-4D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
-    
-    p.mb-4(data-aos="fade") A continuación puede consultar la elaboración de base inferior de pantalón masculino:
-
-    .row.justify-content-center.align-items-center(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Base inferior pantalón masculino
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre base inferior pantalón masculino
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-
     
     Separador
     #t_1_7.titulo-segundo.color-primario(data-aos="fade-right")
@@ -1623,97 +1726,46 @@
         span.mb-0 #[b Cuadro de tallas:] en el caso de femenino, para la elaboración de los básicos se trabaja con las medidas del cuadro de tallas, es decir cada punto de referencia sobre el cuerpo es trabajado del cuadro de tallas, a diferencia de lo anterior, este desarrollo hace necesario identificar todo el listado de las medidas que se van a implementar para hacer el desarrollo.
       li 
         i.fas.fa-plus
-        span.mb-0 #[b Manejo del papel:] por lo general el trazo de moldes se suele hacer con papel trazo o manifold, dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante y otra que al tacto es corrugada y visualmente opaca, por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la mente.
+        span.mb-0 #[b Manejo del papel:] por lo general el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante y otra que al tacto es corrugada y visualmente opaca, por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la mente.
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base superior femenina
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
+
+    p.mb-4(data-aos="fade") Para conocer en detalle este proceso, le sugiero el siguiente video, en el que se explican de manera exhaustiva todas las fases involucradas en la elaboración de prendas de vestir, centrándose en la "Base superior femenina".  Allí podrá conocer una guía o paso a paso desde la creación hasta la confección final de las prendas. 
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/56vyEeZhA-I?si=RY8o3upadzRZp9ST" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
     
-    p.mb-4(data-aos="fade") A continuación puede consultar el patrón base espalda:
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Patrón base espalda
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre patrón base espalda
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base inferior falda femenina
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
+
+    p.mb-4(data-aos="fade") Este recurso le proporcionará una paso a paso y así entender mejor las técnicas y metodologías utilizadas en el diseño y producción de ropa, ofreciéndote una comprensión práctica sobre la base inferior de falda. 
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/wl5EjrLU-8Y?si=P2xvxDX76uFrXIJO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
-    
-    p.mb-4(data-aos="fade") A continuación puede consultar el patrón base de falda una pinza:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Patrón base de falda una pinza
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre patrón base de falda una pinza
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Base inferior pantalón femenino
-    p.mb-4(data-aos="fade") Para conocer acerca de este proceso visualiza el siguiente video:
 
-    figure.mb-4(data-aos="fade-down")
+    p.mb-4(data-aos="fade") Para obtener una comprensión detallada sobre la "Base inferior del pantalón femenino", diríjase al recurso que lo guiará en las técnicas y metodologías empleadas en el diseño y producción de pantalones femeninos. 
+
+    figure.mb-0(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7XPqP_3v0L0?si=Q4G_GLwitSgmK9LH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Leyenda del video
     
-    p.mb-4(data-aos="fade") A continuación puede consultar el patrón base de pantalón:
-
-    .row.justify-content-center.align-items-center(data-aos="fade-down")
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo. Patrón base de pantalón
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre patrón base de pantalón
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-
-           
-      
 </template>
 
 <script>
