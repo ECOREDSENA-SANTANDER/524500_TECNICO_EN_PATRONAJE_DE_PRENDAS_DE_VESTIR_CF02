@@ -130,12 +130,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      /*{
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },*/
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -184,9 +184,129 @@ export default {
   ],
   glosario: [
     {
+      termino: 'Aguja',
+      significado:
+        'Instrumento puntiagudo utilizado en la máquina de coser para perforar la tela y guiar el hilo.',
+    },
+    {
+      termino: 'Ajuste de tensión',
+      significado:
+        'Proceso de regulación de la tensión del hilo en la máquina de coser para asegurar puntadas uniformes.',
+    },
+    {
+      termino: 'Alimentación combinada',
+      significado:
+        'Tipo de alimentación que utiliza tanto el diente como la aguja para mover la tela en una máquina de coser.',
+    },
+    {
+      termino: 'Alimentación oscilante sencilla',
+      significado:
+        'Tipo de alimentación donde el diente realiza cuatro movimientos (subir, desplazar, descender, regresar) para mover la tela.',
+    },
+    {
+      termino: 'Básicos Masculinos y Femeninos',
+      significado:
+        'Patrones base utilizados para crear ropa para hombres y mujeres.',
+    },
+    {
+      termino: 'Cadeneta sencilla',
+      significado:
+        'Tipo de puntada que utiliza un solo hilo, formando una cadena en la parte inferior de la tela.',
+    },
+    {
+      termino: 'Caja bobina',
+      significado:
+        'Componente de la máquina de coser que contiene la bobina de hilo inferior.',
+    },
+    {
+      termino: 'Clasificación de Medidas',
+      significado:
+        'Organización y categorización de las diferentes medidas corporales utilizadas en el diseño de patrones.',
+    },
+    {
+      termino: 'Control de pedal',
+      significado:
+        'Habilidad de manejar la velocidad y el arranque/parada de la máquina de coser mediante el pedal.',
+    },
+    {
+      termino: 'Convenciones',
+      significado:
+        'Reglas y prácticas estándar que se aplican en el diseño y elaboración de patrones.',
+    },
+    {
+      termino: 'Cuadros de Tallas',
+      significado:
+        'Tablas que contienen las medidas estándar para diferentes tallas de ropa.',
+    },
+    {
+      termino: 'Doble despunte',
+      significado:
+        'Puntada formada por dos líneas paralelas de costura, común en la serie 300.',
+    },
+    {
+      termino: 'Doble transporte',
+      significado:
+        'Sistema de alimentación que utiliza tanto el pie prensatelas como los dientes inferiores para mover la tela.',
+    },
+    {
+      termino: 'Enhebrado',
+      significado:
+        'Proceso de pasar el hilo a través de las guías y el ojo de la aguja en la máquina de coser.',
+    },
+    {
       termino: 'Estándar',
       significado:
         'Que sirve de patrón, modelo o punto de referencia para medir o valorar cosas de la misma especie.',
+    },
+    {
+      termino: 'Estructura Corporal',
+      significado:
+        'Evaluación y clasificación de las características físicas del cuerpo humano.',
+    },
+    {
+      termino: 'Fileteadora',
+      significado:
+        'Máquina de coser especializada en realizar costuras de acabado en los bordes de las telas.',
+    },
+    {
+      termino: '<em>Flatseamers</em>',
+      significado:
+        'Máquina de coser de la serie 600 utilizada para hacer costuras planas.',
+    },
+    {
+      termino: 'Grosor de la aguja',
+      significado:
+        'Medida del diámetro de la aguja, generalmente indicado en Nm.',
+    },
+    {
+      termino: '<em>Looper</em>',
+      significado:
+        'Componente de la máquina de coser que forma las puntadas en las máquinas <em>overlock</em> y recubridoras.',
+    },
+    {
+      termino: 'Normatividad',
+      significado:
+        'Conjunto de reglas y estándares que se siguen al construir cuadros de tallas y patrones.',
+    },
+    {
+      termino: 'Patronaje',
+      significado:
+        'Proceso de crear patrones de costura a partir de medidas corporales y estándares predefinidos.',
+    },
+    {
+      termino: 'Pre-Patronaje',
+      significado:
+        'Etapa preliminar en el diseño de patrones, que incluye análisis y clasificación de medidas corporales.',
+    },
+    {
+      termino: 'Procedimientos',
+      significado:
+        'Pasos detallados que se siguen para desarrollar patrones de ropa.',
+    },
+    {
+      termino: 'Sistemas de Medidas',
+      significado:
+        'Conjunto de normas y estándares para tomar y aplicar medidas corporales en el diseño de ropa',
     },
     {
       termino: 'Talla',
@@ -198,7 +318,8 @@ export default {
     {
       referencia:
         'Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir, Centro de Manufactura en Textil y Cuero, Distrito Capital, 2020.',
-      link: '',
+      link:
+        'https://zajuna.sena.edu.co/pdfs/titulada/tecnico/Patronaje_Industrial_Prendas_Vestir.pdf',
     },
     {
       referencia:
@@ -215,6 +336,11 @@ export default {
         'Pulgarín, B. y Ulloa, J. (1998). La evolución de las máquinas y su aplicación en la industria de la confección Colombiana.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000009660',
+    },
+    {
+      referencia:
+        'Bonilla Giraldo, C. A. (2016). Diseño de sistema de seguridad para máquinas automáticas de aplicación de insumos de confección y marroquinería (Doctoral disertación).',
+      link: 'https://repositorio.unal.edu.co/handle/unal/59082',
     },
   ],
   creditos: [
@@ -259,13 +385,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carla Liliana Sequera Vargas',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Pedro Alonso Bolivar González',
+          cargo: 'Desarrollador <em>Fullstack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
@@ -280,11 +406,6 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
-        },
-        {
-          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
