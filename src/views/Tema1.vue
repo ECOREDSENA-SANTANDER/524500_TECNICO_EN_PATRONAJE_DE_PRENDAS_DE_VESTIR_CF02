@@ -247,13 +247,12 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-primario.p-5.mb-5(alt='La imagen presenta un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo. ')
+        .bloque-texto-g.color-primario.p-5.mb-5.p-3.p-sm-4.p-md-5(alt='La imagen presenta un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo. ')
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1/imag15.svg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-5.mt-5.my-5
             p.mb-0 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: mesoectomorfo y mesoendomorfo.
-
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -991,7 +990,7 @@
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 7/10 Estatura 7aC
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de tiro
 
-    .bg6.mb-4.p-4.px-lg-5.mb-5(data-aos="fade-down")
+    .bg66.mb-4.p-4.px-lg-5.mb-5(data-aos="fade-down")
       .row
         .col-lg-4
           .d-flex.justify-content-center.mb-5
@@ -1046,43 +1045,121 @@
       .col-lg-10
         .titulo-sexto.color-primario.mb-3
           h5 Tabla 3.
-          | Grupos de tallas.
-        .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
-          table.text-center
-            thead
-              tr.bg12
-                th.pp Medida
-                th.pp Fórmula
-                th.pp Resultado
-            tbody
-              tr.p-1
-                td Estatura total
-                td N/A
-                td 1.70 cm
-              tr.p-1
-                td Tórax máximo
-                td N/A
-                td 90 cm
-              tr.p-1
-                td Cadera
-                td Tórax máximo +8 cm
-                td 98 cm
-              tr.p-1
-                td Pecho
-                td Tórax máximo -4 cm
-                td 86 cm
-              tr.p-1
-                td Cintura
-                td Cadera -28 cm
-                td 70 cm
-              tr.p-1
-                td Estatura 7a cervical útil
-                td Altura total -20 cm
-                td 1.50 cm
-              tr.p-1
-                td Largo de brazo
-                td 4/10 de estatura 7aC
-                td 60 cm
+          | Grupos de tallas
+        .row.justify-content-center
+          .col-lg-12.col-md-12
+            .tabla-c.tabla-peque.tt(alt='La tabla expone las medidas correspondientes a diferentes tallas de ropa, desde XS/30-6 hasta SL/42-16, con incrementos de 2 cm entre cada talla. Las medidas incluyen tórax máximo, cadera, pecho, cintura, estatura total, estatura 7a, talle, largo de brazo, cuello, cintura/suelo y base. Por ejemplo, para la talla XS/30-6, el tórax máximo es de 40 cm y la estatura total es de 166 cm, mientras que para la talla SL/42-16, el tórax máximo es de 50 cm y la estatura total es de 174 cm. Las demás medidas se incrementan de manera proporcional con cada talla.')
+              table.text-center
+                thead
+                  tr.bl
+                    th.h4 #[b Talla]
+                    th.h4 #[b XS/30 - 6]
+                    th.h4 #[b S/32 - 8]
+                    th.h4 #[b M/34 - 10]
+                    th.h4 #[b L/38 - 12]
+                    th.h4 #[b XL/40 - 14]
+                    th.h4 #[b SL/42 - 16]
+                    th.h4 #[b INCRE]
+                tbody
+                  tr.p-1
+                    td.text-center.bla Tórax máximo
+                    td.text-center.bla 40
+                    td.text-center.bla 42
+                    td.text-center.bla 44
+                    td.text-center.bla 46
+                    td.text-center.bla 48
+                    td.text-center.bla 50
+                    td.text-center.bla 2
+                  tr.p-1
+                    td.text-center.ba Cadera
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                  tr.p-1
+                    td.text-center.bla Pecho
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                  tr.p-1
+                    td.text-center.ba Cintura
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba
+                  tr.p-1
+                    td.text-center.bla Estatura total
+                    td.text-center.bla 166
+                    td.text-center.bla 168
+                    td.text-center.bla 170
+                    td.text-center.bla 172
+                    td.text-center.bla 174
+                    td.text-center.bla 174
+                    td.text-center.bla 2
+                  tr.p-1
+                    td.text-center.ba Estatura 7a
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba
+                  tr.p-1
+                    td.text-center.bla Talle
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla
+                  tr.p-1
+                    td.text-center.ba Largo de brazo
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba
+                  tr.p-1
+                    td.text-center.bla Cuello
+                    td.text-center.bla
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla
+                  tr.p-1
+                    td.text-center.ba Cintura/Suelo
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba 
+                    td.text-center.ba
+                  tr.p-1
+                    td.text-center.bla Base
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla 
+                    td.text-center.bla
     
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12.col-12
@@ -1111,35 +1188,68 @@
               p.mb-0 =&nbsp; 7/10 de estatura 7aC
               p.mb-0 =&nbsp; Pecho + desahogo + costura (desahogo 4 cm / costura 2 cm)
           
-    .row.fondoo.align-items-center.py-md-5.mb-5
+    .row.fondoo.align-items-center.py-md-0.mb-5
       .col-lg-12.col-12.px-lg-5
         .row.justify-content-center(data-aos="fade-down")
         
-        .row.justify-content-center 
-          .col-lg-8.col-12.col-md-12
-            .titulo-sexto.color-primario.mb-3
-              h5 Tabla 3.
-              | Grupos de tallas.
-            .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
-              table.text-center
-                thead
-                  tr.bg12
-                    th.pp Medida
-                    th.pp Fórmula
-                    th.pp Resultado
-                tbody
-                  tr.p-1
-                    td Estatura total
-                    td N/A
-                    td 1.70 cm
-                  tr.p-1
-                    td Tórax máximo
-                    td N/A
-                    td 90 cm
-                  tr.p-1
-                    td Cadera
-                    td Tórax máximo +8 cm
-                    td 98 cm
+          .row.justify-content-center
+            .col-lg-10.col-12.col-md-12
+              .titulo-sexto.color-primario.mt-4
+                h5 Tabla 4.
+                | Construcción talla 6
+              .tabla-c.tabla-peque.tt(alt='La tabla detalla los cálculos específicos para las medidas de la talla 6 y la talla XS/30-6. Ambas tallas tienen un tórax máximo de 40 cm y una estatura total de 166 cm. La cadera se calcula sumando 4 cm al tórax máximo, resultando en 44 cm. El pecho se obtiene restando 2 cm al tórax máximo, dando 38 cm. La cintura se determina restando 14 cm de la medida de la cadera, resultando en 30 cm. La estatura 7a se calcula restando 20 cm de la estatura total, resultando en 146 cm. Para la talla 6, el talle se calcula como 3/10 de 144 cm, dando 43.8 cm, y el largo de brazo es 4/10 de 144 cm, resultando en 58.4 cm. El cuello se calcula dividiendo 40 cm entre 3 más 13.3, dando 26.6 cm. La cintura/suelo se calcula como 7/10 de 144 cm, resultando en 102.2 cm. Finalmente, la base se calcula sumando 4 cm de desahogo y 2 cm de costura al pecho, resultando en 44 cm.')
+                table.text-center
+                  thead
+                    tr.bl33
+                      th.h4.text-white #[b Talla]
+                      th.h4.text-white #[b 6]
+                      th.h4.text-white #[b XS/30 - 6]
+                  tbody
+                    tr.p-1
+                      td.text-center.blat Tórax máximo
+                      td.text-center.blat 40
+                      td.text-center.blat 40
+                    tr.p-1
+                      td.text-center.ba Cadera
+                      td.text-center.ba 40 + 4 = 44
+                      td.text-center.ba 44
+                    tr.p-1
+                      td.text-center.blat Pecho
+                      td.text-center.blat 40 - 2 = 38
+                      td.text-center.blat 38
+                    tr.p-1
+                      td.text-center.ba Cintura
+                      td.text-center.ba 44 - 14 = 32
+                      td.text-center.ba 30
+                    tr.p-1
+                      td.text-center.blat Estatura total
+                      td.text-center.blat 166
+                      td.text-center.blat 166
+                    tr.p-1
+                      td.text-center.ba Estatura 7a
+                      td.text-center.ba 164 - 20 = 146
+                      td.text-center.ba 146
+                    tr.p-1
+                      td.text-center.blat Talle
+                      td.text-center.blat 144/10 = 14,6 * 3 = 43,8
+                      td.text-center.blat 0
+                    tr.p-1
+                      td.text-center.ba Largo de brazo
+                      td.text-center.ba 144/10 = 14,6 * 4 = 58,4
+                      td.text-center.ba 0
+                    tr.p-1
+                      td.text-center.blat Cuello
+                      td.text-center.blat 40/3 = 13,3 * 2 = 26,6
+                      td.text-center.blat 26,6
+                    tr.p-1
+                      td.text-center.ba Cintura/Suelo
+                      td.text-center.ba 144/10 = 14,6 * 7 = 102,2
+                      td.text-center.ba 0
+                    tr.p-1
+                      td.text-center.blat Base
+                      td.text-center.blat 38 + 4 + 2 = 44
+                      td.text-center.blat 44
+
         
 
     .row.mb-5(data-aos="fade-down")
