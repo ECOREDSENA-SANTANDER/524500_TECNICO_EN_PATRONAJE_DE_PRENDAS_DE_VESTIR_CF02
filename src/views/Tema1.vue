@@ -15,7 +15,7 @@
           ImagenInfografica.color-primario.mb-5(data-aos="fade-down")
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/t1/imag01.svg', alt='La imagen presenta la división del cuerpo humano en dos regiones principales, utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
+                img(src='@/assets/curso/temas/t1/imag01.svg', alt='La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
 
             .tarjeta.bg13.p-3(x="5.5%" y="9%" numero="+")
               p.mb-0 Las prendas superiores incluyen una variedad de artículos esenciales en el vestuario diario, como camisetas, blusas, chaquetas, sudaderas, tops, chalecos, etc. Estas prendas varían en estilo, material y diseño, adaptándose a diversas ocasiones y preferencias personales.
@@ -164,7 +164,7 @@
           h4.mb-4.mt-4 Planos y ejes anatómicos
           p.mb-4 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
       .col-lg-2.col-md-12
-        img(src='@/assets/curso/temas/t1/imag02.svg', alt='La imagen presenta un esquema anatómico del cuerpo humano con las direcciones y planos anatómicos principales. Se señalan tres planos: el plano sagital (que divide el cuerpo en izquierda y derecha), el plano frontal (que divide el cuerpo en anterior y posterior), y el plano transversal (que divide el cuerpo en superior e inferior). Además, se indican varias direcciones anatómicas, como craneal (hacia la cabeza), caudal (hacia los pies), dorsal (hacia la espalda), ventral (hacia el frente), proximal (cercano al punto de origen), distal (lejano al punto de origen), medial (hacia el centro del cuerpo), lateral (alejado del centro del cuerpo), entre otras. Estas referencias son fundamentales para describir la ubicación de estructuras y movimientos del cuerpo humano en medicina y anatomía.')
+        img(src='@/assets/curso/temas/t1/imag02.svg', alt='En la imagen se comparte un esquema anatómico del cuerpo humano con las direcciones y planos anatómicos principales. Se señalan tres planos: el plano sagital (que divide el cuerpo en izquierda y derecha), el plano frontal (que divide el cuerpo en anterior y posterior), y el plano transversal (que divide el cuerpo en superior e inferior). Además, se indican varias direcciones anatómicas, como craneal (hacia la cabeza), caudal (hacia los pies), dorsal (hacia la espalda), ventral (hacia el frente), proximal (cercano al punto de origen), distal (lejano al punto de origen), medial (hacia el centro del cuerpo), lateral (alejado del centro del cuerpo), entre otras. Estas referencias son fundamentales para describir la ubicación de estructuras y movimientos del cuerpo humano en medicina y anatomía.')
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -175,15 +175,15 @@
 
     .row.align-items-end.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-4.col-md-6
-        img.mb-4(src='@/assets/curso/temas/t1/imag03.svg' alt='La imagen presenta tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana.')
+        img.mb-4(src='@/assets/curso/temas/t1/imag03.svg' alt='La imagen integra tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana. ')
         h5 Plano frontal (coronal)
         p Divide a nuestro cuerpo en la parte de mitad delantero posterior.
       .col-lg-4.col-md-6
-        img.mb-4(src='@/assets/curso/temas/t1/imag04.svg' alt='La imagen presenta tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana.')
+        img.mb-4(src='@/assets/curso/temas/t1/imag04.svg' alt='La imagen integra tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana. ')
         h5 Plano frontal (coronal)
         p Divide a nuestro cuerpo en la parte de mitad delantero posterior.
       .col-lg-4.col-md-6
-        img.mb-4(src='@/assets/curso/temas/t1/imag05.svg' alt='La imagen presenta tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana.')
+        img.mb-4(src='@/assets/curso/temas/t1/imag05.svg' alt='La imagen integra tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana. ')
         h5 Plano frontal (coronal)
         p Divide a nuestro cuerpo en la parte de mitad delantero posterior.
     
@@ -196,10 +196,10 @@
           h4 Antropometría
           p Estudio de las proporciones y las medidas del cuerpo humano.
         .col-md-5.mb-4.mb-md-0
-          img(src='@/assets/curso/temas/t1/imag08.svg', alt='La imagen presenta diagramas anatómicos de las proporciones corporales de una mujer, un hombre y un niño, cada uno con medidas específicas. Los diagramas incluyen dimensiones como la altura total, el largo de los brazos, el ancho de los hombros, la longitud de las piernas y otras medidas clave del cuerpo. Estos diagramas son utilizados para entender y comparar las proporciones anatómicas entre diferentes edades y géneros, lo cual es útil en campos como la ergonomía, la medicina y el diseño de ropa.')
+          img(src='@/assets/curso/temas/t1/imag08.svg', alt='Es una imagen con los diagramas anatómicos de las proporciones corporales de una mujer, un hombre y un niño, cada uno con medidas específicas. Los diagramas incluyen dimensiones como la altura total, el largo de los brazos, el ancho de los hombros, la longitud de las piernas y otras medidas clave del cuerpo. Estos diagramas son utilizados para entender y comparar las proporciones anatómicas entre diferentes edades y géneros, lo cual es útil en campos como la ergonomía, la medicina y el diseño de ropa. ')
       .row.align-items-center.justify-content-around 
         .col-md-5.mb-4.mb-md-0
-          img(src='@/assets/curso/temas/t1/imag09.svg', alt='La imagen presenta cuatro tipos de movimientos del cuerpo humano, cada uno con su ángulo específico: inclinación lateral (25°), rotación (35°), flexión (75°) e hiperextensión (30°). Estos diagramas ilustran los rangos de movimiento y la flexibilidad del cuerpo, siendo útiles para estudios en anatomía y ergonomía.')
+          img(src='@/assets/curso/temas/t1/imag09.svg', alt='En la imagen hay cuatro tipos de movimientos del cuerpo humano, cada uno con su ángulo específico: inclinación lateral (25°), rotación (35°), flexión (75°) e hiperextensión (30°). Estos diagramas ilustran los rangos de movimiento y la flexibilidad del cuerpo, siendo útiles para estudios en anatomía y ergonomía. ')
         .col-md-6
           h4.text-left Ergonomía
           p.text-left Es el estudio de las condiciones de adaptación de un lugar de trabajo, una máquina, un vehículo, una prenda y cualquier otro producto de uso humano, a las características físicas del trabajador o el usuario.
@@ -208,7 +208,7 @@
           h4 Biomecánica
           p Es un área de conocimiento que estudia la actividad física de nuestro cuerpo en circunstancias y condiciones diferentes; analiza las consecuencias mecánicas que se derivan de esas actividades en nuestra vida cotidiana, en el trabajo, haciendo deporte, etc.
         .col-md-7
-          img(src='@/assets/curso/temas/t1/imag10.png', alt='La imagen presenta una serie de diagramas que ilustran diversos movimientos y posiciones articulares del cuerpo humano. Incluye movimientos como flexión, extensión, abducción, aducción, rotación interna y externa, y movimientos específicos de la cabeza, tronco y extremidades. Cada diagrama destaca las articulaciones involucradas con líneas y puntos rojos para facilitar la visualización de los rangos de movimiento. Esta representación es útil para entender la movilidad y funcionalidad de las diferentes partes del cuerpo en el ámbito de la anatomía, fisioterapia y medicina deportiva.')
+          img(src='@/assets/curso/temas/t1/imag10.png', alt='En la imagen se comparte una serie de diagramas que ilustran diversos movimientos y posiciones articulares del cuerpo humano. Incluye movimientos como flexión, extensión, abducción, aducción, rotación interna y externa, y movimientos específicos de la cabeza, tronco y extremidades. Cada diagrama destaca las articulaciones involucradas con líneas y puntos rojos para facilitar la visualización de los rangos de movimiento. Esta representación es útil para entender la movilidad y funcionalidad de las diferentes partes del cuerpo en el ámbito de la anatomía, fisioterapia y medicina deportiva.')
         
 
     .subt.mb-4(data-aos="fade-right")
@@ -244,28 +244,10 @@
               p Se distingue por tener un cuerpo grande de huesos gruesos, con mucha grasa y con gran facilidad para obtener más de ésta. 
               p Complexión blanda y redonda, suele ser bajo y fornido, gana músculo fácilmente,  engorda fácilmente, le cuesta perder grasa, metabolismo lento y hombros anchos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/tarj-slide3.svg')})`}")
-    
-
-    .row.justify-content-center 
-      .col-lg-10.col-md-12.col-12
-        .bg5.mb-5.p-4(data-aos="fade-down") 
-          .row.align-items-center
-            .col-lg-6.col-md-12.col-12
-              .bg1v.p-4
-                p.mb-0 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: mesoectomorfo y mesoendomorfo.
-            .col-lg-6.col-md-7.ps-lg-0
-              .bgw
-                .row.justify-content-end
-                  .col-lg-2
-                    p.mb-0
-                  .col-lg-7
-                    img(src='@/assets/curso/temas/t1/imag15.svg', alt='La imagen presenta un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo.')
-                  .col-lg-1
-                    p.mb-0
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-primario.p-5.mb-5(alt='La imagen presenta un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo. ')
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1/imag15.svg')})`}"
           )
@@ -283,7 +265,7 @@
     .row.fondo-t1.align-items-center.py-4.mb-5(data-aos="fade")
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center
-          .col-lg-7
+          .col-lg-8
             img(src='@/assets/curso/temas/t1/imag16.svg', alt='La imagen presenta diferentes tipologías corporales en forma de siluetas, clasificadas según sus características físicas generales de contorno y forma corporal. Las tipologías incluyen: reloj de arena/trapecio, triángulo, triángulo invertido, rectángulo y óvalo. Cada figura humana ilustra una de estas formas corporales, destacando las variaciones en proporciones y distribución de volumen. Esta clasificación es útil para entender la morfología de superficie y puede ser aplicada en áreas como la moda, el diseño de ropa y la ergonomía.')
 
     .d-flex.justify-content-center
@@ -745,13 +727,12 @@
               li.mb-0
                 i.fas.fa-plus
                 | Separación de busto.
-    p.mb-5(data-aos="fade") Información de desarrollo del producto para ficha técnicas materiales, medidas, tallas, acabados, etc.
     
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-        h3.mb-0.ms-2 Tipos de medida
+        h3.mb-0.ms-2 Tipos de medidas
     
     TabsC.color-primario.mb-5(data-aos="fade-down")
       .py-4.py-md-5.p-4.bg9(titulo="Sobre medidas")
@@ -762,33 +743,37 @@
           .col-md-4.col-lg-3
             img(src='@/assets/curso/temas/t1/figuras1.svg', alt='')
       .py-4.py-md-5.p-4.bg9(titulo="Deducidas")
-        .row.justify-content-around
+        .row.justify-content-around.align-items-center
           .col-md-3.col-lg-2.mb-4.mb-md-0
-            img(src='@/assets/curso/temas/t1/figuras2.svg', alt='')
+            img(src='@/assets/curso/temas/t1/nuev.png', alt='')
           .col-md-9
             p Se deducen o se sacan de otra medida, aplicando fórmulas ya estudiadas y comprobadas con anterioridad. Se basan esencialmente en una medida horizontal, que se toma al contorno del cuerpo más prominente y en una medida vertical que es tomada a lo largo del cuerpo de arriba hacia abajo. Con estas medidas se deducen las otras, por eso se toman exactas y no deben mezclarse con otras medidas al construir el cuadro de tallas.
-      .py-4.py-md-5.p-4.bg9(titulo="Estandarizadas o normalizadas")
+      .py-4.py-md-5.p-4.bg9(titulo="Estandarizadas")
         .row.justify-content-around
           .col-md-8
-            p Son el resultado de estudios antropométricos, que establecen un rango de medidas que corresponden a las principales medidas corporales – tallas. Estas medidas son definidas y adoptada por norma. 
+            p #[b Medidas estandarizadas o normalizadas:] son el resultado de estudios antropométricos, que establecen un rango de medidas que corresponden a las principales medidas corporales – tallas. Estas medidas son definidas y adoptada por norma. 
           .col-md-4.col-lg-3
             img(src='@/assets/curso/temas/t1/figuras3.svg', alt='')
+      .py-4.py-md-5.p-4.bg9(titulo="Anatómicas")
+        .row.justify-content-around
+          .col-md-4.col-lg-2
+            img(src='@/assets/curso/temas/t1/file.svg', alt='')
+          .col-md-9
+            p.my-4 Son las medidas tomadas justas sobre el cuerpo teniendo en cuenta los puntos antropométricos y ejes de movimiento. #[b No tienen desahogos ni flojos.]
       .py-4.py-md-5.p-4.bg9(titulo="Medidas de prenda")
         .row.justify-content-around
           .col-lg-2.col-md-3.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t1/figuras4.svg', alt='')
           .col-md-9
-            h5.mb-2 Medidas de prenda
             p.mb-4 Estas incluyen medidas de holgura, teniendo en cuenta el uso de la prenda. Por lo general se construyen cuadros de tallas de prendas que ya tienen incluidos esos centímetros de más en las diferentes medidas.
-            h5.mb-2 Medidas anatómicas
-            p Son las medidas tomadas justas sobre el cuerpo teniendo en cuenta los puntos antropométricos y ejes de movimiento. No tienen desahogos ni flojos 
-    
+            
+
     h4(data-aos="fade") Medidas anatómicas, estandarizadas o normalizadas
     p.mb-4(data-aos="fade") Son el resultado de la toma de medidas directas o de estudios antropométricos. Estas medidas se toman exactas sobre la estructura, es decir no tiene aumentos ni ajustes. De la toma correcta de las medidas depende el resultado del patrón. Estas medidas son utilizadas para la construcción y elaboración de los básicos, superiores e inferiores. A continuación, puede ampliar la información en el siguiente video.
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Wdc-nBbrWG0?si=pExL6WmWg8jlAo_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/42izGHE9H_o?si=MeJv0D5X3UcBc3yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video: Toma de medidas sobre el cuerpo: Estructura Corporal
 
 
     Separador
@@ -802,20 +787,21 @@
         .row
 
           .col-md-6.mb-4.mb-md-0
-            .row.justify-content-center.mb-4
+            .row.justify-content-center.mb-2
               .col-lg-4.col-md-6.col-6
                 img.mb-3(src='@/assets/curso/temas/t1/slide1-3-1.png', alt='')              
               h4.text-center.text-white Canon
               p.text-center.text-white Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
           .col-md-6.mb-4.mb-md-0
-            .row.justify-content-center.mb-4
+            .row.justify-content-center.mb-2
               .col-lg-4.col-md-6.col-6
                 img.mb-3(src='@/assets/curso/temas/t1/slide1-3-2.png', alt='')        
               h4.text-center Proporción
-              p.text-center Relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo, como la Secuencia Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc; y es  una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número (Tratado de las proporciones D´Vincí o el hombre de Vitrubio).
+              p.text-center Relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo.
+              p.text-center Secuencia Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. Es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número Tratado de las proporciones Da Vincí o el hombre de Vitrubio, analiza en un mapa de simetría del cuerpo determinando el estándar de 8 cabezas como canon de belleza.
         .row
           .col-md-6.mb-4.mb-md-0
-            .row.justify-content-center.mb-4
+            .row.justify-content-center.mb-2
               .col-lg-4.col-md-6.col-6
                   img.mb-3(src='@/assets/curso/temas/t1/slide1-3-3.png', alt='')              
               h4.text-center.text-white  Proporciones corporales
@@ -828,7 +814,7 @@
                   i.fas.fa-plus.mo
                   p.text-white Leonardo da Vinci nos presenta una proporción de 8 cabezas en su Tratado de proporciones.
           .col-md-6.mb-4.mb-md-0
-            .row.justify-content-center.mb-4
+            .row.justify-content-center.mb-2
               .col-lg-4.col-md-6.col-6
                 img.mb-3(src='@/assets/curso/temas/t1/slide1-3-4.png', alt='')        
               h4.text-center Medidas deducidas
@@ -952,6 +938,40 @@
   
           .col-lg-7.col-md-12.col-12
             .encab.p-2.mb-3
+              h4.text-center Otras fórmulas de deducción
+            .row.mb-4
+              .col-lg-4.col-md-5.col-5.mx-0
+                p.mb-0 Talla
+                p.mb-0 Pecho 
+                p.mb-0 Cintura
+                p.mb-0 Cadera
+                p.mb-0 Cuello
+                p.mb-0 Estatura 7a
+                p.mb-0 Talle espalda
+                p.mb-0 Estatura total
+                p.mb-0 Largo de brazo
+                p.mb-0 Codo
+                p.mb-0 Cintura al suelo
+                p.mb-0 Largo de falda larga
+                p.mb-0 Largo de falda corta
+              .col-lg-7.col-md-5.col-7
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 24cm
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/2 de años + 26
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 28
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de pecho + 4cm
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años x 5 + 65cm
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 3/10 de estatura 7aC
+                p.mb-0 =&nbsp;&nbsp; Estatura 7aC + 15-18 cm.
+                p.mb-0 &nbsp;&nbsp;Corresponden a él canon del niño o medida de cabeza
+                p.mb-0 =&nbsp;&nbsp; 4/10 de estatura 7aC
+                p.mb-0 =&nbsp;&nbsp; 1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5cms para todas las tallas).
+                p.mb-0 =&nbsp;&nbsp; 7/10 de estatura 7aC
+                p.mb-0 =&nbsp;&nbsp; 2/3 de la medida cintura al suelo -3
+                p.mb-0 =&nbsp;&nbsp; 1/2 de la medida cintura al suelo -3
+        .row.mb-3
+          .col-lg-5.col-md-12.col-12
+            .encab.p-2.mb-3
               h4.text-center Fórmulas de deducción verticales
             .row.mb-4
               .col-lg-4.col-md-5.col-5.mx-0
@@ -970,48 +990,6 @@
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 4/10 Estatura 7aC
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 7/10 Estatura 7aC
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de tiro
-
-        .row.mb-3
-          .col-lg-5.col-md-12.col-12
-            .encab.p-2.mb-3
-              h4.text-center Otras fórmulas de deducción
-            .row.mb-4
-              .col-lg-4.col-md-5.col-5.mx-0
-                p.mb-0 Talla
-                p.mb-0 Pecho 
-                p.mb-0 Cintura
-                p.mb-0 Cadera
-                p.mb-0 Cuello
-                p.mb-0 Estatura 7a
-                p.mb-0 Talle espalda
-              .col-lg-7.col-md-5.col-7
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 24cm
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/2 de años + 26
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 28
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de pecho + 4cm
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años x 5 + 65cm
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 3/10 de estatura 7aC
-  
-          .col-lg-7.col-md-12.col-12
-            .encab.p-2.mb-3
-              h4.text-center Otras fórmulas de deducción
-            .row
-              .col-lg-4.col-md-5.col-5.mx-0
-                p.mb-0 Estatura total
-                p.mb-0 Largo de brazo
-                p.mb-0 Codo
-                p.mb-0 Cintura al suelo
-                p.mb-0 Largo de falda larga
-                p.mb-0 Largo de falda corta
-              .col-lg-7.col-md-6.col-7
-                p.mb-0 =&nbsp;&nbsp; Estatura 7aC + 15-18 cm
-                p.mb-0 =&nbsp;&nbsp; 4/10 de estatura 7aC
-                p.mb-0 =&nbsp;&nbsp; 1/2 de brazo
-                p.mb-0 =&nbsp;&nbsp; 7/10 de estatura 7aC
-                p.mb-0 =&nbsp;&nbsp; 2/3 de la medida cintura al suelo -3
-                p.mb-0 =&nbsp;&nbsp; 1/2 de la medida cintura al suelo -3
-    
 
     .bg6.mb-4.p-4.px-lg-5.mb-5(data-aos="fade-down")
       .row
@@ -1174,13 +1152,11 @@
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Cuadros de tallas
-    p.mb-4(data-aos="fade") Expresión breve y precisa del modo de hacer, resolver o conseguir algo. Calculo estandarizado para obtener un resultado.
-    
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .tarjeta.bg6.p-4
-          ul.lista-ul--color.color-primario.fa-ul.mb-5
+          ul.lista-ul--color.color-primario.fa-ul.mb-4
             li.mb-1 
               i.fas.fa-plus
               | Anatómicos y deducidos: de acuerdo con la obtención de medidas.
@@ -1196,11 +1172,10 @@
             li.mb-1 
               i.fas.fa-plus
               | Según prenda: que incluyen en algunos casos desahogos y costuras.
-            li 
-              i.fas.fa-plus
-              | Normatividad: que incluyen en algunos casos desahogos y costuras.          
+
+          h5 Normatividad        
           h5 Ejemplos:
-          ul.lista-ul--color.color-primario.fa-ul.mb-5
+          ul.lista-ul--color.color-primario.fa-ul.mb-4
             li.mb-1 
               i.fas.fa-plus
               | ANTC-ISO 8559. Fabricación de Vestuario y Estudios Antropométricos. Dimensiones Corporales - Icontec.
@@ -1352,7 +1327,7 @@
                           i.fas.fa-file-download           
       .row.justify-content-center.align-items-center(titulo="Paso 4: construcción de planos")
         .col-md-4.mb-4
-          img(src='@/assets/curso/temas/t1/acordion4.svg', alt='')        
+          img(src='@/assets/curso/temas/t1/acordion4.svg', alt='La imagen expone tres figuras humanas que representan los planos anatómicos del cuerpo. A la izquierda, el "Plano Frontal" divide el cuerpo en partes anterior y posterior. En el centro, el "Plano Sagital" (marcado como "Plano") divide el cuerpo en mitades derecha ("Der.") e izquierda ("Izq."). A la derecha, el "Plano Transversal" divide el cuerpo en partes superior ("Superior") e inferior ("Inferior"). Estos planos son fundamentales en la anatomía para describir ubicaciones y movimientos en el cuerpo humano.')        
         .col-md-7.mb-4
           p Según las características de la prenda y sus componentes los básicos deben organizarse para facilitar la comprensión de la prenda y simplificar su construcción. La recomendación de la metodología SENA es trabajar planos unidos. Estos se clasifican en:
           ul.lista-ul--color.fa-ul.color-primario
@@ -1631,8 +1606,7 @@
               i.fas.fa-plus
               | Líneas de aplome.
 
-    p(data-aos="fade") Otras especificaciones: se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. en la siguiente página, encontrara claves geométricas de indispensable compresión en el trazo de patrones.
-    p.mb-4(data-aos="fade") Para profundizar en esta temática realice la lectura del Manual de patronaje SENA.
+    p.mb-4(data-aos="fade") Se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. 
     
     .row.justify-content-center.align-items-center(data-aos="fade-down")
       .col-lg-10
@@ -1707,7 +1681,7 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/jCQosSNNXz0?si=vtb5b0DowRYKHFEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/IFVssuNFdEc?si=MgHVXn5kD1c3_Nxh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Base superior infantil
     
     
@@ -1720,8 +1694,8 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/4CuZvqrSnJA?si=kkCWYsuMFbXC5gnh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video: Base de falda infantil
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/otIp33OfC-4?si=aC3vZW-fwJVVk-p6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video: Base inferior falda infantil
   
     
     .subt.mb-4(data-aos="fade-right")
@@ -1732,8 +1706,8 @@
     p.mb-4(data-aos="fade") Para conocer en detalle este proceso, le recomiendo ir al siguiente video. En él, se explican paso a paso todas las fases involucradas en la creación de prendas de vestir, ayudando así a entender cómo se transforma una idea de diseño en una prenda.
     figure.mb-0(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/LK1Q-kl812Q?si=508O73Lkpb9R5OB9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video: Basico de pantalón infantil
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WGSVbqigNXo?si=VfG0Q2R66lWAv-fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video: Base básico de pantalón infantil
 
     
     Separador
@@ -1745,7 +1719,7 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/fcUIhGv_koE?si=GsT1Iag4RiiCSC86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/BlBjJsMQYEQ?si=vKckYf8LkpncqlMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Elaboración de básicos masculinos
     
     
@@ -1758,7 +1732,7 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/rximz1xBJM8?si=X2PPtKMYtqZhI2aY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lLLtWBVK-zA?si=02jQuPD-phNezbkT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Base superior masculina #[em Slim-fit]
     
     
@@ -1770,7 +1744,7 @@
 
     figure.mb-0(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Py0Nfzckd-U?si=Vqj-50b4NAzIi-4D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/kUN0Zv0mpUA?si=ydL_V5uFEyNUBu1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Base inferior pantalón masculino
     
     Separador
@@ -1802,7 +1776,7 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/56vyEeZhA-I?si=RY8o3upadzRZp9ST" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/INiV3UH7uN8?si=K1Bzoc9cPODRkr6B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Base superior femenino
     
     
@@ -1815,8 +1789,8 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/wl5EjrLU-8Y?si=P2xvxDX76uFrXIJO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video: Base inferior falda femenina
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WKzG-VWf6oo?si=_mufo8V5MdPT0HEv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video: Base inferior falda femenino
 
     
     .subt.mb-4(data-aos="fade-right")
@@ -1828,7 +1802,7 @@
 
     figure.mb-0(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/7XPqP_3v0L0?si=Q4G_GLwitSgmK9LH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/AaLSVib6v5U?si=v_R3AgOLjkOOHDFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Base inferior de pantalón femenino
     
 </template>

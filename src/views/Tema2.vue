@@ -263,7 +263,7 @@
       figcaption Video: Partes y funciones de la maquina plana       
 
     p(data-aos="fade") En la industria de la confección, la diversidad de materiales como telas, hilos, agujas, y otros, junto con los diseños que evolucionan constantemente según las temporadas, requiere un conocimiento profundo y adaptativo. Los artículos varían desde ropa interior y de hogar hasta calzado, ropa exterior, carpas protectoras, velas de viento, maletas y estuches. Para cada uno de estos productos, es crucial selección.
-    p(data-aos="fade") Este ajuste es fundamental para resolver problemas comunes como el deslizamiento de la tela y el fruncido de la costura. Entender los tipos y funciones de los alimentadores y prénsatelas es esencial para manejar adecuadamente el desplazamiento de los materiales y prevenir dificultades relacionadas con una elección en
+    p(data-aos="fade") Este ajuste es fundamental para resolver problemas comunes como el deslizamiento de la tela y el fruncido de la costura. Entender los tipos y funciones de los alimentadores y prénsatelas es esencial para manejar adecuadamente el desplazamiento de los materiales a coser, así mismo se debe  entender el funcionamiento y la importancia de cada uno de los elementos que lo componen los diferentes tipos de máquina.
     p.mb-4(data-aos="fade") Existen dos tipos principales de ajuste en la confección. El primero se aplica a máquinas de una sola aguja y a máquinas de dos o más agujas, permitiendo adaptar las máquinas al tipo de material que se va a trabajar, ya sea ligero (como #[em lycras]), semipesado (como dacrón) o pesado (como jean). El segundo tipo de ajuste regula la distancia entre las agujas, introduciendo así otro elemento crítico en el ensamblaje: el soporte de las agujas. Fundamentalmente, el ajuste influye en cómo el diente de la máquina agarra el tipo de tela, lo cual es decisivo para el rendimiento de la costura. A continuación, se detalla cada componente del ajuste para una comprensión más completa de su impacto en la confección.
     
     AcordionA.t2-2(tipo="b" clase-tarjeta="tarjeta--blanca")
@@ -283,8 +283,9 @@
         .col-lg-6
           img(src='@/assets/curso/temas/t2/acordion5.png', alt='La imagen presenta un conjunto de componentes para el ajuste de una recubridora en F. Los elementos incluyen una placa de aguja, un prensatelas, varios soportes y guías, todos etiquetados con las referencias JZ-12314 y W562-5. Estos componentes son esenciales para el correcto funcionamiento y ajuste de una máquina recubridora, asegurando precisión y eficiencia en las tareas de costura')      
       .row(titulo="Diente")
-        p Este dispositivo mecánico es el encargado de desplazar el material a coser; el diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
-        p.mb-4 Los dientes vienen de diferentes tamaños, para diferenciarlos se debe medir la cantidad de dientes que haya en una pulgada o la separación existente entre ellos, si se mide en mm (milímetros). Para seleccionar los dientes se debe tener en cuenta el material a confeccionar.
+        p.mb-3 Este dispositivo mecánico es el encargado de desplazar el material a coser; el diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
+        p.mb-4 El diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
+        p.mb-4 Los dientes vienen de diferentes tamaños, para diferenciarlos se debe medir la cantidad de dientes que haya en una pulgada o la separación existente entre ellos, si se mide en mm (Milímetros). Para seleccionar los dientes se debe tener en cuenta el material a confeccionar.
         .row.align-items-center.bg13.mb-4.p-4
           .col-md-6.mb-3.mb-md-0
             img(src='@/assets/curso/temas/t2/figura.svg', alt='La imagen explica la selección de dientes para una máquina de coser según su tamaño y separación, medidos en dientes por pulgada o milímetros, y el material a confeccionar. Los dientes de 16 a 24 por pulgada son para telas normales, mientras que dientes con 2-5 mm de separación son para cuero y lonas. Los dientes piramidales tienen más de 24 por pulgada. Usar dientes inadecuados puede causar problemas: dientes grandes en material delgado crean ondas y recogido, y dientes pequeños en material grueso no sujetan bien la tela, causando daños.')
@@ -301,17 +302,23 @@
             img(src='@/assets/curso/temas/t2/figura3.svg', alt='')
           .col-md-6
             p.mb-0 Si la separación del diente es pequeña y el material grueso, cuando el diente transporta, la tela no es sujetada por el diente ocasionando pega y daños en el material.      
-      .row(titulo="Prénsatelas")
-        p.mb-4 Es el encargado de apoyar el material contra el diente para que pueda ser transportado, la presión que se le debe dar al prénsatelas varía de acuerdo con el material, porque si la presión no es la adecuada la apariencia de la costura no es la requerida.
-        p.mb-4 Se debe tener en cuenta que el prénsatelas solo hace contacto con la tela superior, problemas por una presión inadecuada en el prénsatelas:
-        ul.lista-ul--color.fa-ul.color-primario.ps-4
-          li
-            i.fas.fa-plus
-            | Cuando la presión es demasiada el diente en su ascenso puede dañar la tela, o como la fricción con la tela superior es demasiada al terminar la costura la tela superior es más extensa que la inferior con una apariencia lisa por encima y recogida por debajo.
-          li
-            i.fas.fa-plus
-            | Cuando la presión es poca, la tela no alcanza a incrustarse en el diente ocasionando que esta se pegue y varía la cantidad de puntadas por pulgada. 
-        p.ps-4 #[b Nota:] el ancho de la base del pie prénsatelas debe de ser igual al ancho del diente y cubrirlo en un 90% de su recorrido.      
+      .row.justify-content-center(titulo="Prénsatelas")
+        .col-lg-11
+          .row.justify-content-center
+            .col-lg-2.col-md-8.mb-3
+              img(src='@/assets/curso/temas/t2/prensa.svg', alt='')
+            .col-lg-10
+              p.mb-5 Es el encargado de apoyar el material contra el diente para que pueda ser transportado, la presión que se le debe dar al prénsatelas varía de acuerdo con el material, porque si la presión no es la adecuada la apariencia de la costura no es la requerida.
+              p.mb-4 Se debe tener en cuenta que el prénsatelas solo hace contacto con la tela superior, problemas por una presión inadecuada en el prénsatelas:
+          .cajaf.p-3
+            ul.lista-ul--color.fa-ul.color-primario.ps-4
+              li
+                i.fas.fa-plus
+                | Cuando la presión es demasiada el diente en su ascenso puede dañar la tela, o como la fricción con la tela superior es demasiada al terminar la costura la tela superior es más extensa que la inferior con una apariencia lisa por encima y recogida por debajo.
+              li
+                i.fas.fa-plus
+                | Cuando la presión es poca, la tela no alcanza a incrustarse en el diente ocasionando que esta se pegue y varía la cantidad de puntadas por pulgada. 
+            p.ps-4 #[b Nota:] el ancho de la base del pie prénsatelas debe de ser igual al ancho del diente y cubrirlo en un 90% de su recorrido.      
       .row(titulo="Planchuela")
         .row.bg13.p-4.p-md-5
           p.mb-0 Es el elemento que sirve de apoyo al material cuando el diente se encuentra regresando, además viene provista de un orificio que es el lugar de penetración de la aguja, este orificio varía de acuerdo al ajuste pues él debe de ser un 40% más amplio que la hoja de la aguja. La planchuela tiene carriles, estos deben ser iguales al número de carriles del diente además el diente debe de desplazarse en la totalidad del carril de la plancha.      
@@ -376,8 +383,9 @@
     #t_2_3.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.3 Alimentación o transporte (arrastre)
     
-    p(data-aos="fade") De manera estrecha la relación que tiene el ajuste con la alimentación o transporte (arrastre) es también factor diferenciador en la identificación de maquinaria para el proceso productivo. Sin embargo, los diferentes tipos de alimentación definen de algún modo el tipo de línea productiva del producto a realizar y más aún la cantidad de materiales que se utilizan en la industria como tejidos, no tejidos, aglomerados, cueros, cuerinas, lonas y de más.
-    p.mb-4(data-aos="fade") Cuando se habla de alimentación en la maquinaria de confección se refiere al desplazamiento del material a coser, pero en algunos casos no se desplaza el material si no la máquina esto debido al peso del material como es cerrar un colchón.
+    p(data-aos="fade") La relación entre el ajuste y el sistema de alimentación o transporte es un factor clave en la diferenciación de maquinaria dentro del proceso productivo. Los distintos tipos de alimentación determinan la línea productiva específica del artículo a fabricar, influyendo también en la variedad de materiales utilizados en la industria, como tejidos, no tejidos, aglomerados, cueros, cuerinas y lonas.
+    p.mb-4(data-aos="fade") En la maquinaria de confección, la alimentación se refiere al movimiento del material que se va a coser. Sin embargo, en ciertos casos, como en la fabricación de colchones donde el material es demasiado pesado, no se desplaza el material sino la misma máquina.
+
 
     SlyderF(columnas="col-lg-4 col-md-6" data-aos="fade-down")(alt='La imagen describe tres tipos de alimentación en máquinas de coser: oscilante sencillo, realizado en cuatro pasos donde el diente sube, desplaza el material, desciende y regresa; alimentación combinada, que involucra al diente y la aguja, utilizada en máquinas de dos agujas; y doble transporte, donde el prensatelas y el diente superior se mueven para desplazar el material, común en máquinas de guarnicionero.')
       .tarjeta-avatar
@@ -403,7 +411,7 @@
         .tarjeta.color-acento-botones.fg
           .p-4
             img.mb-3(src='@/assets/curso/temas/t2/pie.svg' alt='')
-            p.mb-4 Las máquinas que tienen este tipo de alimentación, visualmente parece que tuvieran un prénsatelas dividido en dos partes, pero solo al accionarla se observa que la mitad del pie se levanta y hace un movimiento al unísono con el diente para desplazar el material a coser, este diente superior tiene cuatro pasos como lo hace la barra de aguja en la alimentación combinada, la diferencia es que el diente no penetra en el otro, sino que es por contacto con el material que este lo desplaza.
+            p.mb-4 Las máquinas con este sistema de alimentación presentan un prénsatelas que, a primera vista, parece estar dividido en dos partes. Sin embargo, es solo al activar la máquina que se puede observar cómo una sección del pie se eleva y se mueve en coordinación con el diente para trasladar el material. Este diente superior realiza un movimiento de cuatro pasos, similar a la barra de aguja en la alimentación combinada. La principal diferencia radica en que el diente no penetra en el material, sino que lo mueve por contacto directo.
             p #[b Nota:] este tipo de alimentación es muy utilizado en las máquinas de guarnecer.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo4.svg' alt='')
@@ -839,7 +847,7 @@
         ul.lista-ul--color.fa-ul.color-primario.ps-3
           li.mb-1
             i.fas.fa-plus
-            | Girar el volante para que la barra de la aguja quede en su punto más alto
+            | Girar el volante para que la barra de la aguja quede en su punto más alto.
           li.mb-1
             i.fas.fa-plus
             | Pasar el hilo por los puntos 1, 2, 3.
@@ -883,8 +891,18 @@
     .row.justify-content-center.align-items-center.p-1.bg15.mb-4 
 
     h4(data-aos="fade") Verificación de tensión de la caja bobina
-    img(src='@/assets/curso/temas/t2/imag13.png' alt='La imagen presenta el proceso de verificación de la tensión de la caja bobina. A la izquierda, se ilustra cómo sostener y dejar caer la caja de bobina para comprobar la tensión del hilo. A la derecha, se presentan ejemplos visuales de diferentes tensiones: tensión correcta para una máquina plana, tensión inferior demasiado ajustada, tensión superior demasiado ajustada y tensión superior e inferior demasiado ajustadas. Estos ejemplos ayudan a identificar y corregir problemas de tensión en la costura.')
-
+    .row.justify-content-center.mb-4
+      .col-lg-6.col-md-10.col-10
+        img(src='@/assets/curso/temas/t2/edi.svg' alt='La imagen presenta el proceso de verificación de la tensión de la caja bobina. A la izquierda, se ilustra cómo sostener y dejar caer la caja de bobina para comprobar la tensión del hilo. A la derecha, se presentan ejemplos visuales de diferentes tensiones: tensión correcta para una máquina plana, tensión inferior demasiado ajustada, tensión superior demasiado ajustada y tensión superior e inferior demasiado ajustadas. Estos ejemplos ayudan a identificar y corregir problemas de tensión en la costura.')
+      .col-lg-6.col-md-10.col-10
+        .caja1.p-3.mb-2.my-3.crd_hover_txt
+          p.mb-0 Tensión correcta máquina plana.
+        .caja1.p-3.mb-2.crd_hover_txt
+          p.mb-0 Tensión inferior demasiado ajustada.
+        .caja1.p-3.mb-2.crd_hover_txt
+          p.mb-0 Tensión superior demasiado ajustada.
+        .caja1.p-3.mb-3.crd_hover_txt
+          p.mb-0 Tensión superior e inferior demasiado ajustadas.
     
     .row.justify-content-center.align-items-center.p-1.bg15.mb-5
     
@@ -936,7 +954,7 @@
         h4.text-center Enhebrado guía hilo trasero puntada de seguridad
         img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder6.png' alt='')
       .tarjeta.color-acento-botones.p-4
-        h4.text-center Enhebrado tensor aux. leva tira hilo - puntada de seg. 
+        h4.text-center Enhebrado tensor auxiliar leva tira hilo - puntada de seguridad
         img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder7.png' alt='')
       .tarjeta.color-acento-botones.p-4
         h4.text-center Enhebrada leva tira hilo puntada de seguridad 
@@ -952,28 +970,28 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta9.svg' alt='')
+            img(src='@/assets/curso/temas/t2/tarjeta9.svg' alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior. ')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión correcta de puntada  en máquina fileteadora.
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta10.svg' alt='')
+            img(src='@/assets/curso/temas/t2/tarjeta10.svg' alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior. ')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del hilo de la aguja.
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta11.svg' alt='')
+            img(src='@/assets/curso/temas/t2/tarjeta11.svg' alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior. ')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del #[em looper] superior.
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta12.svg' alt='')
+            img(src='@/assets/curso/temas/t2/tarjeta12.svg' alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior. ')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del #[em looper] inferior.
@@ -981,7 +999,7 @@
     h4(data-aos="fade") Enhebrado de máquina recubridora - Ajuste de tensión
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8.col-8.mb-4.mb-md-0
-        img.my-3(src='@/assets/curso/temas/t2/fos.svg' alt='La imagen describe la validación de tensores en puntada e hilo, comparando una puntada tensionada con una puntada floja. La puntada tensionada tiene un aspecto ajustado y uniforme, mientras que la puntada floja presenta hilos sueltos y desorganizados, indicando una tensión incorrecta.')
+        img.my-3(src='@/assets/curso/temas/t2/fos.svg' alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento.')
     
     
     h4(data-aos="fade") Validación de tensores - Puntada e hilo
@@ -991,10 +1009,10 @@
           .row.justify-content-around
             .col-lg-3.col-md-6.col-6
               h5.text-center Puntada tensionada
-              img(src='@/assets/curso/temas/t2/imag16.svg' alt='')
+              img(src='@/assets/curso/temas/t2/imag16.svg' alt='La imagen describe la validación de tensores en puntada e hilo, comparando una puntada tensionada con una puntada floja. La puntada tensionada tiene un aspecto ajustado y uniforme, mientras que la puntada floja muestra hilos sueltos y desorganizados, indicando una tensión incorrecta.')
             .col-lg-3.col-md-6.col-6
               h5.text-center Puntada floja
-              img(src='@/assets/curso/temas/t2/imag17.svg' alt='')
+              img(src='@/assets/curso/temas/t2/imag17.svg' alt='La imagen describe la validación de tensores en puntada e hilo, comparando una puntada tensionada con una puntada floja. La puntada tensionada tiene un aspecto ajustado y uniforme, mientras que la puntada floja muestra hilos sueltos y desorganizados, indicando una tensión incorrecta.')
     
     h4(data-aos="fade") Puntadas por pulgada (PPP).
     p.mb-4(data-aos="fade") Cuando se están escribiendo las especificaciones de una prenda, se debe especificar la cantidad apropiada de puntadas por pulgada (PPP) que deben ser usadas en su producto de costura, porque la cantidad de puntadas por pulgada puede tener influencia en:
@@ -1069,7 +1087,7 @@
           p Se trabaja con aguja, ya dominando la velocidad y la rectitud del pespunte, se procederá a dominar la parada en el sitio exacto, en este caso la banda se divide en 5 rectángulos de 20 cm de largo por 10 cm de ancho. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se presentan en la imagen de referencia. La idea del ejercicio se centra en parar en cada vértice del ángulo, clavar la aguja, girar la banda y continuar el recorrido hasta terminar el ejercicio y los 5 rectángulos; en este ejercicio obtendremos dominio de pedal, control de freno y arranque en puntos exactos.
       .row.justify-content-center
         .col-lg-12
-          img.mb-2(src='@/assets/curso/temas/t2/imag19.svg' alt='')
+          img.mb-2(src='@/assets/curso/temas/t2/imag19.svg' alt='La imagen describe dos ejercicios de control de pedal, arranque y parada en la costura. El primer ejercicio, realizado con aguja, consiste en coser siguiendo las marcas de rectángulos en bandas de 20 cm de largo por 10 cm de ancho, enfocándose en la precisión de ángulos y control del pedal. El segundo ejercicio, realizado con aguja e hilo, sigue bandas con marcas de rayas, comenzando y terminando con un remate de 3-4 puntadas. Este ejercicio se repite varias veces para dominar la calidad de las puntadas, los ángulos y el control del pedal.')
     
     .bg13g.p-4.mb-4(data-aos="fade-down")
       .row.justify-content-center.mb-4
@@ -1086,13 +1104,13 @@
           p Para este ejercicio, trabaja con aguja e hilo. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se presentan en la imagen de referencia. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo.
       .row.justify-content-center
         .col-lg-12
-          img.mb-4(src='@/assets/curso/temas/t2/imag20.svg' alt='')
+          img.mb-4(src='@/assets/curso/temas/t2/imag20.svg' alt='La imagen describe dos ejercicios de control de pedal, arranque y parada en la costura. El primer ejercicio, realizado con aguja, consiste en coser siguiendo las marcas de rectángulos en bandas de 20 cm de largo por 10 cm de ancho, enfocándose en la precisión de ángulos y control del pedal. El segundo ejercicio, realizado con aguja e hilo, sigue bandas con marcas de rayas, comenzando y terminando con un remate de 3-4 puntadas. Este ejercicio se repite varias veces para dominar la calidad de las puntadas, los ángulos y el control del pedal.')
       .row.justify-content-center
         .col-lg-11
           p Luego, debe realizarlo usando las bandas con las marcas o rayas que se presentan a continuación. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo; después se inicia el pespunte y antes y después de cada vértice del ángulo se hace el remate de nuevo, clava la aguja en todo el vértice del ángulo, gira la banda para darle calidad de puntadas en los ángulos y continuar el recorrido hasta terminar el ejercicio y los 5 rectángulos.
       .row.justify-content-center
         .col-lg-12
-          img(src='@/assets/curso/temas/t2/imag21.svg' alt='')
+          img(src='@/assets/curso/temas/t2/imag21.svg' alt='La imagen describe dos ejercicios de control de pedal, arranque y parada en la costura. El primer ejercicio, realizado con aguja, consiste en coser siguiendo las marcas de rectángulos en bandas de 20 cm de largo por 10 cm de ancho, enfocándose en la precisión de ángulos y control del pedal. El segundo ejercicio, realizado con aguja e hilo, sigue bandas con marcas de rayas, comenzando y terminando con un remate de 3-4 puntadas. Este ejercicio se repite varias veces para dominar la calidad de las puntadas, los ángulos y el control del pedal.')
 
 
       

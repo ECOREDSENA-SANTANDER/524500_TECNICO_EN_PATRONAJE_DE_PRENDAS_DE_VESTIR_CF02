@@ -9,12 +9,12 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.align-items-end
-      .col-lg-10
-        .cajon.color-primario.p-4.pe-lg-5.mb-3
-          p.mb-4.mt-4.pe-lg-5 En la interpretación y análisis de la estructura corporal se manejan términos de reconocimiento anatómico los cuales hacen parte de la base fundamental para la comprensión y desarrollo de moldes, la contextualización en terminología técnica y las diferentes formas corpóreas, son la base para la proyección en el análisis, trazo y desarrollo de prendas. A su vez el patronista debe conocer e identificar los procesos operativos para el ensamble y producción, fusionando o articulando las operaciones con el desarrollo del producto, esta articulación se da de la base fundamental del qué y cómo funciona. 
-      .col-lg-3.mnl-1.d-none.d-lg-block(data-aos="fade-left")
-        img(src='@/assets/curso/temas/imag01.png', alt='')
+    .row.justify-content-center.align-items-center
+      .col-lg-12(data-aos="fade-left")
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/w7EKDSizmUI?si=sWmaH1k-4K_Vn53b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Reconocimiento de la estructura corporal
     
 
 </template>
