@@ -101,7 +101,7 @@
               | Ojaladora de ojal recto.
             li.mb-0 
               i.fas.fa-plus
-              | Ojaladora de ojal de lagrima.
+              | Ojaladora de ojal de lágrima.
 
     p.mb-4(data-aos="fade") Con base en los diferentes tipos de máquinas por estructura, tipo o trabajo, las partes del cabezote se dividen en cuatro y es importante describirlas porque es donde se aloja el conjunto de elementos mecánicos que dan origen a los mecanismos de las máquinas, estas partes se conocen como:
     

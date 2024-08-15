@@ -15,8 +15,7 @@
           ImagenInfografica.color-primario.mb-5(data-aos="fade-down")
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/t1/imag01.svg', alt='La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
-
+                img(src='@/assets/curso/temas/t1/imag01.svg', alt='La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales, utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
             .tarjeta.bg13.p-3(x="5.5%" y="9%" numero="+")
               p.mb-0 Las prendas superiores incluyen una variedad de artículos esenciales en el vestuario diario, como camisetas, blusas, chaquetas, sudaderas, tops, chalecos, etc. Estas prendas varían en estilo, material y diseño, adaptándose a diversas ocasiones y preferencias personales.
             .tarjeta.bg13.p-3(x="71%" y="64%" numero="+")
@@ -863,7 +862,7 @@
             thead
               tr
                 th.text-center.ble.b4 #[b Tórax máximo]
-                th.text-center.b1.bla #[b Talla]
+                th.text-center.b1 #[b Talla]
             tbody
               tr.p-1
                 td.text-center.b4 Pecho
@@ -962,7 +961,7 @@
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años x 5 + 65cm
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 3/10 de estatura 7aC
                 p.mb-0 =&nbsp;&nbsp; Estatura 7aC + 15-18 cm.
-                p.mb-0 &nbsp;&nbsp;Corresponden a él canon del niño o medida de cabeza
+                p.mb-0 &nbsp;&nbsp;Corresponden a el canon del niño o medida de cabeza.
                 p.mb-0 =&nbsp;&nbsp; 4/10 de estatura 7aC
                 p.mb-0 =&nbsp;&nbsp; 1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5cms para todas las tallas).
                 p.mb-0 =&nbsp;&nbsp; 7/10 de estatura 7aC
@@ -1046,9 +1045,9 @@
         .titulo-sexto.color-primario.mb-3
           h5 Tabla 3.
           | Grupos de tallas
-        .row.justify-content-center
+        .row.justify-content-center(alt='La tabla expone las medidas correspondientes a diferentes tallas de ropa, desde XS/30-6 hasta SL/42-16, con incrementos de 2 cm entre cada talla. Las medidas incluyen tórax máximo, cadera, pecho, cintura, estatura total, estatura 7a, talle, largo de brazo, cuello, cintura/suelo y base. Por ejemplo, para la talla XS/30-6, el tórax máximo es de 40 cm y la estatura total es de 166 cm, mientras que para la talla SL/42-16, el tórax máximo es de 50 cm y la estatura total es de 174 cm. Las demás medidas se incrementan de manera proporcional con cada talla.')
           .col-lg-12.col-md-12
-            .tabla-c.tabla-peque.tt(alt='La tabla expone las medidas correspondientes a diferentes tallas de ropa, desde XS/30-6 hasta SL/42-16, con incrementos de 2 cm entre cada talla. Las medidas incluyen tórax máximo, cadera, pecho, cintura, estatura total, estatura 7a, talle, largo de brazo, cuello, cintura/suelo y base. Por ejemplo, para la talla XS/30-6, el tórax máximo es de 40 cm y la estatura total es de 166 cm, mientras que para la talla SL/42-16, el tórax máximo es de 50 cm y la estatura total es de 174 cm. Las demás medidas se incrementan de manera proporcional con cada talla.')
+            .tabla-c.tabla-peque.tt
               table.text-center
                 thead
                   tr.bl
@@ -1192,12 +1191,12 @@
       .col-lg-12.col-12.px-lg-5
         .row.justify-content-center(data-aos="fade-down")
         
-          .row.justify-content-center
+          .row.justify-content-center(alt='La tabla detalla los cálculos específicos para las medidas de la talla 6 y la talla XS/30-6. Ambas tallas tienen un tórax máximo de 40 cm y una estatura total de 166 cm. La cadera se calcula sumando 4 cm al tórax máximo, resultando en 44 cm. El pecho se obtiene restando 2 cm al tórax máximo, dando 38 cm. La cintura se determina restando 14 cm de la medida de la cadera, resultando en 30 cm. La estatura 7a se calcula restando 20 cm de la estatura total, resultando en 146 cm. Para la talla 6, el talle se calcula como 3/10 de 144 cm, dando 43.8 cm, y el largo de brazo es 4/10 de 144 cm, resultando en 58.4 cm. El cuello se calcula dividiendo 40 cm entre 3 más 13.3, dando 26.6 cm. La cintura/suelo se calcula como 7/10 de 144 cm, resultando en 102.2 cm. Finalmente, la base se calcula sumando 4 cm de desahogo y 2 cm de costura al pecho, resultando en 44 cm.')
             .col-lg-10.col-12.col-md-12
               .titulo-sexto.color-primario.mt-4
                 h5 Tabla 4.
                 | Construcción talla 6
-              .tabla-c.tabla-peque.tt(alt='La tabla detalla los cálculos específicos para las medidas de la talla 6 y la talla XS/30-6. Ambas tallas tienen un tórax máximo de 40 cm y una estatura total de 166 cm. La cadera se calcula sumando 4 cm al tórax máximo, resultando en 44 cm. El pecho se obtiene restando 2 cm al tórax máximo, dando 38 cm. La cintura se determina restando 14 cm de la medida de la cadera, resultando en 30 cm. La estatura 7a se calcula restando 20 cm de la estatura total, resultando en 146 cm. Para la talla 6, el talle se calcula como 3/10 de 144 cm, dando 43.8 cm, y el largo de brazo es 4/10 de 144 cm, resultando en 58.4 cm. El cuello se calcula dividiendo 40 cm entre 3 más 13.3, dando 26.6 cm. La cintura/suelo se calcula como 7/10 de 144 cm, resultando en 102.2 cm. Finalmente, la base se calcula sumando 4 cm de desahogo y 2 cm de costura al pecho, resultando en 44 cm.')
+              .tabla-c.tabla-peque.tt
                 table.text-center
                   thead
                     tr.bl33
@@ -1825,7 +1824,6 @@
       h2 1.6 Elaboración de básicos masculinos
 
     p.mb-3(data-aos="fade") Este recurso le guiará a través de los pasos fundamentales del proceso, desde la creación de patrones hasta la confección final de prendas masculinas básicas. Al visitar este video, podrá apreciar las técnicas y metodologías utilizadas para diseñar y producir ropa masculina esencial, proporcionándole un conocimiento práctico y visual de cada etapa involucrada.
-    p.mb-4 Ir al sitio 
 
     figure.mb-4(data-aos="fade-down")
       .video
@@ -1886,7 +1884,7 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/INiV3UH7uN8?si=K1Bzoc9cPODRkr6B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MJJln-zDjfc?si=J4oykXk74s426TOK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Base superior femenino
     
     
