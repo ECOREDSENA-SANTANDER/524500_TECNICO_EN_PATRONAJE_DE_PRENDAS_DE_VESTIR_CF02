@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se expone la síntesis del componente. Explicando el "reconocimiento de la estructura corporal" con varios temas importantes en el campo del patronaje y la confección, todo esto teniendo en cuenta los conceptos de Pre-Patronaje, que incluye sistemas y clasificación de medidas, para brindar al aprendiz un panorama resumido de la temática abordada. 
+    p.mb-5 A continuación, se presenta la síntesis del componente que explica el "reconocimiento de la estructura corporal" con varios temas importantes en el campo del patronaje y la confección, todo esto teniendo en cuenta los conceptos de pre-patronaje, que incluye sistemas y clasificación de medidas, para brindar al aprendiz un panorama resumido de la temática abordada. 
 
     .row.mb-5
       .col-lg-10.mb-5

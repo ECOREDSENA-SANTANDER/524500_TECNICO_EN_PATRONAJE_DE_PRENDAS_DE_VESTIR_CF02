@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Reconocimiento de la estructura corporal',
     descripcionCurso:
-      'El programa Técnico en Patronaje Industrial de Prendas de Vestir, a través de diferentes componentes como “Reconocimiento de la estructura corporal”, da respuesta a necesidades de la región, del sector empresarial y sus trabajadores, frente a la capacitación de mano de obra calificada en el desarrollo y escalado de patrones de prendas de vestir de manera manual y sistematizada.',
+      'A través del material de formación “Reconocimiento de la estructura corporal”, se da respuesta a necesidades de la región, del sector empresarial y sus trabajadores, frente a la capacitación de mano de obra calificada en el desarrollo y escalado de patrones de prendas de vestir de manera manual y sistematizada.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principaal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principaal.png'),
     /*imagenesDecorativasBanner: [
@@ -204,7 +204,7 @@ export default {
         'Tipo de alimentación donde el diente realiza cuatro movimientos (subir, desplazar, descender, regresar) para mover la tela.',
     },
     {
-      termino: 'Básicos Masculinos y Femeninos',
+      termino: 'Básicos masculinos y femeninos',
       significado:
         'Patrones base utilizados para crear ropa para hombres y mujeres.',
     },
@@ -219,7 +219,7 @@ export default {
         'Componente de la máquina de coser que contiene la bobina de hilo inferior.',
     },
     {
-      termino: 'Clasificación de Medidas',
+      termino: 'Clasificación de medidas',
       significado:
         'Organización y categorización de las diferentes medidas corporales utilizadas en el diseño de patrones.',
     },
@@ -234,7 +234,7 @@ export default {
         'Reglas y prácticas estándar que se aplican en el diseño y elaboración de patrones.',
     },
     {
-      termino: 'Cuadros de Tallas',
+      termino: 'Cuadros de tallas',
       significado:
         'Tablas que contienen las medidas estándar para diferentes tallas de ropa.',
     },
@@ -259,7 +259,7 @@ export default {
         'Que sirve de patrón, modelo o punto de referencia para medir o valorar cosas de la misma especie.',
     },
     {
-      termino: 'Estructura Corporal',
+      termino: 'Estructura corporal',
       significado:
         'Evaluación y clasificación de las características físicas del cuerpo humano.',
     },
@@ -294,7 +294,7 @@ export default {
         'Proceso de crear patrones de costura a partir de medidas corporales y estándares predefinidos.',
     },
     {
-      termino: 'Pre-Patronaje',
+      termino: 'Pre-patronaje',
       significado:
         'Etapa preliminar en el diseño de patrones, que incluye análisis y clasificación de medidas corporales.',
     },
@@ -304,7 +304,7 @@ export default {
         'Pasos detallados que se siguen para desarrollar patrones de ropa.',
     },
     {
-      termino: 'Sistemas de Medidas',
+      termino: 'Sistemas de medidas',
       significado:
         'Conjunto de normas y estándares para tomar y aplicar medidas corporales en el diseño de ropa',
     },
@@ -376,7 +376,7 @@ export default {
         },
         {
           nombre: 'Sandra Paola Morales Paez ',
-          cargo: 'Evaluador Instruccional ',
+          cargo: 'Evaluadora Instruccional ',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -386,7 +386,7 @@ export default {
       autores: [
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñadora de Contenidos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
@@ -396,7 +396,7 @@ export default {
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animadora y Productora Multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -406,12 +406,12 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validadora de Recursos Educativos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Diana Lizeth Lozada Diaz',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

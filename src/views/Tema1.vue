@@ -17,7 +17,7 @@
               figure
                 img(src='@/assets/curso/temas/t1/imag01.svg', alt='La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales, utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
             .tarjeta.bg13.p-3(x="5.5%" y="9%" numero="+")
-              p.mb-0 Las prendas superiores incluyen una variedad de artículos esenciales en el vestuario diario, como camisetas, blusas, chaquetas, sudaderas, tops, chalecos, etc. Estas prendas varían en estilo, material y diseño, adaptándose a diversas ocasiones y preferencias personales.
+              p.mb-0 Las prendas superiores incluyen una variedad de artículos esenciales en el vestuario diario, como camisetas, blusas, chaquetas, sudaderas, #[em tops], chalecos, etc. Estas prendas varían en estilo, material y diseño, adaptándose a diversas ocasiones y preferencias personales.
             .tarjeta.bg13.p-3(x="71%" y="64%" numero="+")
               p.mb-0 Las prendas inferiores abarcan una variedad de artículos, entre los más comunes se encuentran los pantalones, jeans, faldas, shorts, sudaderas, bermudas, etc. Cada una de estas prendas puede variar en estilo, material y diseño, permitiendo opciones tanto para ocasiones formales como casuales.
         .col-lg-7
@@ -247,18 +247,18 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-primario.p-5.mb-5.p-3.p-sm-4.p-md-5(alt='La imagen presenta un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo. ')
-          .bloque-texto-g__img(
+          .bloque-texto-g__img.ap(
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1/imag15.svg')})`}"
           )
-          .bloque-texto-g__texto.p-5.mt-5.my-5
-            p.mb-0 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: mesoectomorfo y mesoendomorfo.
+          .bloque-texto-g__texto.op.p-5.mt-5.my-5
+            p.mb-0 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-        h3.mb-0.ms-2(data-aos="fade") Tipologías corporales - siluetas.
+        h3.mb-0.ms-2(data-aos="fade") Tipologías corporales - siluetas
 
-    p(data-aos="fade") Son las características físicas generales de contorno y forma corporal – morfología de superficie.
+    p(data-aos="fade") El siguiente diagrama, permite identificar la tipología corporal de acuerdo con algunas características físicas generales: 
     
     .row.fondo-t1.align-items-center.py-4.mb-5(data-aos="fade")
       .col-lg-12.col-12.px-lg-5.px-4
@@ -331,14 +331,14 @@
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2(data-aos="fade") Diferentes tipos de posturas
 
-    p.mb-4(data-aos="fade") Buena postura - postura defectuosa relajada - alineamiento de cifosis y lordosis - espalda inclinada - espalda plana - espalda redonda.
+    p.mb-4(data-aos="fade") Buena postura, postura defectuosa relajada, alineamiento de cifosis y lordosis, espalda inclinada, espalda plana y espalda redonda.
     
     .tarjeta.tarjeta--morado.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-around
           .col-md-6.col-lg-5.mb-4.mb-md-0
             p.mb-3 #[b Proporciones de longitud de piernas en relación con el torso.]
-            img.mb-4(src='@/assets/curso/temas/t1/slyder09.svg', alt='La imagen presenta una serie de figuras femeninas que ilustran diferentes proporciones de longitud de piernas en relación con el torso, desde "normal" hasta "muy cortas". Las categorías son: a. Normal, b. Largas, c. Moderadas, d. Cortas, y e. Muy cortas. Cada figura está etiquetada con letras que corresponden a las descripciones enumeradas debajo de la imagen. Esta ilustración es útil para entender y comparar las variaciones en las proporciones corporales femeninas.')
+            img.mb-4(src='@/assets/curso/temas/t1/slyder09.svg', alt='La imagen presenta una serie de figuras femeninas que ilustran diferentes proporciones de longitud de piernas en relación con el torso, desde "normal" hasta "muy cortas". Las categorías son: a. Normal, b. Largas, c. Moderadas, d. Cortas, y e. Muy cortas. Cada figura está etiquetada con letras que corresponden a las descripciones relacionadas debajo de la imagen. Esta ilustración es útil para entender y comparar las variaciones en las proporciones corporales femeninas.')
             ol.lista-ol--cuadro
               li.mb-1
                 .lista-ol--cuadro__vineta
@@ -491,7 +491,7 @@
         .row.justify-content-center
           .col-md-6.col-lg-5.mb-4.mb-md-0
             p.mb-3 #[b Diferentes formas del torso y la cadera.]
-            img.mb-4(src='@/assets/curso/temas/t1/slyder14.svg', alt='Se evidencian cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes formas del torso y la cadera. De izquierda a derecha, las figuras están etiquetadas como "Normal (Trapecio regular)", "Paralela de cadera y senos pequeños", "Paralela de cadera cuadrada, torso y cintura ancha, senos amplios", "Trapecio abierto" y "Trapecio invertido". Estas descripciones indican variaciones en la forma del torso y caderas, desde una forma normal hasta combinaciones de torsos y caderas paralelos, anchos, y diferentes tipos de trapecios.')
+            img.mb-4(src='@/assets/curso/temas/t1/ihh.svg', alt='Se evidencian cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes formas del torso y la cadera. De izquierda a derecha, las figuras están etiquetadas como "Normal (Trapecio regular)", "Paralela de cadera y senos pequeños", "Paralela de cadera cuadrada, torso y cintura ancha, senos amplios", "Trapecio abierto" y "Trapecio invertido". Estas descripciones indican variaciones en la forma del torso y caderas, desde una forma normal hasta combinaciones de torsos y caderas paralelos, anchos, y diferentes tipos de trapecios.')
           .col-md-6.my-5
             ol.lista-ol--cuadro
               li.mb-1
@@ -529,8 +529,7 @@
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Sistemas de medidas de longitud
 
-    p.mb-0(data-aos="fade") La longitud es la distancia que hay entre un punto y otro. Los dos sistemas utilizados para determinar esa distancia:
-    p(data-aos="fade") Sistema inglés y sistema internacional o métrico decimal.
+    p.mb-4(data-aos="fade") La longitud es la distancia que hay entre un punto y otro. Los dos sistemas utilizados para determinar esa distancia son: sistema inglés y sistema internacional o métrico decimal.
     p.mb-4(data-aos="fade") En el sistema inglés, la unidad básica de medida es la pulgada, se aplica principalmente en Estados Unidos Inglaterra y Australia. En el sistema internacional o métrico decimal que tiene como unidad principal el metro, se usa en el resto del mundo.
     
     .cajon.color-primario.bg1.p-4.mb-5(data-aos="fade-down")
@@ -610,7 +609,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3 Anexo 1. Tabla de tallas para confeccionar ropa
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre tabla de equivalencias
+                  p.text-small.mb-0 Consulte el documento para aprender más sobre tabla de equivalencias
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://capacitateparaelempleo.org/assets/dj88xla.pdf" target="_blank")
                     span Descargar
@@ -622,13 +621,14 @@
         h3.mb-0.ms-2 Las medidas
     
     p Son unidades numéricas que representan el tamaño de las figuras, personas y/o objetos. Por lo general se trabaja con un sistema de medida (cinta métrica) de manera lineal, para medir las diferentes partes del cuerpo. 
-    p.mb-5 Las medidas por lo general se toman sobre los puntos de anclaje del cuerpo teniendo en cuenta los parámetros antropométricos y anatómicos, pasando por los volúmenes (contornos) protuberantes. Se clasifican en tres grupos:
+    p.mb-4 Las medidas por lo general se toman sobre los puntos de anclaje del cuerpo teniendo en cuenta los parámetros antropométricos y anatómicos, pasando por los volúmenes (contornos) protuberantes.
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Clasificación de las medidas
-
+    
+    p.mb-4  Se clasifican en tres grupos:
     .row.justify-content-center.mb-4
       .col-lg-4.col-md-6.col-12.mb-3
         .caj1.p-3(data-aos="fade-down")
@@ -796,7 +796,7 @@
                 img.mb-3(src='@/assets/curso/temas/t1/slide1-3-2.png', alt='')        
               h4.text-center Proporción
               p.text-center Relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo.
-              p.text-center Secuencia Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. Es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número Tratado de las proporciones Da Vincí o el hombre de Vitrubio, analiza en un mapa de simetría del cuerpo determinando el estándar de 8 cabezas como canon de belleza.
+              p.text-center Secuencia Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. Es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número Tratado de las proporciones Da Vinci o el hombre de Vitrubio, analiza en un mapa de simetría del cuerpo determinando el estándar de 8 cabezas como canon de belleza.
         .row
           .col-md-6.mb-4.mb-md-0
             .row.justify-content-center.mb-2
@@ -895,7 +895,7 @@
     .row.mb-4(data-aos="fade-down")
       .col-lg-12
         .cajon.color-primario.bg1.p-4.px-md-5
-          p #[b Ejemplo:] Para deducir la medida de 7a cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20cms?.  En la estandarización de medidas, se establece que 20cms corresponde a la medida aprox. de la cabeza.
+          p #[b Ejemplo:] para deducir la medida de 7a cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20 cm? En la estandarización de medidas, se establece que 20 cm corresponde a la medida aprox. de la cabeza.
           p.mb-0 #[b Fórmula:] 7a cervical o largo útil = largo total - 20 cm   
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
@@ -954,16 +954,16 @@
                 p.mb-0 Largo de falda corta
               .col-lg-7.col-md-5.col-7
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 24cm
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 24 cm
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/2 de años + 26
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 28
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de pecho + 4cm
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años x 5 + 65cm
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de pecho + 4 cm
+                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años x 5 + 65 cm
                 p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 3/10 de estatura 7aC
                 p.mb-0 =&nbsp;&nbsp; Estatura 7aC + 15-18 cm.
                 p.mb-0 &nbsp;&nbsp;Corresponden a el canon del niño o medida de cabeza.
                 p.mb-0 =&nbsp;&nbsp; 4/10 de estatura 7aC
-                p.mb-0 =&nbsp;&nbsp; 1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5cms para todas las tallas).
+                p.mb-0 =&nbsp;&nbsp; 1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5 cm para todas las tallas).
                 p.mb-0 =&nbsp;&nbsp; 7/10 de estatura 7aC
                 p.mb-0 =&nbsp;&nbsp; 2/3 de la medida cintura al suelo -3
                 p.mb-0 =&nbsp;&nbsp; 1/2 de la medida cintura al suelo -3
@@ -1038,7 +1038,7 @@
                   td 60 cm
       
     h4(data-aos="fade-right") Construyendo tallas y cuadros
-    p.mb-4(data-aos="fade") Grupo de magnitudes estandarizadas qué definen las medidas de una prenda de vestir. Los cuadros contienen grupos de tallas.
+    p.mb-4(data-aos="fade") Grupo de magnitudes estandarizadas que definen las medidas de una prenda de vestir. Los cuadros contienen grupos de tallas.
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-10
@@ -1336,7 +1336,7 @@
                 li.mb-0
                   i.fas.fa-plus
                   p.mb-0 Ruptura de talla - Identificar ruptura del cuadro de tallas, por medida y talla.
-        p.mb-4 En el ejemplo, la ruptura esta entre la talla 14 y 16, porque se incrementa 6cms, rompiendo con los 4cms de las demás medidas.
+        p.mb-4 En el ejemplo, la ruptura esta entre la talla 14 y 16, porque se incrementa 6 cm, rompiendo con los 4 cm de las demás medidas.
       .col-lg-3
         img.d-none.d-lg-block(src='@/assets/curso/temas/t1/1234.svg', alt='')   
 
@@ -1356,11 +1356,11 @@
         h5.text-white #[em Drop] femenino
         p.text-white.mb-0 Diferencia entre cadera y contorno de Busto para la mujer.
         p.text-whiteContorno Contorno de cadera - Contorno de busto = #[em DROP]
-        p.text-white Con el #[em Drop] se establecen las diferentes contexturas de una misma talla. En las mujeres, el #[em Drop] es la diferencia entre las medidas de contorno de cadera y contorno de busto. En las tallas femeninas predomina un #[em Drop] positivo, generalmente una talla se considera normal cuando el #[em Drop] es positivo entre +2 cms y + 4cm. El #[em Drop] estándar usado en Colombia es + 4cm. En las tallas extremas y altas el #[em Drop] se vuelve negativo. 
+        p.text-white Con el #[em Drop] se establecen las diferentes contexturas de una misma talla. En las mujeres, el #[em Drop] es la diferencia entre las medidas de contorno de cadera y contorno de busto. En las tallas femeninas predomina un #[em Drop] positivo, generalmente una talla se considera normal cuando el #[em Drop] es positivo entre +2 cm y + 4 cm. El #[em Drop] estándar usado en Colombia es + 4 cm. En las tallas extremas y altas el #[em Drop] se vuelve negativo. 
         h5.text-white.mb-0 Ejemplos:
-        p.text-white.mb-0 #[em Drop] + 2 indica la medida de cadera 2cms mayor que el contorno de busto.
+        p.text-white.mb-0 #[em Drop] + 2 indica la medida de cadera 2 cm mayor que el contorno de busto.
         p.text-white.mb-0 El #[em Drop] 0 indica que la medida de cadera es igual a la medida de contorno de busto.
-        p.text-white.mb-0 El #[em Drop] - 4 indica que la medida de cadera tiene 4 cms menos que el contorno de busto.         
+        p.text-white.mb-0 El #[em Drop] - 4 indica que la medida de cadera tiene 4 cm menos que el contorno de busto.         
       .col-md.tarjeta.color-acento-botones.p-5
         .row.justify-content-center.mb-4
           .col-8
@@ -1371,7 +1371,7 @@
         p Diferencia entre la cintura y el pecho, para el hombre. Generalmente en tallas masculinas predomina el #[em Drop] negativo, (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talle menos #[em Drop]) llegando en tallas extremas a ser positivo o sea un cuerpo con más cintura que pecho. 
         h5.mb-0 Ejemplos:
         p.mb-0 Un #[em Drop] -4 indica, una cintura con 4 pulgadas menos que la medida de pecho.
-        p.mb-0 Un #[em Drop] O indica una cintura igual al pecho.
+        p.mb-0 Un #[em Drop] 0 indica una cintura igual al pecho.
         p.mb-0 El #[em Drop] + 2 indica una cintura con 2 pulgadas que el pecho.
 
     p.mb-0(data-aos="fade") Acorde a cada tipo de silueta hay un #[em Drop] característico. 
@@ -1751,7 +1751,7 @@
         .tarjeta.bg10.text-white
           .p-4
             h5.text-center Rectángulo
-            p Todo básico inicia siempre desde un rectángulo, el cual se traza con la medida de contorno más protuberante y el largo más largo de la parte del cuerpo a trabajar
+            p Todo básico inicia siempre desde un rectángulo, el cual se traza con la medida de contorno más protuberante y el largo más largo de la parte del cuerpo a trabajar.
       .tarjeta-avatar
         img(src='@/assets/curso/temas/t1/bombillo.svg' alt='')
         .tarjeta.bg10.text-white

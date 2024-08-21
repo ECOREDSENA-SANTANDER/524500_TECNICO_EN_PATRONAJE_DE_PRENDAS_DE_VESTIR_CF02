@@ -9,6 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
+    p.mb-4 Le invitamos a consultar atentamente el video que se presenta a continuación, con el fin de iniciar su recorrido formativo sobre el reconocimiento de la estructura corporal. 
     .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="fade-left")
         figure
