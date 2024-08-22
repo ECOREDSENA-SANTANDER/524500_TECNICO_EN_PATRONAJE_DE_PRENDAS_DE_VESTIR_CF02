@@ -8,45 +8,52 @@
       h1 Conceptos de pre-patronaje
     
     p.mb-4(data-aos="fade") El cuerpo humano es una estructura base que se debe entender para poder interpretar su comportamiento y necesidades de vestuario. Para lo cual es fundamental tener en cuenta los siguientes conceptos:
-    
+      
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-6.bg21.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-6
+            img.mb-3.w-50(src='@/assets/curso/temas/t1/deco1.svg', alt='')
+            h5 Arquitectura del cuerpo
+            p Conocimiento e interpretación corporal.
+          .col-lg-6
+            .row 
+              .col-lg-5
+                p.mb-0.der Anatomía
+                p.mb-0.der Biomecánica
+                p.mb-0.der Morfología
+                p.mb-0.der Ergonomía
+                p.mb-0.der Antropometría
+              .col-lg-1
+                p.mb-0 #[span.texto2 =]
+                p.mb-0 #[span.texto2 =]
+                p.mb-0 #[span.texto2 =]
+                p.mb-0 #[span.texto2 =]
+                p.mb-0 #[span.texto2 =]
+              .col-lg-5
+                p.mb-0 Estructura
+                p.mb-0 Movimiento
+                p.mb-0 Geometría
+                p.mb-0 Postura
+                p.mb-0 Medidas
     .bg20.p-4.mb-5
+      .row.justify-content-center.mb-4 
+        .col-lg-11
+          .cajr.p-4
+            h4.mb-3.mx-4 División del cuerpo
+            p.mb-0.mx-4 Desde la cintura se trabaja una línea imaginaría con el fin de dividir el cuerpo en dos regiones principales.
       .row.justify-content-center
         .col-lg-9
-          ImagenInfografica.color-primario.mb-5(data-aos="fade-down")
+          ImagenInfografica.color-primario.mb-4(data-aos="fade-down")
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/t1/imag01.svg', alt='La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales, utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
-            .tarjeta.bg13.p-3(x="5.5%" y="9%" numero="+")
+                img(src='@/assets/curso/temas/t1/imgg.png', alt='La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales, utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
+            .tarjeta.bg13.p-3(x="6%" y="8%" numero="+")
               p.mb-0 Las prendas superiores incluyen una variedad de artículos esenciales en el vestuario diario, como camisetas, blusas, chaquetas, sudaderas, #[em tops], chalecos, etc. Estas prendas varían en estilo, material y diseño, adaptándose a diversas ocasiones y preferencias personales.
-            .tarjeta.bg13.p-3(x="71%" y="64%" numero="+")
+            .tarjeta.bg13.p-3(x="85%" y="64%" numero="+")
               p.mb-0 Las prendas inferiores abarcan una variedad de artículos, entre los más comunes se encuentran los pantalones, jeans, faldas, shorts, sudaderas, bermudas, etc. Cada una de estas prendas puede variar en estilo, material y diseño, permitiendo opciones tanto para ocasiones formales como casuales.
-        .col-lg-7
-          .bg21.p-4   
-            .row.justify-content-center.align-items-center
-              .col-md-6
-                img.mb-3.w-50(src='@/assets/curso/temas/t1/deco1.svg', alt='')
-                h5 Arquitectura del cuerpo
-                p Conocimiento e interpretación corporal.
-              .col-md-5 
-                .row 
-                  .col-lg-5
-                    p.mb-0.der Anatomía
-                    p.mb-0.der Biomecánica
-                    p.mb-0.der Morfología
-                    p.mb-0.der Ergonomía
-                    p.mb-0.der Antropometría
-                  .col-lg-1
-                    p.mb-0 #[span.texto2 =]
-                    p.mb-0 #[span.texto2 =]
-                    p.mb-0 #[span.texto2 =]
-                    p.mb-0 #[span.texto2 =]
-                    p.mb-0 #[span.texto2 =]
-                  .col-lg-5
-                    p.mb-0 Estructura
-                    p.mb-0 Movimiento
-                    p.mb-0 Geometría
-                    p.mb-0 Postura
-                    p.mb-0 Medidas
+        
+          
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -540,10 +547,10 @@
           p Sin embargo, los dos tipos de sistemas son utilizados en diferentes áreas y cadenas productivas teniendo en cuenta que algunos estándares están trabajados en medidas diferentes a las que usa oficialmente el país.
         .col-lg-3.col-md-6.mb-4.mb-md-0
           h5.text-center.text-small Sistema inglés
-          img(src='@/assets/curso/temas/t1/imag21.svg', alt='imagen expone una comparación entre dos sistemas de medición: el sistema inglés y el sistema internacional o métrico decimal. A la izquierda, bajo el título "Sistema inglés", se ve una regla que mide en centímetros (cm) de 1 a 5. A la derecha, bajo el título "Sistema internacional o métrico decimal", se presenta una regla que mide en pulgadas (inches) de 1 a 2. El texto indica que ambos tipos de sistemas se utilizan en diferentes áreas y cadenas productivas, considerando que algunos estándares están trabajados en medidas diferentes a las que usa oficialmente el país.')
+          img(src='@/assets/curso/temas/t1/gt.svg', alt=' La imagen presenta una regla con una escala en pulgadas, que abarca desde 1 hasta 2, y sobre ella se encuentra un texto que dice "Sistema inglés" en la parte superior. La regla tiene marcas detalladas que indican las fracciones de pulgada, y el fondo de la imagen es de color lila.')
         .col-lg-3.col-md-6.mb-4.mb-md-0
           h5.text-center.text-small Sistema internacional o métrico decimal
-          img(src='@/assets/curso/temas/t1/imag22.svg', alt='imagen expone una comparación entre dos sistemas de medición: el sistema inglés y el sistema internacional o métrico decimal. A la izquierda, bajo el título "Sistema inglés", se ve una regla que mide en centímetros (cm) de 1 a 5. A la derecha, bajo el título "Sistema internacional o métrico decimal", se presenta una regla que mide en pulgadas (inches) de 1 a 2. El texto indica que ambos tipos de sistemas se utilizan en diferentes áreas y cadenas productivas, considerando que algunos estándares están trabajados en medidas diferentes a las que usa oficialmente el país.')
+          img(src='@/assets/curso/temas/t1/imag21.svg', alt='La imagen presenta una regla con una escala en centímetros, que abarca desde 1 hasta 5, y sobre ella se encuentra un texto que dice "Sistema internacional o métrico" en la parte superior. La regla tiene líneas de medición detalladas entre cada número, que indican las fracciones de centímetro, y el fondo de la imagen es de color lila.')
     
     
     .row.justify-content-center 
@@ -594,9 +601,10 @@
       .col-lg-10.mnr-1(data-aos="fade-right")
         .bg8.p-4
           p.mb-0 Como se utilizan los centímetros:
-          p.mb-4 1 metro = 10 Decímetros, 1 Decímetro = 10 Centímetros, 1 Centímetro = 10 Milímetros - Imagen de referencia
+          p.mb-3 1 metro = 10 Decímetros, 1 Decímetro = 10 Centímetros, 1 Centímetro = 10 Milímetros - Imagen de referencia
           p.mb-0 Fracciones - ½ = Decimales - .5
-          p.mb-4 Conversión de 1/2 Pulgada = 1,27 Centímetros = 12,700 Milímetros.
+          p.mb-3 Conversión de 1/2 Pulgada = 1,27 Centímetros = 12,700 Milímetros.
+          p.mb-0 #[b TABLA DE CONVERSIÓN] - Imagen de referencia
           p.mb-0 ¼ de Fracción = .25 Decimales = .33 Milímetros
       .col-lg-3.col-md-7
         img(src='@/assets/curso/temas/t1/imag24.svg', alt='')
@@ -1366,7 +1374,7 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        p.mb-0 Anexo 7: Pasos para definir patronaje.
+                        p.mb-0 Consulta pasos para definir patronaje
                       .col-sm-auto
                         a.boton.color-acento-botones(href="https://www.studocu.com/co/document/servicio-nacional-de-aprendizaje/patronaje-prendas-basicas/7-anexo-7-pdf-pasos-definir-patronaje/39261850" target="_blank")
                           span Descargar

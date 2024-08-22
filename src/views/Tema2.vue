@@ -322,7 +322,7 @@
       .row(titulo="Planchuela")
         .row.bg13.p-4.p-md-5
           p.mb-0 Es el elemento que sirve de apoyo al material cuando el diente se encuentra regresando, además viene provista de un orificio que es el lugar de penetración de la aguja, este orificio varía de acuerdo con el ajuste pues él debe de ser un 40% más amplio que la hoja de la aguja. La planchuela tiene carriles, estos deben ser iguales al número de carriles del diente además el diente debe de desplazarse en la totalidad del carril de la plancha.      
-      .row(titulo="Tomador de lanzada")
+      .row(titulo="Tomador de lazada")
         p Es el elemento mecánico que junto con la aguja se encarga de formar la puntada. Estos elementos son auxiliados algunas veces en la formación de la puntada por otros elementos mecánicos. Los más reconocidos son:
         .row.bg13.mb-4.p-2
           h5.text-center.mb-0 Clases de tomadores de lazada
