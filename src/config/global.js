@@ -318,8 +318,7 @@ export default {
     {
       referencia:
         'Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir, Centro de Manufactura en Textil y Cuero, Distrito Capital, 2020.',
-      link:
-        'https://zajuna.sena.edu.co/pdfs/titulada/tecnico/Patronaje_Industrial_Prendas_Vestir.pdf',
+      link: '',
     },
     {
       referencia:
@@ -334,8 +333,7 @@ export default {
     {
       referencia:
         'Pulgarín, B. y Ulloa, J. (1998). La evolución de las máquinas y su aplicación en la industria de la confección Colombiana.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000009660',
+      link: '',
     },
     {
       referencia:
