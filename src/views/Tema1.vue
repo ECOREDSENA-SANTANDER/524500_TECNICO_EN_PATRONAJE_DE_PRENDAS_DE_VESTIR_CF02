@@ -274,7 +274,7 @@
         .row.justify-content-center
           .col-lg-8
             img(src='@/assets/curso/temas/t1/imag16.svg', alt='La imagen presenta diferentes tipologías corporales en forma de siluetas, clasificadas según sus características físicas generales de contorno y forma corporal. Las tipologías incluyen: reloj de arena/trapecio, triángulo, triángulo invertido, rectángulo y óvalo. Cada figura humana ilustra una de estas formas corporales, destacando las variaciones en proporciones y distribución de volumen. Esta clasificación es útil para entender la morfología de superficie y puede ser aplicada en áreas como la moda, el diseño de ropa y la ergonomía.')
-
+    p.mb-4 El siguiente diagrama, permite identificar la tipología corporal de acuerdo con algunas características físicas generales:
     .d-flex.justify-content-center
       .d-flex.flex-wrap.align-items-center.bg-img-bluess
         h4.col.px-4.mb-0.text-white(data-aos="fade-right") ¿Cuál es mi tipo de cuerpo?
