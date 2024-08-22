@@ -244,14 +244,16 @@
               p Complexión blanda y redonda, suele ser bajo y fornido, gana músculo fácilmente,  engorda fácilmente, le cuesta perder grasa, metabolismo lento y hombros anchos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/tarj-slide3.svg')})`}")
 
-    .row.mb-5.justify-content-center
-      .col-lg-10
-        .bloque-texto-g.color-primario.p-5.mb-5.p-3.p-sm-4.p-md-5(alt='La imagen presenta un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo. ')
-          .bloque-texto-g__img.ap(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/t1/imag15.svg')})`}"
-          )
-          .bloque-texto-g__texto.op.p-5.mt-5.my-5
-            p.mb-0 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.kaj.p-5
+        .row.justify-content-center.align-items-center
+          .col-lg-6
+            .cajablanca.p-4
+              p.mb-4.my-4 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
+          .col-lg-6
+            img(src='@/assets/curso/temas/t1/ikk.png', alt='')
+            
+
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -586,7 +588,7 @@
         i.fas.fa-plus
         | El ancho de los materiales textiles se mide en centímetros. Los textiles al detal se venden por metros.
     
-    p.mb-4(data-aos="fade") En patronaje: la mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el #[em confort] de la prenda se realizan en centímetros.
+    p.mb-4(data-aos="fade") En patronaje: la mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
     
     .row.align-items-center.mb-4
       .col-lg-10.mnr-1(data-aos="fade-right")
@@ -904,91 +906,26 @@
           .col-lg-5.col-md-12.col-12
             .encab.p-2.mb-3
               h4.text-center Fórmulas de deducción horizontales
-            .row.mb-4
-              .col-lg-4.col-md-5.col-5.mx-0
-                p.mb-0 Tórax máximo
-                p.mb-0 Tórax máximo
-                p.mb-0 Pecho
-                p.mb-0 Bajo busto
-                p.mb-0 Sep. de busto
-                p.mb-0 Cintura
-                p.mb-0 Cadera
-                p.mb-0 Cuello
-                p.mb-0 Rodilla
-                p.mb-0 Tobillo
-                p.mb-0 Brazo
-                p.mb-0 Muñeca
-                p.mb-0 Ancho Espalda
-              .col-lg-7.col-md-6.col-6
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Busto
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Talla +36
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Tórax máximo -2
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Busto -6
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/5 busto
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Busto -10
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Busto +4
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/2 busto + 12
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/4 busto + 24
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/8 busto + 25.5
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Busto -12
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/4 busto + 5
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Busto -8
+            .row.justify-content-center.mb-4
+              .col-lg-11.col-md-11.col-11.mx-0
+                img(src='@/assets/curso/temas/t1/ol.svg', alt='')
+              
   
           .col-lg-7.col-md-12.col-12
             .encab.p-2.mb-3
               h4.text-center Otras fórmulas de deducción
-            .row.mb-4
-              .col-lg-4.col-md-5.col-5.mx-0
-                p.mb-0 Talla
-                p.mb-0 Pecho 
-                p.mb-0 Cintura
-                p.mb-0 Cadera
-                p.mb-0 Cuello
-                p.mb-0 Estatura 7a
-                p.mb-0 Talle espalda
-                p.mb-0 Estatura total
-                p.mb-0 Largo de brazo
-                p.mb-0 Codo
-                p.mb-0 Cintura al suelo
-                p.mb-0 Largo de falda larga
-                p.mb-0 Largo de falda corta
-              .col-lg-7.col-md-5.col-7
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 24 cm
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 1/2 de años + 26
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años + 28
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de pecho + 4 cm
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Años x 5 + 65 cm
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 3/10 de estatura 7aC
-                p.mb-0 =&nbsp;&nbsp; Estatura 7aC + 15-18 cm.
-                p.mb-0 &nbsp;&nbsp;Corresponden a el canon del niño o medida de cabeza.
-                p.mb-0 =&nbsp;&nbsp; 4/10 de estatura 7aC
-                p.mb-0 =&nbsp;&nbsp; 1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5 cm para todas las tallas).
-                p.mb-0 =&nbsp;&nbsp; 7/10 de estatura 7aC
-                p.mb-0 =&nbsp;&nbsp; 2/3 de la medida cintura al suelo -3
-                p.mb-0 =&nbsp;&nbsp; 1/2 de la medida cintura al suelo -3
+            .row.justify-content-center.mb-4
+              .col-lg-11.col-md-11.col-11.mx-0
+                img(src='@/assets/curso/temas/t1/il.svg', alt='')
         .row.mb-3
           .col-lg-5.col-md-12.col-12
             .encab.p-2.mb-3
               h4.text-center Fórmulas de deducción verticales
-            .row.mb-4
-              .col-lg-4.col-md-5.col-5.mx-0
-                p.mb-0 Estatura 7aC
-                p.mb-0 Estatura total
-                p.mb-0 Altura de busto 
-                p.mb-0 Bajo busto
-                p.mb-0 Largo brazo
-                p.mb-0 Cintura/suelo
-                p.mb-0 Altura  cadera
-              .col-lg-7.col-md-6.col-7
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Busto + 96
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; Estatura 7aC +20
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 3/8 Estatura 7aC - 27
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 3/8 Estatura 7aC - 18
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 4/10 Estatura 7aC
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 7/10 Estatura 7aC
-                p.mb-0 =&nbsp;&nbsp;&nbsp;&nbsp; 2/3 de tiro
-
+            .row.justify-content-center.mb-4
+              .col-lg-12.col-md-12.col-12.mx-0
+                img(src='@/assets/curso/temas/t1/ul.svg', alt='')
+        
+    
     .bg66.mb-4.p-4.px-lg-5.mb-5(data-aos="fade-down")
       .row
         .col-lg-4

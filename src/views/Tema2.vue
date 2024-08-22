@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Alistamiento para elaboración de muestra física 1
-    
+
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-down")
       .bloque-texto-g__img.dor(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/cajong.png')})`}"
