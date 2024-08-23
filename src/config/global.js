@@ -333,7 +333,8 @@ export default {
     {
       referencia:
         'Pulgarín, B. y Ulloa, J. (1998). La evolución de las máquinas y su aplicación en la industria de la confección Colombiana.',
-      link: '',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000009660',
     },
     {
       referencia:

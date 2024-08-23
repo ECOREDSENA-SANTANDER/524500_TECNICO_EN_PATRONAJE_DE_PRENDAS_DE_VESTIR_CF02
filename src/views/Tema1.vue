@@ -258,7 +258,7 @@
             .cajablanca.p-4
               p.mb-4.my-4 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
           .col-lg-6
-            img(src='@/assets/curso/temas/t1/ikk.png', alt='')
+            img(src='@/assets/curso/temas/t1/ikk.png', alt='La imagen presenta un diagrama que clasifica los diferentes tipos de cuerpos humanos en función de sus características morfológicas. En el centro del diagrama se encuentra el "centroide", desde donde se extienden líneas hacia diversas combinaciones de somatotipos: endomorfo, mesomorfo y ectomorfo. Cada cuadrante del diagrama indica una combinación específica de estos somatotipos, como meso-endomórfico, endo-mesomórfico, ecto-mesomórfico, entre otros. El objetivo es mostrar cómo se equilibran las distintas características corporales y cómo estas combinaciones pueden influir en las necesidades vestimentarias y el comportamiento del cuerpo.')
             
 
 
@@ -604,7 +604,7 @@
           p.mb-3 1 metro = 10 Decímetros, 1 Decímetro = 10 Centímetros, 1 Centímetro = 10 Milímetros - Imagen de referencia
           p.mb-0 Fracciones - ½ = Decimales - .5
           p.mb-3 Conversión de 1/2 Pulgada = 1,27 Centímetros = 12,700 Milímetros.
-          p.mb-0 #[b TABLA DE CONVERSIÓN] - Imagen de referencia
+          p.mb-0 #[b TABLA DE CONVERSIÓN]
           p.mb-0 ¼ de Fracción = .25 Decimales = .33 Milímetros
       .col-lg-3.col-md-7
         img(src='@/assets/curso/temas/t1/imag24.svg', alt='')
