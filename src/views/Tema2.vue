@@ -255,7 +255,7 @@
           .col-lg-3
             h5.texto1 Barra prénsatela
             p Barra que sujeta el prénsatela o pie de la máquina.           
-    p.mb-4 La educación es para todos por ello te invitamos a que visites el siguiente video en donde se describen las partes y funciones de la maquina plana.
+    p.mb-4 La educación es para todos por ello le invitamos a consultar el siguiente video en donde se describen las partes y funciones de la maquina plana.
     
     figure.mb-4(data-aos="fade-down")
       .video
