@@ -81,7 +81,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Tipos de máquinas.',
+            titulo: 'Tipos de máquinas',
             hash: 't_2_1',
           },
           {
@@ -318,7 +318,8 @@ export default {
     {
       referencia:
         'Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir, Centro de Manufactura en Textil y Cuero, Distrito Capital, 2020.',
-      link: '',
+      link:
+        'https://zajuna.sena.edu.co/pdfs/titulada/tecnico/Patronaje_Industrial_Prendas_Vestir.pdf',
     },
     {
       referencia:

@@ -712,7 +712,7 @@
             span.mb-0 #[b Algodón:] es la parte del hilo que va a estar en contacto con la piel e impide que se produzcan irritaciones o incomodidades, ya que sus características son suavidad, absorbente y fresco.
           li
             i.fas.fa-plus
-            span.mb-0 #[b Poliéster:] la fibra que va por el centro o es el núcleo del hilo, aporta elasticidad, es decir la capacidad de aumentar considerablemente su dimensión sin romperse.
+            span.mb-0 #[b Poliéster:] la fibra que va por el centro o es el núcleo del hilo, aporta elasticidad, es decir, la capacidad de aumentar considerablemente su dimensión sin romperse.
           li
             i.fas.fa-plus
             span.mb-0 #[b Mercerizado:] es un acabado que le dan al hilo consistente en bañarlo en una solución de soda cáustica, con la intensión de dotarlo de brillo, suavidad y resistencia.
