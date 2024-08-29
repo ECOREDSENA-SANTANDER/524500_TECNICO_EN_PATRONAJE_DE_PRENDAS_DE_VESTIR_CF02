@@ -32,37 +32,37 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Conceptos de Pre-Patronaje',
+        titulo: 'Conceptos de pre-patronaje',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Clasificación de las medidas',
+            titulo: 'Estructura corporal humana',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Análisis de cuadros de tallas',
+            titulo: 'Clasificación de medidas',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Concepto de Patronaje - Pasos del patronaje',
+            titulo: 'Concepto de patronaje',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Patronaje',
+            titulo: 'Pasos del patronaje',
             hash: 't_1_4',
           },
           {
             numero: '1.5',
-            titulo: 'Elaboración de básicos Infantil',
+            titulo: 'Elaboración de básicos infantil',
             hash: 't_1_5',
           },
           {
             numero: '1.6',
-            titulo: 'Elaboración de básicos Masculinos',
+            titulo: 'Elaboración de básicos masculinos',
             hash: 't_1_6',
           },
           {
@@ -101,13 +101,13 @@ export default {
           },
           {
             numero: '2.5',
-            titulo: 'Clasificación, nomenclatura, Puntas, Calibres y usos',
+            titulo: 'Clasificación, nomenclatura, puntas, calibres y usos',
             hash: 't_2_5',
           },
           {
             numero: '2.6',
             titulo:
-              'Relación de elementos de costura: Tela, Aguja, puntada, hilo, ajuste',
+              'Relación de elementos de costura: tela, aguja, puntada, hilo, ajuste',
             hash: 't_2_6',
           },
           {
@@ -306,7 +306,7 @@ export default {
     {
       termino: 'Sistemas de medidas',
       significado:
-        'Conjunto de normas y estándares para tomar y aplicar medidas corporales en el diseño de ropa',
+        'Conjunto de normas y estándares para tomar y aplicar medidas corporales en el diseño de ropa.',
     },
     {
       termino: 'Talla',
@@ -348,12 +348,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -363,19 +363,19 @@ export default {
       autores: [
         {
           nombre: 'Lizeth Maritza Rodríguez Beltrán',
-          cargo: 'Instructora Técnica ',
+          cargo: 'Instructora técnica ',
           centro:
             'Regional Distrito Capital - Centro de Manufactura en Textil y Cuero',
         },
         {
           nombre: 'Natalia Andrea Bueno Pizarro',
-          cargo: 'Diseñadora y evaluadora Instruccional',
+          cargo: 'Diseñadora y evaluadora instruccional',
           centro:
             'Regional Distrito Capital - Centro para La Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Sandra Paola Morales Paez ',
-          cargo: 'Evaluadora Instruccional ',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -385,17 +385,17 @@ export default {
       autores: [
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
-          cargo: 'Diseñadora de Contenidos Digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Pedro Alonso Bolivar González',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y Productora Multimedia',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -405,7 +405,7 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validadora de Recursos Educativos Digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {

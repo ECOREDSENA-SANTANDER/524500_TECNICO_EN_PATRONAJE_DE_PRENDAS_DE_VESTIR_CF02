@@ -108,7 +108,7 @@
     
     .row.justify-content-center.mb-4(data-aos="fade")
       .col-lg-8
-        img(src='@/assets/curso/temas/t2/g1.svg' alt='')
+        img(src='@/assets/curso/temas/t2/g1.svg' alt='En la imagen se representa una máquina de coser con diferentes partes etiquetadas, como "Columna", "Cama", "Cabeza" y "Brazo". Un trozo de tela amarilla con las letras "M" y "J" bordadas cuelga de la máquina, indicando una operación de costura en proceso.')
 
     p.mb-4(data-aos="fade") Y es, esta última, la que cobra vital importancia en el origen de las operaciones más relevantes de un producto a confeccionar, bien sea, por su dificultad, complejidad, tiempo de producción, calidad, entre otros. Algunos tipos de máquinas pueden modificar la cama e incluso el mueble de la máquina para adaptarse mejor a las condiciones del producto, es por ello por lo que si se trabaja con prendas de gran volumen podemos encontrar términos en máquinas como:
     
@@ -151,7 +151,7 @@
             .col-md-10.col-7
               img(src='@/assets/curso/temas/t2/tarjeta5.png', alt='')
           h4.text-center Cilíndrica o de brazo
-          p.text-center.mb-0 Permite coser partes cilíndricas en su perímetro, su estructura es especialmente adecuada para trabajar piezas tubulares tales como puños, mangas, materiales cerrados entre otros. Este tipo de cama también se emplea en la máquina de pegar botones.
+          p.text-center.mb-0 Permite coser partes cilíndricas en su perímetro, su estructura es especialmente adecuada para trabajar piezas tubulares tales como puños, mangas, materiales cerrados, entre otros. Este tipo de cama también se emplea en la máquina de pegar botones.
       .col-sm-6.col-lg.mb-4.mb-lg-0
         .tarjeta.bg8.p-4.h-100
           .row.justify-content-center.mb-3
@@ -193,7 +193,7 @@
       .tarjeta.color-primario.p-4
         .row.justify-content-around.align-items-center
           .col-lg-4.col-md-6.col-8.mb-4
-            img(src='@/assets/curso/temas/t2/slyder.png' alt='La imagen presenta un diagrama de una máquina de coser industrial, detallando componentes como el porta conos, cabezote o cabeza de la máquina, mueble, herraje, motor, interruptor y pedal, todos listados a la derecha sobre un fondo púrpura.')
+            img(src='@/assets/curso/temas/t2/slyder.svg' alt='La imagen presenta un diagrama de una máquina de coser industrial, detallando componentes como el porta conos, cabezote o cabeza de la máquina, mueble, herraje, motor, interruptor y pedal, todos listados a la derecha sobre un fondo púrpura.')
           .col-lg-5
             h5 Aspectos generales:
             ul.lista-ul--color.color-acento-botones.fin.fa-ul
@@ -255,7 +255,7 @@
           .col-lg-3
             h5.texto1 Barra prénsatela
             p Barra que sujeta el prénsatela o pie de la máquina.           
-    p.mb-4 La educación es para todos por ello le invitamos a consultar el siguiente video en donde se describen las partes y funciones de la maquina plana.
+    p.mb-4 La educación es para todos por ello le invitamos a consultar el siguiente video en donde se describen las partes y funciones de la máquina plana.
     
     figure.mb-4(data-aos="fade-down")
       .video
@@ -318,10 +318,10 @@
               li
                 i.fas.fa-plus
                 | Cuando la presión es poca, la tela no alcanza a incrustarse en el diente ocasionando que esta se pegue y varía la cantidad de puntadas por pulgada. 
-            p.ps-4 #[b Nota:] el ancho de la base del pie prensatelas debe de ser igual al ancho del diente y cubrirlo en un 90% de su recorrido.      
+            p.ps-4 #[b Nota:] el ancho de la base del pie prensatelas debe de ser igual al ancho del diente y cubrirlo en un 90 % de su recorrido.      
       .row(titulo="Planchuela")
         .row.bg13.p-4.p-md-5
-          p.mb-0 Es el elemento que sirve de apoyo al material cuando el diente se encuentra regresando, además viene provista de un orificio que es el lugar de penetración de la aguja, este orificio varía de acuerdo con el ajuste pues él debe de ser un 40% más amplio que la hoja de la aguja. La planchuela tiene carriles, estos deben ser iguales al número de carriles del diente además el diente debe de desplazarse en la totalidad del carril de la plancha.      
+          p.mb-0 Es el elemento que sirve de apoyo al material cuando el diente se encuentra regresando, además viene provista de un orificio que es el lugar de penetración de la aguja, este orificio varía de acuerdo con el ajuste pues él debe de ser un 40 % más amplio que la hoja de la aguja. La planchuela tiene carriles, estos deben ser iguales al número de carriles del diente además el diente debe de desplazarse en la totalidad del carril de la plancha.      
       .row(titulo="Tomador de lazada")
         p Es el elemento mecánico que junto con la aguja se encarga de formar la puntada. Estos elementos son auxiliados algunas veces en la formación de la puntada por otros elementos mecánicos. Los más reconocidos son:
         .row.bg13.mb-4.p-2
@@ -387,12 +387,12 @@
     p.mb-4(data-aos="fade") En la maquinaria de confección, la alimentación se refiere al movimiento del material que se va a coser. Sin embargo, en ciertos casos, como en la fabricación de colchones donde el material es demasiado pesado, no se desplaza el material sino la misma máquina.
 
 
-    SlyderF(columnas="col-lg-4 col-md-6" data-aos="fade-down")(alt='La imagen describe tres tipos de alimentación en máquinas de coser: oscilante sencillo, realizado en cuatro pasos donde el diente sube, desplaza el material, desciende y regresa; alimentación combinada, que involucra al diente y la aguja, utilizada en máquinas de dos agujas; y doble transporte, donde el prensatelas y el diente superior se mueven para desplazar el material, común en máquinas de guarnicionero.')
+    SlyderF(columnas="col-lg-4 col-md-6" data-aos="fade-down")
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/pasos.svg' alt='')
+            img.mb-3(src='@/assets/curso/temas/t2/pasos.svg' alt='La imagen ilustra el mecanismo de un oscilante sencillo, donde se detallan cuatro pasos en el proceso. En el primer paso, una pieza se desplaza hacia abajo, siguiendo la dirección de la flecha. A continuación, en el segundo paso, la pieza se mueve hacia la izquierda. El tercer paso indica un movimiento descendente de otra pieza en el sistema. Finalmente, en el cuarto paso, la pieza se mueve hacia la derecha. Todo esto ocurre a lo largo de una línea recta, que probablemente representa el recorrido de un componente dentro del mecanismo de oscilación.')
             p.mb-4 Este tipo de alimentación lo realiza el diente siguiendo cuatro pasos y solo la secuencia se invierte cuando se remata, los pasos son los siguientes.
             p.mb-0 #[b Paso 1:] el diente sube y aparecen justamente encima de la pancha de aguja.   
             p.mb-0 #[b Paso 2:] los dientes desplazan el material a coser.
@@ -403,21 +403,21 @@
         img.px-2(src='@/assets/curso/temas/t2/circulo2.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/pasos2.svg' alt='')
+            img.mb-3(src='@/assets/curso/temas/t2/pasos2.svg' alt='La imagen representa un proceso de alimentación combinada en cuatro pasos distintos. En el primer paso, una aguja desciende hacia la tela. En el segundo paso, la aguja continúa su descenso mientras la pieza de alimentación avanza hacia adelante. En el tercer paso, la aguja comienza a subir y la pieza de alimentación se desplaza hacia la izquierda. Finalmente, en el cuarto paso, la aguja termina de subir mientras la pieza de alimentación vuelve a su posición inicial, preparándose para repetir el ciclo. Este proceso es un mecanismo de costura en el que se combinan diferentes movimientos para lograr un avance preciso del material.')
             p.mb-4 Este tipo de alimentación es realizada por el diente y la aguja, o sea que la barra de aguja también tiene cuatro pasos y se combinan con el diente para desplazar el material.
             p #[b Nota:] este tipo de alimentación es más utilizado en las máquinas de dos agujas.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo3.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/pie.svg' alt='')
+            img.mb-3(src='@/assets/curso/temas/t2/pie.svg' alt='La imagen representa un sistema de doble transporte utilizado en máquinas de coser, destacando tres componentes clave: el pie prensatelas, el diente superior y el diente inferior. El pie prensatelas presiona la tela desde arriba, mientras que el diente superior y el diente inferior trabajan juntos para mover la tela de manera sincronizada, asegurando un avance uniforme y preciso durante el proceso de costura. Este mecanismo es especialmente útil para manejar materiales más gruesos o difíciles de alimentar, garantizando una costura consistente y sin desplazamientos indeseados del tejido.')
             p.mb-4 Las máquinas con este sistema de alimentación presentan un prensatelas que, a primera vista, parece estar dividido en dos partes. Sin embargo, es solo al activar la máquina que se puede observar cómo una sección del pie se eleva y se mueve en coordinación con el diente para trasladar el material. Este diente superior realiza un movimiento de cuatro pasos, similar a la barra de aguja en la alimentación combinada. La principal diferencia radica en que el diente no penetra en el material, sino que lo mueve por contacto directo.
             p #[b Nota:] este tipo de alimentación es muy utilizado en las máquinas de guarnecer.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo4.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3.w-50.m-auto(src='@/assets/curso/temas/t2/pie2.svg' alt='')
+            img.mb-3.w-50.m-auto(src='@/assets/curso/temas/t2/pie2.svg' alt='La imagen describe tres tipos de alimentación en máquinas de coser: oscilante sencillo, realizado en cuatro pasos donde el diente sube, desplaza el material, desciende y regresa; alimentación combinada, que involucra al diente y la aguja, utilizada en máquinas de dos agujas; y doble transporte, donde el prensatelas y el diente superior se mueven para desplazar el material, común en máquinas de guarnicionero. ')
             p Es el tipo de alimentación más pesado que se conoce, son tres los encargados de desplazar el material a coser, y es la combinación de todas las anteriores. El material es desplazado por diente inferior, aguja y diente superior.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo5.svg' alt='')
@@ -428,7 +428,7 @@
         img.px-2(src='@/assets/curso/temas/t2/circulo6.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/alimentacion.svg' alt='')
+            img.mb-3(src='@/assets/curso/temas/t2/alimentacion.svg' alt='La imagen explica el concepto de alimentación por diferencial, destacando cómo está compuesta por un par de dientes independientes que tienen movimiento propio. Estos dientes pueden sincronizarse de manera similar al mecanismo oscilante sencillo, pero se emplean para ajustar el recorrido de uno en comparación con el otro según sea necesario, ya sea para recoger o estirar la tela. Se ilustran dos casos: la alimentación principal, que frunce la tela con 10 repeticiones por pulgada (RPP), y la alimentación diferencial, que la estira con 6 RPP en la parte fruncida y 10 RPP en la parte estirada, dependiendo de las necesidades del material a procesar.')
             p.mb-4 Aquel que está formado por un par de dientes independientes, con movimiento propio cada uno de ellos, su sincronización es idéntica oscilante sencillo, se utiliza para hacer que uno de los dientes tenga un mayor o igual recorrido que el otro de acuerdo con las necesidades, ya sea para recoger o estirar la tela.
     
     Separador
@@ -444,14 +444,14 @@
             img(src='@/assets/curso/temas/t2/imag.png' alt='')
           .tarjeta.tarjeta--morado.d-flex.align-items-center
             .p-4
-              p.mb-0 #[b Máquinas de primera generación:] máquinas convencionales sin ningún tipo de ayudas, en este tipo de máquinas el operador realiza el 90% de las operaciones de la máquina como: levantar el prensatelas, posicionar la aguja para retirar el material, cortar los hilos, hacer atraques y otras operaciones más.    
+              p.mb-0 #[b Máquinas de primera generación:] máquinas convencionales sin ningún tipo de ayudas, en este tipo de máquinas el operador realiza el 90 % de las operaciones de la máquina como: levantar el prensatelas, posicionar la aguja para retirar el material, cortar los hilos, hacer atraques y otras operaciones más.    
     
     .row.mb-4(data-aos="fade-down")
       .col-lg-12  
         .tarjeta-avatar-b.top
           .tarjeta.tarjeta--morado.alreves
             .p-4
-              p #[b Máquinas de Segunda generación:] en este tipo de máquinas el operador realiza el 50% de las operaciones, debido a que las máquinas vienen provistas con ayudas de tipo electrónico, neumático o electroneumático. 
+              p #[b Máquinas de Segunda generación:] en este tipo de máquinas el operador realiza el 50 % de las operaciones, debido a que las máquinas vienen provistas con ayudas de tipo electrónico, neumático o electroneumático. 
               ul.lista-ul--color.fa-ul.color-primario
                 li
                   i.fas.fa-plus
@@ -475,14 +475,14 @@
             img(src='@/assets/curso/temas/t2/imag3.png' alt='')
           .tarjeta.tarjeta--morado.d-flex.align-items-center
             .p-4
-              p.mb-0 #[b Máquinas de tercera generación:] en este tipo de máquinas el operador realiza el 10% de las operaciones y puede incluso operar dos o tres máquinas a la vez. Estas vienen provistas con las ayudas de la generación anterior pero además cuentan con la ayuda de sensores que permiten que las máquinas trabajen casi solas.          
+              p.mb-0 #[b Máquinas de tercera generación:] en este tipo de máquinas el operador realiza el 10 % de las operaciones y puede incluso operar dos o tres máquinas a la vez. Estas vienen provistas con las ayudas de la generación anterior pero además cuentan con la ayuda de sensores que permiten que las máquinas trabajen casi solas.          
     
     .row.mb-4(data-aos="fade-down")
       .col-lg-12  
         .tarjeta-avatar-b
           .tarjeta.tarjeta--morado.alreves.align-items-center
             .p-4
-              p.mb-0.my-3 #[b Máquinas de Ultrasonido:] este tipo de máquinas unen el material por ultrasonido las cuales incorporan un sistema de sonoroso que emite un ultrasonido de 60.000 ciclos contra una rueda transportadora que tiene la forma de una puntada. Podría decirse que produce una soldadura entre las telas y por medio un disco intercambiable puede imitar las puntadas de fileteo, cadeneta y doble pespunte. La única condición es que el material a coser debe estar compuesto de poliéster como mínimo en un 60% de su estructura física.
+              p.mb-0.my-3 #[b Máquinas de Ultrasonido:] este tipo de máquinas unen el material por ultrasonido las cuales incorporan un sistema de sonoroso que emite un ultrasonido de 60.000 ciclos contra una rueda transportadora que tiene la forma de una puntada. Podría decirse que produce una soldadura entre las telas y por medio un disco intercambiable puede imitar las puntadas de fileteo, cadeneta y doble pespunte. La única condición es que el material a coser debe estar compuesto de poliéster como mínimo en un 60 % de su estructura física.
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/imag4.png' alt='')
     
@@ -504,7 +504,7 @@
             p.mb-4 De la aguja se deben considerar tres aspectos importantes:
             .row.justify-content-center.align-items-center
               .col-lg-8
-                img(src='@/assets/curso/temas/t2/imag5.png' alt='La imagen destaca tres aspectos importantes de las agujas de coser: el número de material de 6 dígitos para facilitar el pedido, el grosor de la aguja en Nm y otras denominaciones habituales, y el código DataMatrix, que permite seguir la producción y acceder a información adicional mediante escáner de etiquetas. Además, se menciona que las agujas se adquieren en diferentes formas y puntas, adecuadas para materiales desde telas ligeras hasta cuero pesado.')
+                img(src='@/assets/curso/temas/t2/imag5.svg' alt='La imagen destaca tres aspectos importantes de las agujas de coser: el número de material de 6 dígitos para facilitar el pedido, el grosor de la aguja en Nm y otras denominaciones habituales, y el código DataMatrix, que permite seguir la producción y acceder a información adicional mediante escáner de etiquetas. Además, se menciona que las agujas se adquieren en diferentes formas y puntas, adecuadas para materiales desde telas ligeras hasta cuero pesado.')
         .row.justify-content-center
           .col-lg-5
             h5 Calibre
@@ -635,7 +635,7 @@
     .row.mb-5.bg17
       .p-4(data-aos="fade") 
         h4 Hilos
-        p.mb-4 Representa un 2% del costo de la prenda, pero comparte un 50% de la durabilidad de las costuras.
+        p.mb-4 Representa un 2 % del costo de la prenda, pero comparte un 50 % de la durabilidad de las costuras.
 
         .row.justify-content-center.tarjeta--container.mb-5(data-aos="fade-down") 
           .col-md.tarjeta.color-primario.p-5
@@ -712,10 +712,10 @@
             span.mb-0 #[b Algodón:] es la parte del hilo que va a estar en contacto con la piel e impide que se produzcan irritaciones o incomodidades, ya que sus características son suavidad, absorbente y fresco.
           li
             i.fas.fa-plus
-            span.mb-0 #[b Poliéster:] la fibra que va por el centro o es el núcleo del hilo, aporta elasticidad, es decirla capacidad de aumentar considerablemente su dimensión sin romperse.
+            span.mb-0 #[b Poliéster:] la fibra que va por el centro o es el núcleo del hilo, aporta elasticidad, es decir la capacidad de aumentar considerablemente su dimensión sin romperse.
           li
             i.fas.fa-plus
-            span.mb-0 #[b Mercerizado:] es un acabado que le dan al hilo consistente en bañarlo en una solución de soda caustica, con la intensión de dotarlo de brillo, suavidad y resistencia.
+            span.mb-0 #[b Mercerizado:] es un acabado que le dan al hilo consistente en bañarlo en una solución de soda cáustica, con la intensión de dotarlo de brillo, suavidad y resistencia.
           li
             i.fas.fa-plus
             span.mb-0 #[b Lubricado:] es un acabado final que le deben dar al hilo para evitar su rotura al estar en contacto con la aguja.
@@ -730,7 +730,7 @@
         .titulo-sexto.color-primario
             h5 Tabla 7.  
             | Tamaño de hilo y aplicaciones
-        .tabla-a.tabla-peque.color-primario 
+        .tabla-a.tabla-peque.color-primario.wii
           table(alt='Tabla que relaciona el tamaño de hilo y sus aplicaciones según el tipo de tejido. Para tejidos livianos, se utilizan hilos TEX 24, 25, y 27 en prendas como blusas y ropa interior. Para tejidos semipesados, los hilos TEX 30, 35, y 40 son adecuados para pantalones y overoles de dril. En tejidos pesados, se utilizan hilos TEX 60, 70 hasta 120, para prendas como jeans y chaquetas.')
             thead
               tr.bg19.text-white
@@ -770,7 +770,7 @@
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down") 
       .col-lg-7
-        .tabla-a.tabla-peque.color-primario 
+        .tabla-a.tabla-peque.color-primario.wii 
           table(alt='La tabla presenta diferentes series y tipos de costura junto con sus características. La serie 100 incluye tipos 101-103 con cadeneta sencilla de un hilo. La serie 200 se refiere a costuras ornamentales. La serie 300, con tipos 301, 304 y 315, corresponde al doble despunte. La serie 400 incluye tipos 401, 406 y 407, caracterizándose por la cadeneta doble. La serie 500, con tipos 504, 514 y 516, se usa para sobrehilado. Finalmente, la serie 600, con tipos 602, 605 y 609, corresponde a las flatseamers.')
             thead
               tr.bg19.text-white
@@ -819,14 +819,14 @@
           .tarjeta.color-acento-contenido
             .p-4
               h4.text-center 401 puntada cadeneta
-              p.text-center Se puede usar un hilo 40% más débil en el #[em looper] pues el hilo del #[em looper] no penetra el material y está doble en la formación de la cadena.
+              p.text-center Se puede usar un hilo 40 % más débil en el #[em looper] pues el hilo del #[em looper] no penetra el material y está doble en la formación de la cadena.
       .col-md-6.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
           img.px-lg-3(src='@/assets/curso/temas/t2/icono4.svg' alt='')
           .tarjeta.color-acento-contenido
             .p-4
               h4.text-center 504 puntada sobre hilado
-              p.text-center Se puede usar un hilo un 40% más débil en el #[em looper] porque el hilo del #[em looper] no penetra el material y está doble en la formación de la cadena.
+              p.text-center Utiliza múltiples hilos para encerrar el borde de la tela. Se puede usar un hilo 50 % más débil en los #[em loopers], ya que no penetran el material, sino que forman el sobrehilado alrededor del borde, proporcionando un acabado limpio y resistente.
     
     p(data-aos="fade-down") La relación hilo-tejido permite que se produzcan las costuras con sus tipos, características y usos respectivos, de acuerdo con criterios de calidad del proceso.
     
@@ -870,7 +870,8 @@
     
     .bg18.mb-3.p-4
       h4.mb-0 Enhebrado caja bobina  
-    img.mb-3(src='@/assets/curso/temas/t2/imag12.png' alt='La imagen describe el proceso de enhebrado de una caja bobina en tres pasos ilustrados. Primero, se coloca la bobina en la caja con el hilo saliendo en la dirección indicada por una flecha verde. Luego, se tira del hilo y se pasa por la ranura de la caja. Finalmente, se asegura el hilo bajo la lengüeta, completando el enhebrado adecuado para el funcionamiento de la máquina de coser.')      
+    img(src='@/assets/curso/temas/t2/imag12.png' alt='La imagen describe el proceso de enhebrado de una caja bobina en tres pasos ilustrados. Primero, se coloca la bobina en la caja con el hilo saliendo en la dirección indicada por una flecha verde. Luego, se tira del hilo y se pasa por la ranura de la caja. Finalmente, se asegura el hilo bajo la lengüeta, completando el enhebrado adecuado para el funcionamiento de la máquina de coser.')      
+    figcaption.mb-4 Fuente: https://de.matri.eu/auflosen-beschwerden/einstellung-der-unter-und-oberfadenspannung
     .bg18.mb-5.p-3  
       ul.lista-ul--color.fa-ul.color-primario
         li.mb-1
@@ -997,7 +998,9 @@
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del #[em looper] inferior.
-
+      figcaption.mb-4 Fuente: https://es.slideshare.net/slideshow/industria-de-la-confeccion/49197064#62 
+    
+    
     h4(data-aos="fade") Enhebrado de máquina recubridora - Ajuste de tensión
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8.col-8.mb-4.mb-md-0
@@ -1099,8 +1102,8 @@
               .cajaul.p-3.mb-0
                 img.img-a.img-t(src='@/assets/curso/temas/t2/cajaul1.svg' alt='')
             .col-lg-9
-              .cajaol1.p-4
-                h4.text-white.my-2 Ejercicio de control de pedal, arranque y parada, calidad de la costura y remate o presilla 
+              .cajaol1.p-2
+                h4.text-white.my-3.mx-4 Ejercicio de control de pedal, arranque y parada, calidad de la costura y remate o presilla 
       .row.justify-content-center
         .col-lg-11
           p Para este ejercicio, trabaja con aguja e hilo. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se presentan en la imagen de referencia. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo.
