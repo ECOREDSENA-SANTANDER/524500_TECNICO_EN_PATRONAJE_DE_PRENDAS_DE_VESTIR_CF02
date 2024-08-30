@@ -318,8 +318,7 @@ export default {
     {
       referencia:
         'Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir, Centro de Manufactura en Textil y Cuero, Distrito Capital, 2020.',
-      link:
-        'https://zajuna.sena.edu.co/pdfs/titulada/tecnico/Patronaje_Industrial_Prendas_Vestir.pdf',
+      link: '',
     },
     {
       referencia:
