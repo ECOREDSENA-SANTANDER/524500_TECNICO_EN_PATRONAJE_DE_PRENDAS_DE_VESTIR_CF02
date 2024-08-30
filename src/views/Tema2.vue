@@ -871,7 +871,7 @@
     .bg18.mb-3.p-4
       h4.mb-0 Enhebrado caja bobina  
     img(src='@/assets/curso/temas/t2/imag12.png' alt='La imagen describe el proceso de enhebrado de una caja bobina en tres pasos ilustrados. Primero, se coloca la bobina en la caja con el hilo saliendo en la dirección indicada por una flecha verde. Luego, se tira del hilo y se pasa por la ranura de la caja. Finalmente, se asegura el hilo bajo la lengüeta, completando el enhebrado adecuado para el funcionamiento de la máquina de coser.')      
-    figcaption.mb-4 Fuente: https://de.matri.eu/auflosen-beschwerden/einstellung-der-unter-und-oberfadenspannung
+    figcaption.mb-4 Fuente: Tomada de https://de.matri.eu/auflosen-beschwerden/einstellung-der-unter-und-oberfadenspannung
     .bg18.mb-5.p-3  
       ul.lista-ul--color.fa-ul.color-primario
         li.mb-1
