@@ -349,8 +349,7 @@
         .row.justify-content-around
           .col-md-6.col-lg-5.mb-4.mb-md-0
             p.mb-3 #[b Proporciones de longitud de piernas en relación con el torso.]
-            img.mb-1(src='@/assets/curso/temas/t1/i1.png', alt='La imagen presenta una serie de figuras femeninas que ilustran diferentes proporciones de longitud de piernas en relación con el torso, desde "normal" hasta "muy cortas". Las categorías son: a. Normal, b. Largas, c. Moderadas, d. Cortas, y e. Muy cortas. Cada figura está etiquetada con letras que corresponden a las descripciones relacionadas debajo de la imagen. Esta ilustración es útil para entender y comparar las variaciones en las proporciones corporales femeninas.')
-            figcaption.mb-4 Fuente: creación del experto
+            img.mb-3(src='@/assets/curso/temas/t1/i1.png', alt='La imagen presenta una serie de figuras femeninas que ilustran diferentes proporciones de longitud de piernas en relación con el torso, desde "normal" hasta "muy cortas". Las categorías son: a. Normal, b. Largas, c. Moderadas, d. Cortas, y e. Muy cortas. Cada figura está etiquetada con letras que corresponden a las descripciones relacionadas debajo de la imagen. Esta ilustración es útil para entender y comparar las variaciones en las proporciones corporales femeninas.')
             ol.lista-ol--cuadro
               li.mb-1
                 .lista-ol--cuadro__vineta
@@ -375,8 +374,7 @@
 
           .col-md-6.col-lg-5
             p.mb-3 #[b Tipos de estructura corporal.]
-            img.mb-1(src='@/assets/curso/temas/t1/i7.png', alt='La imagen expone cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes tipos de estructura corporal. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Cuadrada", "Alta", "Baja" y "Muy Ancha". Cada figura tiene líneas horizontales numeradas del 1 al 7 a lo largo del cuerpo, posiblemente para medir proporciones y diferencias en la forma corporal. La figura "Normal" presenta una forma corporal equilibrada, la "Cuadrada" tiene hombros y caderas más anchos, la "Alta" tiene una estatura mayor, la "Baja" es de menor estatura, y la "Muy Ancha" presenta una figura con caderas significativamente más anchas. ')
-            figcaption.mb-4 Fuente: creación del experto
+            img.mb-3(src='@/assets/curso/temas/t1/i7.png', alt='La imagen expone cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes tipos de estructura corporal. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Cuadrada", "Alta", "Baja" y "Muy Ancha". Cada figura tiene líneas horizontales numeradas del 1 al 7 a lo largo del cuerpo, posiblemente para medir proporciones y diferencias en la forma corporal. La figura "Normal" presenta una forma corporal equilibrada, la "Cuadrada" tiene hombros y caderas más anchos, la "Alta" tiene una estatura mayor, la "Baja" es de menor estatura, y la "Muy Ancha" presenta una figura con caderas significativamente más anchas. ')
             ol.lista-ol--cuadro
               li.mb-1
                 .lista-ol--cuadro__vineta
@@ -402,8 +400,7 @@
         .row.justify-content-around
           .col-md-6.col-lg-5.mb-4.mb-md-0
             p.mb-3 #[b Alineación de piernas.]
-            img.mb-1(src='@/assets/curso/temas/t1/i6.png', alt='Imagen  con cinco figuras femeninas estilizadas en vista frontal, cada una con diferentes alineaciones de piernas y articulaciones. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con rodillas separadas", "Quebrado con rodillas y tobillos separados", "Quebrado con tobillos separados" y "Muy quebrado - cadera, rodillas y tobillos separados". Las descripciones indican variaciones en la alineación de las caderas, rodillas y tobillos, desde una alineación normal hasta una alineación muy separada en múltiples puntos.')
-            figcaption.mb-4 Fuente: creación del experto
+            img.mb-3(src='@/assets/curso/temas/t1/i6.png', alt='Imagen  con cinco figuras femeninas estilizadas en vista frontal, cada una con diferentes alineaciones de piernas y articulaciones. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con rodillas separadas", "Quebrado con rodillas y tobillos separados", "Quebrado con tobillos separados" y "Muy quebrado - cadera, rodillas y tobillos separados". Las descripciones indican variaciones en la alineación de las caderas, rodillas y tobillos, desde una alineación normal hasta una alineación muy separada en múltiples puntos.')
             ol.lista-ol--cuadro
               li.mb-1
                 .lista-ol--cuadro__vineta
@@ -428,8 +425,7 @@
 
           .col-md-6.col-lg-5
             p.mb-3 #[b Diferentes posturas y alineaciones de la columna y las caderas.]
-            img.mb-1(src='@/assets/curso/temas/t1/i5.png', alt='Imagen expone cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes posturas y alineaciones de la columna y las caderas. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con la cadera hacia atrás", "Quebrado con la cadera hacia adelante", "Doblemente quebrado" y "Completamente quebrado". Estas descripciones indican variaciones en la postura, desde una alineación normal hasta diversas formas de desviaciones en la columna y la cadera, evidenciando diferentes grados de curvatura y desplazamiento.')
-            figcaption.mb-4 Fuente: creación del experto
+            img.mb-3(src='@/assets/curso/temas/t1/i5.png', alt='Imagen expone cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes posturas y alineaciones de la columna y las caderas. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con la cadera hacia atrás", "Quebrado con la cadera hacia adelante", "Doblemente quebrado" y "Completamente quebrado". Estas descripciones indican variaciones en la postura, desde una alineación normal hasta diversas formas de desviaciones en la columna y la cadera, evidenciando diferentes grados de curvatura y desplazamiento.')
             ol.lista-ol--cuadro
               li.mb-1
                 .lista-ol--cuadro__vineta
@@ -455,8 +451,7 @@
         .row.justify-content-around
           .col-md-6.col-lg-5.mb-4.mb-md-0
             p.mb-3 #[b Diferentes formas de caderas y glúteos.]
-            img.mb-1(src='@/assets/curso/temas/t1/i4.png', alt='Describe cinco figuras femeninas estilizadas en vista posterior, cada una representando diferentes formas de caderas y glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Un poco grandes", "Cadera baja amplia y glúteos puntiagudos", "Cadera muy amplia y glúteos redondos" y "Cadera alta amplia y glúteos chatos". Estas descripciones indican variaciones en la forma y tamaño de las caderas y glúteos, desde una forma normal hasta diversas combinaciones de caderas altas o bajas y glúteos de diferentes formas y tamaños.')
-            figcaption.mb-4 Fuente: creación del experto
+            img.mb-3(src='@/assets/curso/temas/t1/i4.png', alt='Describe cinco figuras femeninas estilizadas en vista posterior, cada una representando diferentes formas de caderas y glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Un poco grandes", "Cadera baja amplia y glúteos puntiagudos", "Cadera muy amplia y glúteos redondos" y "Cadera alta amplia y glúteos chatos". Estas descripciones indican variaciones en la forma y tamaño de las caderas y glúteos, desde una forma normal hasta diversas combinaciones de caderas altas o bajas y glúteos de diferentes formas y tamaños.')
             ol.lista-ol--cuadro
               li.mb-1
                 .lista-ol--cuadro__vineta
@@ -481,8 +476,7 @@
 
           .col-md-6.col-lg-5
             p.mb-3 #[b Diferentes formas del vientre y los glúteos.]
-            img.mb-1(src='@/assets/curso/temas/t1/i3.png', alt='Describe cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes formas del vientre y los glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Vientre alto abultado, glúteos redondos y grandes", "Vientre y glúteos planos y puntiagudos", "Vientre plano con pubis saliente y glúteos chatos" y "Vientre chato con pubis muy saliente con glúteos planos y entrantes". Estas descripciones indican variaciones en la forma y tamaño del abdomen y glúteos, mostrando desde una forma normal hasta combinaciones de vientres abultados o planos, glúteos redondos, chatos o puntiagudos, y la prominencia del pubis.')
-            figcaption.mb-4 Fuente: creación del experto
+            img.mb-3(src='@/assets/curso/temas/t1/i3.png', alt='Describe cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes formas del vientre y los glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Vientre alto abultado, glúteos redondos y grandes", "Vientre y glúteos planos y puntiagudos", "Vientre plano con pubis saliente y glúteos chatos" y "Vientre chato con pubis muy saliente con glúteos planos y entrantes". Estas descripciones indican variaciones en la forma y tamaño del abdomen y glúteos, mostrando desde una forma normal hasta combinaciones de vientres abultados o planos, glúteos redondos, chatos o puntiagudos, y la prominencia del pubis.')
             ol.lista-ol--cuadro
               li.mb-1
                 .lista-ol--cuadro__vineta
@@ -508,8 +502,7 @@
         .row.justify-content-center
           .col-md-6.col-lg-5.mb-4.mb-md-0
             p.mb-3 #[b Diferentes formas del torso y la cadera.]
-            img.mb-1(src='@/assets/curso/temas/t1/i2.png', alt='Se evidencian cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes formas del torso y la cadera. De izquierda a derecha, las figuras están etiquetadas como "Normal (Trapecio regular)", "Paralela de cadera y senos pequeños", "Paralela de cadera cuadrada, torso y cintura ancha, senos amplios", "Trapecio abierto" y "Trapecio invertido". Estas descripciones indican variaciones en la forma del torso y caderas, desde una forma normal hasta combinaciones de torsos y caderas paralelos, anchos, y diferentes tipos de trapecios.')
-            figcaption.mb-4 Fuente: creación del experto
+            img.mb-3(src='@/assets/curso/temas/t1/i2.png', alt='Se evidencian cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes formas del torso y la cadera. De izquierda a derecha, las figuras están etiquetadas como "Normal (Trapecio regular)", "Paralela de cadera y senos pequeños", "Paralela de cadera cuadrada, torso y cintura ancha, senos amplios", "Trapecio abierto" y "Trapecio invertido". Estas descripciones indican variaciones en la forma del torso y caderas, desde una forma normal hasta combinaciones de torsos y caderas paralelos, anchos, y diferentes tipos de trapecios.')
           .col-md-6.my-5
             ol.lista-ol--cuadro
               li.mb-1
