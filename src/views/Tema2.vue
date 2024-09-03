@@ -503,8 +503,8 @@
             p.mb-0 La aguja es un elemento mecánico que sirve para traspasar el material a coser y llevar el hilo hasta un tomador de lazada. Además, es uno de los elementos fundamentales para la invención de la máquina de coser, ya que es alrededor de la aguja, como nacen todas las ideas para su desarrollo.
             p.mb-4 De la aguja se deben considerar tres aspectos importantes:
             .row.justify-content-center.align-items-center
-              .col-lg-8
-                img(src='@/assets/curso/temas/t2/imag5.svg' alt='La imagen destaca tres aspectos importantes de las agujas de coser: el número de material de 6 dígitos para facilitar el pedido, el grosor de la aguja en Nm y otras denominaciones habituales, y el código DataMatrix, que permite seguir la producción y acceder a información adicional mediante escáner de etiquetas. Además, se menciona que las agujas se adquieren en diferentes formas y puntas, adecuadas para materiales desde telas ligeras hasta cuero pesado.')
+              .col-lg-12
+                img(src='@/assets/curso/temas/t2/imag5.png' alt='La imagen destaca tres aspectos importantes de las agujas de coser: el número de material de 6 dígitos para facilitar el pedido, el grosor de la aguja en Nm y otras denominaciones habituales, y el código DataMatrix, que permite seguir la producción y acceder a información adicional mediante escáner de etiquetas. Además, se menciona que las agujas se adquieren en diferentes formas y puntas, adecuadas para materiales desde telas ligeras hasta cuero pesado.')
         .row.justify-content-center
           .col-lg-5
             h5 Calibre
@@ -967,34 +967,34 @@
         img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder9.png' alt='')
 
 
-    h4.mb-4(data-aos="fade") Validación de tensores - Puntada e hilo
+    h4.mb-5(data-aos="fade") Validación de tensores - Puntada e hilo
 
     .row.width-25.mb-5(data-aos="fade-down")(alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento. ')
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta9.svg' alt='La imagen ejemplifica una validación de tensión correcta de puntada en máquina fileteadora.')
+            img(src='@/assets/curso/temas/t2/001.svg' alt='La imagen ejemplifica una validación de tensión correcta de puntada en máquina fileteadora.')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión correcta de puntada  en máquina fileteadora.
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta10.svg' alt='La imagen ejemplifica una tensión incorrecta del hilo de la aguja.')
+            img(src='@/assets/curso/temas/t2/002.svg' alt='La imagen ejemplifica una tensión incorrecta del hilo de la aguja.')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del hilo de la aguja.
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta11.svg' alt='La imagen ejemplifica una tensión incorrecta del looper superior.')
+            img(src='@/assets/curso/temas/t2/003.svg' alt='La imagen ejemplifica una tensión incorrecta del looper superior.')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del #[em looper] superior.
       .col-lg-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/tarjeta12.svg' alt='La imagen ejemplifica una tensión incorrecta del looper inferior.')
+            img(src='@/assets/curso/temas/t2/004.svg' alt='La imagen ejemplifica una tensión incorrecta del looper inferior.')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del #[em looper] inferior.
