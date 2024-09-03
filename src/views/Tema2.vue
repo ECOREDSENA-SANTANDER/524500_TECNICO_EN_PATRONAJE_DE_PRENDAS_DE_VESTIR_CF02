@@ -381,7 +381,7 @@
 
     Separador
     #t_2_3.titulo-segundo.color-primario(data-aos="fade-right")
-      h2 2.3 Alimentación o transporte (arrastre)
+      h2 2.3 Alimentación y transporte
     
     p(data-aos="fade") La relación entre el ajuste y el sistema de alimentación o transporte es un factor clave en la diferenciación de maquinaria dentro del proceso productivo. Los distintos tipos de alimentación determinan la línea productiva específica del artículo a fabricar, influyendo también en la variedad de materiales utilizados en la industria, como tejidos, no tejidos, aglomerados, cueros, cuerinas y lonas.
     p.mb-4(data-aos="fade") En la maquinaria de confección, la alimentación se refiere al movimiento del material que se va a coser. Sin embargo, en ciertos casos, como en la fabricación de colchones donde el material es demasiado pesado, no se desplaza el material sino la misma máquina.
@@ -515,7 +515,7 @@
               h5 Tabla 5.  
               | Equivalencia en MM
             .tabla-a.tabla-peque.color-primario
-              table
+              table( alt='Tabla de equivalencias entre el sistema métrico y el sistema inglés para agujas de coser, con sus respectivas conversiones a milímetros. La tabla incluye: •	Métrico 70 = Inglés 10 = 0.7 mm •	Métrico 80 = Inglés 12 = 0.8 mm •	Métrico 90 = Inglés 14 = 0.9 mm •	Métrico 100 = Inglés 16 = 1.0 mm •	Métrico 110 = Inglés 18 = 1.1 mm •	Métrico 120 = Inglés 20 = 1.2 mm')
                 thead
                   tr.text-white.bg3
                     th.nad Métrico
@@ -558,7 +558,7 @@
               | Tipo de aguja 
             .tabla-a.tabla-peque.color-primario
               table(alt='Tabla que compara los tipos de agujas en sistemas métricos e ingleses para diferentes máquinas de coser. Para máquinas planas, se utilizan agujas 16 x 231 cabo delgado y 135 x 15 cabo grueso. Para recubridoras, la aguja es B63. Las máquinas zig-zag y de dos agujas usan 135 x 5, mientras que las fileteadoras utilizan B27.')
-                thead( alt='Tabla de equivalencias entre el sistema métrico y el sistema inglés para agujas de coser, con sus respectivas conversiones a milímetros. La tabla incluye: •	Métrico 70 = Inglés 10 = 0.7 mm •	Métrico 80 = Inglés 12 = 0.8 mm •	Métrico 90 = Inglés 14 = 0.9 mm •	Métrico 100 = Inglés 16 = 1.0 mm •	Métrico 110 = Inglés 18 = 1.1 mm •	Métrico 120 = Inglés 20 = 1.2 mm')
+                thead
                   tr.text-white.bg3
                     th.nad  Métrico
                     th.nad  Inglés
@@ -842,7 +842,7 @@
     
     h4.mb-4(data-aos="fade") Enhebrados de máquina plana, enhebrado caja bobina y ajuste de tensión de puntada.
 
-    .row.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-9
         h5 Máquina plana
         p.ps-3 Enhebrado de máquina:

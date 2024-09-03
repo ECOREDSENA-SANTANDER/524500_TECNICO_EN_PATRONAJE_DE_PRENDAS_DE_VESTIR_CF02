@@ -91,7 +91,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Alimentación o transporte',
+            titulo: 'Alimentación y transporte',
             hash: 't_2_3',
           },
           {
